@@ -23,7 +23,7 @@
                             <p> 25 lira</p>
                        </asp:Panel>
                         <div class="columnanasayfa">
-                            <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" ImageAlign="Right" />
+                            <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton16_Click" />
                         </div>
 
                     </div>

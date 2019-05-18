@@ -9,7 +9,18 @@ namespace KargaAspNew
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        int sidebardurum;
+        void SolMenuAcKapa() {
+            if (sidebarpanel.CssClass == "sidenav dropdown-content")
+            {
+                sidebarpanel.CssClass = "sidenav";
+
+            }
+            else if (sidebarpanel.CssClass == "sidenav")
+            {
+                sidebarpanel.CssClass = "sidenav dropdown-content";
+
+            }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -17,23 +28,20 @@ namespace KargaAspNew
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-           
+            SolMenuAcKapa();
         }
 
          
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            if (sidebarpanel.CssClass == "sidenav dropdown-content") {
-                sidebarpanel.CssClass = "sidenav";
-                
-            }
-            else if (sidebarpanel.CssClass == "sidenav")
-            {
-                sidebarpanel.CssClass = "sidenav dropdown-content";
-            
-            }
 
-            //Panel1.CssClass = "footer";
+           
+          
+        }
+
+        protected void ImageButton16_Click(object sender, ImageClickEventArgs e)
+        {
+            SolMenuAcKapa();
         }
     }
 }
