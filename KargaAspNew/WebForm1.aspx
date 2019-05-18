@@ -13,6 +13,13 @@
     <body>
         <form id="form1" runat="server">
             <div>
+                <!-- --------------------------------sidenav-------------------------------------------------- -->
+                <div class="sidenav">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#clients">Clients</a>
+                    <a href="#contact">Contact</a>
+                </div>
                 <!-- --------------------------------topper-------------------------------------------------- -->
                 <div class="navbar limon">
 
@@ -43,14 +50,84 @@
                     <div class="rowanasayfa">
                         <div class="columnanasayfa">
                             <asp:ImageButton CssClass="center" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
-
                         </div>
-
                         <div class="columnanasayfa">
                             <p> Batman saat</p>
                             <p> 25 lira</p>
                         </div>
+                    </div>
 
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton11" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton12" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton13" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton14" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
+                    </div>
+                    <div class="rowanasayfa">
+                        <div class="columnanasayfa">
+                            <asp:ImageButton CssClass="center" ID="ImageButton15" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                        </div>
+                        <div class="columnanasayfa">
+                            <p> Batman saat</p>
+                            <p> 25 lira</p>
+                        </div>
                     </div>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
