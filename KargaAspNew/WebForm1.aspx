@@ -13,20 +13,20 @@
     <body>
         <form id="form1" runat="server">
             <div>
-                 <!-- ---------------------------------------------------------------------------------- -->
+                <!-- ---------------------------------------------------------------------------------- -->
                 <div class="topper">
 
                     <div class="row">
                         <div class="columntop">
-                            <img src="resimler/sipirmen.jpg" alt="a" height="42" width="42">
-                        </div>
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+&nbsp;</div>
 
                         <div class="columntop">
                             <h1>Heading 1</h1>
                         </div>
 
                         <div class="columntop">
-                            <img src="resimler/arama.bmp" alt="a" height="60" width="80">
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
                         </div>
                     </div>
                 </div>
@@ -45,24 +45,24 @@
 
                     <div class="row">
                         <div class="column">
-                            <img src="resimler/sipirmen.jpg" alt="a" height="42" width="42">
-                        </div>
+                            <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+&nbsp;</div>
 
                         <div class="column">
-                            <img src="resimler/sipirmen.jpg" alt="a" height="42" width="42">
-                        </div>
+                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+&nbsp;</div>
 
                         <div class="column">
-                            <img src="resimler/sipirmen.jpg " alt="a" height="42" width="42">
-                        </div>
+                            <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+&nbsp;</div>
 
                         <div class="column">
-                            <img src="resimler/arama.bmp" alt="a" height="60" width="80">
-                        </div>
+                            <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+&nbsp;</div>
 
                     </div>
                 </div>
-                 <!-- ---------------------------------------------------------------------------------- -->
+                <!-- ---------------------------------------------------------------------------------- -->
             </div>
 
         </form>
