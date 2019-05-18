@@ -1,0 +1,65 @@
+﻿bod.topnav {
+    background-color: rgb(86,193,213);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+/* --------------------------------------------------------------------------------- */
+.topper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(86,193,213);
+    color: white;
+    text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columntop {
+    float: left;
+    width: 33%;
+    padding: 1 px;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(86,193,213);
+    color: white;
+    text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 2 px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
