@@ -41,52 +41,52 @@
                 </body>
                 <!-- ---------------------------urunler------------------------------------------------------- -->
 
-<%--                <div class="mydiv">
+                <%--                <div class="mydiv">
                     <asp:ImageButton ID="ImageButton7" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
                     <h2> zdvdzvdvdv</h2>
                 </div>--%>
 
-<%--                <div class="mydiv column">
+                    <%--                <div class="mydiv column">
                     <asp:ImageButton ID="ImageButton8" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
 
                 </div>--%>
 
-                <div class="rowanasayfa">
-                    <div class="columnanasayfa">
-                       <asp:ImageButton CssClass="center" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
-                        
-                    </div>
-                  
-                    <div class="columnanasayfa">
-                      <p> Batman saat</p>
-                       <p> 25 lira</p>
-                    </div>
-                   
-                </div>
+                        <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
 
-                <!-- --------------------------------foooter-------------------------------------------------- -->
-                <div class="footer">
+                            </div>
 
-                    <div class="row">
-                        <div class="column">
-                            <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                            <div class="columnanasayfa">
+                                <p> Batman saat</p>
+                                <p> 25 lira</p>
+                            </div>
+
                         </div>
 
-                        <div class="column">
-                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
-                        </div>
+                        <!-- --------------------------------foooter-------------------------------------------------- -->
+                        <div class="footer">
 
-                        <div class="column">
-                            <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
-                        </div>
+                            <div class="row">
+                                <div class="column">
+                                    <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                </div>
 
-                        <div class="column">
-                            <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
-                        </div>
+                                <div class="column">
+                                    <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                </div>
 
-                    </div>
-                </div>
-                <!-- ---------------------------------------------------------------------------------- -->
+                                <div class="column">
+                                    <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                </div>
+
+                                <div class="column">
+                                    <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- ---------------------------------------------------------------------------------- -->
             </div>
 
         </form>
