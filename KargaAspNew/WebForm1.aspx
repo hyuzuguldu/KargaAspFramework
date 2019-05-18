@@ -16,7 +16,7 @@
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
                
-                     <asp:Panel ID="Panel4" runat="server" CssClass="sidenav">
+                     <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
                     <div class="rowanasayfa sideitems">
                         <asp:Panel ID="Panel2" CssClass="columnanasayfa" runat="server"> 
                             <h3> Batman saat</h3>

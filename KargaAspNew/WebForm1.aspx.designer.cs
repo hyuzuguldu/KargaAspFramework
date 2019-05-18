@@ -31,13 +31,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel Panel3;
         
         /// <summary>
-        /// Panel4 denetimi.
+        /// sidebarpanel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
+        protected global::System.Web.UI.WebControls.Panel sidebarpanel;
         
         /// <summary>
         /// Panel2 denetimi.
