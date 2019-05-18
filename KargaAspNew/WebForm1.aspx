@@ -18,8 +18,8 @@
 
                     <div class="row">
                         <div class="columntop">
-                            <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
-&nbsp;</div>
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                        </div>
 
                         <div class="columntop">
                             <h1>Heading 1</h1>
@@ -39,26 +39,48 @@
                     <p>My first paragraph. War never change</p>
 
                 </body>
+                <!-- ---------------------------urunler------------------------------------------------------- -->
 
-                <!-- ---------------------------------------------------------------------------------- -->
+<%--                <div class="mydiv">
+                    <asp:ImageButton ID="ImageButton7" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+                    <h2> zdvdzvdvdv</h2>
+                </div>--%>
+
+<%--                <div class="mydiv column">
+                    <asp:ImageButton ID="ImageButton8" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+
+                </div>--%>
+
+                <div class="rowanasayfa">
+                    <div class="columnanasayfa">
+                       <asp:ImageButton ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+                        
+                    </div>
+                    <div class="columnanasayfa">
+                      <p> aefaefeaf</p>
+                    </div>
+                   
+                </div>
+
+                <!-- --------------------------------foooter-------------------------------------------------- -->
                 <div class="footer">
 
                     <div class="row">
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
-&nbsp;</div>
+                            <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                        </div>
 
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
-&nbsp;</div>
+                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                        </div>
 
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
-&nbsp;</div>
+                            <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                        </div>
 
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
-&nbsp;</div>
+                            <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                        </div>
 
                     </div>
                 </div>
