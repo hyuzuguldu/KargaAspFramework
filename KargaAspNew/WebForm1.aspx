@@ -14,7 +14,7 @@
         <form id="form1" runat="server">
             <div>
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
-                <div class="sidenav">
+                <div class="sidenav" id="sidenav">
                     <div class="rowanasayfa sideitems">
                         <div class="columnanasayfa ">
                             <h3> Batman saat</h3>
@@ -25,25 +25,40 @@
                         </div>
 
                     </div>
+
                     <hr>
+
                     <div class="rowanasayfa sideitems">
                         <div class="columnanasayfa ">
                             <h3> Batman saat</h3>
-
                         </div>
-
                     </div>
+                    <hr>
+
+                    <div class="rowanasayfa sideitems">
+                        <div class="columnanasayfa ">
+                            <h3> Batman saat</h3>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="rowanasayfa sideitems">
+                        <div class="columnanasayfa ">
+                            <h3> Batman saat</h3>
+                        </div>
+                    </div>
+
                 </div>
                 <!-- --------------------------------navbar-------------------------------------------------- -->
                 <div class="navbar limon">
 
                     <div class="row">
                         <div class="columntop">
-                            <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Left" /> &nbsp;
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Left" OnClick="ImageButton2_Click" /> &nbsp;
                         </div>
 
                         <div class="columntop">
-                            <h1>Anasayfa</h1>
+                            <h1 id="Tepeyazi">Anasayfa</h1>
                         </div>
 
                         <div class="columntop">

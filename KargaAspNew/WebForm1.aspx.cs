@@ -13,5 +13,10 @@ namespace KargaAspNew
         {
 
         }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            
+        }
     }
 }
