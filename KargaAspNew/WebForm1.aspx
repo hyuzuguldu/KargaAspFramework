@@ -53,11 +53,13 @@
 
                 <div class="rowanasayfa">
                     <div class="columnanasayfa">
-                       <asp:ImageButton ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" />
+                       <asp:ImageButton CssClass="center" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
                         
                     </div>
+                  
                     <div class="columnanasayfa">
-                      <p> aefaefeaf</p>
+                      <p> Batman saat</p>
+                       <p> 25 lira</p>
                     </div>
                    
                 </div>
