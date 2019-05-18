@@ -15,7 +15,8 @@
 
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
-                <div class="sidenav" id="sidenav">
+               
+                     <asp:Panel ID="Panel4" runat="server" CssClass="sidenav">
                     <div class="rowanasayfa sideitems">
                         <asp:Panel ID="Panel2" CssClass="columnanasayfa" runat="server"> 
                             <h3> Batman saat</h3>
@@ -49,7 +50,8 @@
                         </div>
                     </div>
 
-                </div>
+              
+               </asp:Panel>
                 <div></div>
                 <!-- --------------------------------navbar-------------------------------------------------- -->
                 <%--<div class="navbar limon">--%>
