@@ -22,6 +22,15 @@ namespace KargaAspNew {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// ImageButton16 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton16;
+        
+        /// <summary>
         /// ImageButton2 denetimi.
         /// </summary>
         /// <remarks>

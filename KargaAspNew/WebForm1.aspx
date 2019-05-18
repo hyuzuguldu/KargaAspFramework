@@ -15,12 +15,26 @@
             <div>
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
                 <div class="sidenav">
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#clients">Clients</a>
-                    <a href="#contact">Contact</a>
+                    <div class="rowanasayfa sideitems">
+                        <div class="columnanasayfa ">
+                            <h3> Batman saat</h3>
+                            <p> 25 lira</p>
+                        </div>
+                        <div class="columnanasayfa">
+                            <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" ImageAlign="Right" />
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="rowanasayfa sideitems">
+                        <div class="columnanasayfa ">
+                            <h3> Batman saat</h3>
+
+                        </div>
+
+                    </div>
                 </div>
-                <!-- --------------------------------topper-------------------------------------------------- -->
+                <!-- --------------------------------navbar-------------------------------------------------- -->
                 <div class="navbar limon">
 
                     <div class="row">
