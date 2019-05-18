@@ -49,8 +49,10 @@
                     </div>
 
                 </div>
+                <div></div>
                 <!-- --------------------------------navbar-------------------------------------------------- -->
-                <div class="navbar limon">
+                <%--<div class="navbar limon">--%>
+                <asp:Panel ID="Panel1" runat="server" CssClass="navbar limon">
 
                     <div class="row">
                         <div class="columntop">
@@ -62,10 +64,11 @@
                         </div>
 
                         <div class="columntop">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" />
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
                         </div>
                     </div>
-                </div>
+            <%--    </div>--%>
+                </asp:Panel>
 
                 <!-- ---------------------------------------------------------------------------------- -->
 

@@ -16,7 +16,12 @@ namespace KargaAspNew
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            
+           
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            //Panel1.CssClass = "footer";
         }
     }
 }
