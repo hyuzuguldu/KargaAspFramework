@@ -15,13 +15,13 @@
 
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
-               
-                     <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
+
+                <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
                     <div class="rowanasayfa sideitems">
-                        <asp:Panel ID="Panel2" CssClass="columnanasayfa" runat="server"> 
+                        <asp:Panel ID="Panel2" CssClass="columnanasayfa" runat="server">
                             <h3> Batman saat</h3>
                             <p> 25 lira</p>
-                       </asp:Panel>
+                        </asp:Panel>
                         <div class="columnanasayfa">
                             <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton16_Click" />
                         </div>
@@ -50,8 +50,7 @@
                         </div>
                     </div>
 
-              
-               </asp:Panel>
+                </asp:Panel>
                 <div></div>
                 <!-- --------------------------------navbar-------------------------------------------------- -->
                 <%--<div class="navbar limon">--%>
@@ -84,7 +83,7 @@
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" OnClick="ImageButton9_Click"  />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" OnClick="ImageButton9_Click" />
                             </div>
                             <div class="columnanasayfa">
                                 <p> Batman saat</p>
