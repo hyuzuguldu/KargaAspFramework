@@ -84,7 +84,7 @@
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" OnClick="ImageButton9_Click"  />
                             </div>
                             <div class="columnanasayfa">
                                 <p> Batman saat</p>

@@ -43,5 +43,10 @@ namespace KargaAspNew
         {
             SolMenuAcKapa();
         }
+
+        protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("WEbForm2.aspx");
+        }
     }
 }
