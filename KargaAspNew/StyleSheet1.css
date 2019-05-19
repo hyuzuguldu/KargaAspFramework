@@ -2,7 +2,9 @@
     background-color: rgb(86,193,213);
     overflow: hidden;
 }
-
+h3 {
+    /*display:inline;*/
+}
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -63,6 +65,22 @@
     clear: both;
     display: table;
 }
+/* --------------------------------------------------------------------------------- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
 /* ----------------------------anasayfa----------------------------------------------------- */
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .columnanasayfa {
@@ -104,8 +122,8 @@
     top: 0;
     left: 0;
     background-color: aquamarine;
-    overflow-x: hidden;
-    padding-top: 20px;
+    overflow: hidden;
+    
 }
 .sideitems {
     margin: 0;
@@ -113,22 +131,22 @@
     overflow: hidden;
     background-color: rgb(86,193,213);
 }
-/* --------------------------------------------------------------------------------- */
-.dropdown {
-    position: relative;
-    display: inline-block;
+    /* ------------------------------columnside--------------------------------------------------- */
+.columnside{
+    /*float: left;*/
+    width: 40%;
+    padding: 2px;
+    display: inline;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-
+/* Clear floats after image containers */
+/*.rowside::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
    
+
+}
+/* --------------------------------------------------------------------------------- */
 

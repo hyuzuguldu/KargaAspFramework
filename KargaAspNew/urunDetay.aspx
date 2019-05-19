@@ -16,7 +16,7 @@
 
                         <div class="row">
                             <div class="columntop">
-                                <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Left" /> &nbsp;
+                                <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Left" OnClick="ImageButton2_Click" /> &nbsp;
                             </div>
 
                             <div class="columntop">
