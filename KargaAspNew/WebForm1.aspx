@@ -167,6 +167,32 @@
                         </div>
                     </div>
                 </asp:Panel>
+                <!-- ---------------------------------------------------------------------------------- -->
+
+                <asp:Panel  style="padding:100px;" ID="Panel5" runat="server">
+
+
+                    <asp:Image CssClass="center" ID="Image1" runat="server" ImageUrl="~/resimler/gameofthronessa.jpg"  />
+
+                    <asp:Panel CssClass="center" ID="Panel6" runat="server">
+
+                    <asp:Label  style="padding-left:%30;" ID="Label1" runat="server" Text="Label"></asp:Label>
+                    <asp:Label  style="padding-right:%30;" ID="Label2" runat="server" Text="Label"></asp:Label>
+
+                    </asp:Panel>
+                    
+                    
+
+
+
+                </asp:Panel>
+
+
+
+
+
+
+
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                     <div class="footer">
 
