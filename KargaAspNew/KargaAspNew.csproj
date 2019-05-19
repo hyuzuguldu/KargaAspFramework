@@ -138,12 +138,20 @@
     <Content Include="resimler\üyeliksiz.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
+    <Content Include="urunDetay.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="urunDetay.aspx.cs">
+      <DependentUpon>urunDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urunDetay.aspx.designer.cs">
+      <DependentUpon>urunDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
