@@ -19,11 +19,11 @@
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
                     <div class="rowside sideitems">
 
-                        <asp:Panel style="display:inline;"  ID="Panel2" CssClass="columnside" runat="server">
-                            <h3 > Batman  </h3>
+                        <asp:Panel   ID="Panel2" CssClass="columnside" style="display:inline;" runat="server">
+                            <h3 style="display:inline;" > Batman  </h3>
                         </asp:Panel>
 
-                        <div class="columnside">
+                        <div class="columnside" style="display:inline;">
                             <asp:ImageButton  ID="ImageButton16" runat="server" Height="40px" Width="40" ImageUrl="~/resimler/3cizgi.bmp"  OnClick="ImageButton16_Click" />
                         </div>
 
