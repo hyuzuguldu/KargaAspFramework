@@ -176,8 +176,8 @@
 
                     <asp:Panel CssClass="center" ID="Panel6" runat="server">
 
-                    <asp:Label  style="padding-left:%30;" ID="Label1" runat="server" Text="Label"></asp:Label>
-                    <asp:Label  style="padding-right:%30;" ID="Label2" runat="server" Text="Label"></asp:Label>
+                    <asp:Label  style="margin-x:30%;" ID="Label1" runat="server" Text="Label"></asp:Label>
+                    <asp:Label  style="margin-x:30%;" ID="Label2" runat="server" Text="Label"></asp:Label>
 
                     </asp:Panel>
                     
