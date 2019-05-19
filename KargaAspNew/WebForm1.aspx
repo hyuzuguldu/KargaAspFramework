@@ -24,7 +24,7 @@
                         </asp:Panel>
 
                         <div class="columnside" style="display:inline;">
-                            <asp:ImageButton  ID="ImageButton16" runat="server" Height="40px" Width="40" ImageUrl="~/resimler/3cizgi.bmp"  OnClick="ImageButton16_Click" />
+                            <asp:ImageButton  ID="ImageButton16" runat="server" Height="40px" Width="40" ImageUrl="~/resimler/3cizgi.bmp"  OnClick="ImageButton16_Click" ImageAlign="Right" />
                         </div>
 
                     </div>
@@ -82,8 +82,9 @@
 
                 </body>--%>
                     <!-- ---------------------------urunler------------------------------------------------------- -->
-
+                <asp:Panel ID="Panel4" runat="server">
                     <div class="rowanasayfa">
+                        
                         <div class="columnanasayfa">
                             <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" OnClick="ImageButton9_Click" />
                         </div>
@@ -165,7 +166,7 @@
                             <p> 25 lira</p>
                         </div>
                     </div>
-
+                </asp:Panel>
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                     <div class="footer">
 
