@@ -1,0 +1,21 @@
+C:\Users\msn\source\repos\wcforn\wcforn\bin\wcforn.dll.config
+C:\Users\msn\source\repos\wcforn\wcforn\bin\wcforn.dll
+C:\Users\msn\source\repos\wcforn\wcforn\bin\wcforn.pdb
+C:\Users\msn\source\repos\wcforn\wcforn\obj\Debug\wcforn.csprojAssemblyReference.cache
+C:\Users\msn\source\repos\wcforn\wcforn\obj\Debug\wcforn.csproj.CoreCompileInputs.cache
+C:\Users\msn\source\repos\wcforn\wcforn\obj\Debug\wcforn.dll
+C:\Users\msn\source\repos\wcforn\wcforn\obj\Debug\wcforn.pdb
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\bin\wcforn.dll.config
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\bin\wcforn.dll
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\bin\wcforn.pdb
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.csprojAssemblyReference.cache
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.csproj.CoreCompileInputs.cache
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.dll
+C:\Users\Canavar\Desktop\New folder (4)\wpf-borderless-itemssond\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.pdb
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\bin\wcforn.dll.config
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\bin\wcforn.dll
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\bin\wcforn.pdb
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.csprojAssemblyReference.cache
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.csproj.CoreCompileInputs.cache
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.dll
+C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.pdb
