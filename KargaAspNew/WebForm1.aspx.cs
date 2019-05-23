@@ -22,15 +22,17 @@ namespace KargaAspNew
             }
         }
         
-        void gorunmezyap(Panel panelim) {
-            if (panelim.CssClass == "gorunur")
+        void gorunurgorunmez(Panel panelim) {
+            string paneliminCssSınıfı = panelim.CssClass;
+            
+            if (paneliminCssSınıfı.Contains("gorunur"))
             {
-                panelim.CssClass = "gorunmez";
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez") ;
 
             }
-            else if (panelim.CssClass == "gorunmez")
+            else if (paneliminCssSınıfı.Contains("gorunmez"))
             {
-                panelim.CssClass = "gorunur";
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunmez", "gorunur")  ;
 
             }
 
@@ -60,7 +62,8 @@ namespace KargaAspNew
 
         protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
         {
-            gorunmezyap(urundetaypanel);
+            gorunurgorunmez(urundetaypanel);
+            gorunurgorunmez(anasayfaurunler);
         }
     }
 }

@@ -83,7 +83,7 @@
 
                 </body>--%>
                     <!-- ---------------------------urunler------------------------------------------------------- -->
-                    <asp:Panel ID="Panel4" runat="server">
+                    <asp:Panel ID="anasayfaurunler" runat="server">
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
@@ -126,7 +126,7 @@
                     </asp:Panel>
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
-                    <asp:Panel CssClass="gorunur" style="padding:100px;" ID="urundetaypanel" runat="server">
+                    <asp:Panel CssClass="gorunmez" style="padding:100px;" ID="urundetaypanel" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
                         <div>
