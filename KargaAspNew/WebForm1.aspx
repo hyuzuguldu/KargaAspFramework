@@ -65,15 +65,17 @@
                         </div>
 
                         <div class="columntop">
-                            <h1 id="Tepeyazi">Anasayfa</h1>
+                            <h2 id="Tepeyazi">Anasayfa</h2>
                         </div>
 
                         <div class="columntop">
                             <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
                         </div>
                     </div>
+                
 
                 </asp:Panel>
+                      <br />
 
                 <!-- ---------------------------------------------------------------------------------- -->
 
@@ -126,7 +128,7 @@
                     </asp:Panel>
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
-                    <asp:Panel CssClass="gorunmez" style="padding:100px;" ID="urundetaypanel" runat="server">
+                    <asp:Panel CssClass="gorunmez positionRelative" ID="urundetaypanel" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
                         <div>

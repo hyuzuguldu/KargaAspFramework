@@ -49,6 +49,10 @@ h3 {
     float: left;
     width: 33%;
     padding: 1 px;
+    display: inline;
+}
+.positionRelative{
+    position : relative;
 }
 
 
@@ -59,7 +63,7 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-top:15px;
+  
     background-color: rgb(86, 193, 213);
     color: white;
     text-align: center;
@@ -177,7 +181,7 @@ display:block;
 
 
 .columnside {
-    /*float: left;*/
+    
     width: 40%;
     padding: 2px;
     display: inline;
@@ -188,7 +192,7 @@ display:block;
 
 .product-images {
     max-width: 100%;
-    max-height: 800px;
+    max-height: 500px;
     display: block;
     margin: 0px auto;
 }
