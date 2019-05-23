@@ -3,7 +3,7 @@
     <!DOCTYPE html>
 
     <html xmlns="http://www.w3.org/1999/xhtml">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -72,10 +72,9 @@
                             <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
                         </div>
                     </div>
-                
 
                 </asp:Panel>
-                      <br />
+                <br />
 
                 <!-- ---------------------------------------------------------------------------------- -->
 
@@ -85,7 +84,7 @@
 
                 </body>--%>
                     <!-- ---------------------------urunler------------------------------------------------------- -->
-                    <asp:Panel  ID="anasayfaurunler" runat="server" CssClass="gorunur">
+                    <asp:Panel ID="anasayfaurunler" runat="server" CssClass="gorunur">
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
@@ -124,7 +123,7 @@
                                 <p> 25 lira</p>
                             </div>
                         </div>
-                      
+
                     </asp:Panel>
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
@@ -132,27 +131,27 @@
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
                         <div style=" padding:5px;">
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
-                        </div>
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
-                        </div>
-                       
-                        <h4> Kategori  </h4>
-                        
-                             <asp:Label CssClass="" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
-                       <asp:Label CssClass="" ID="Label6" runat="server" Text="Beden"></asp:Label>
-                      
-                        <select class="">
+                            <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
+                            </div>
+                            <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
+                            </div>
+
+                            <h4> Kategori  </h4>
+
+                            <asp:Label CssClass="" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
+                            <asp:Label CssClass="" ID="Label6" runat="server" Text="Beden"></asp:Label>
+
+                            <select class="">
                                 <option value="s">s</option>
                                 <option value="m">m</option>
                                 <option value="l">l</option>
                                 <option value="xl">xl</option>
                             </select>
-                        <h4>Adet</h4>
-                        <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
-                         </div>
+                            <h4>Adet</h4>
+                            <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
+                        </div>
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
