@@ -2,6 +2,9 @@
     background-color: rgb(86, 193, 213);
     overflow: hidden;
 }
+body{
+    margin:0;
+}
 
 h3 {
     /*display:inline;*/
@@ -146,7 +149,7 @@ display:block;
 .navbar {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     overflow: hidden;
     background-color: rgb(86, 193, 213);
 }
