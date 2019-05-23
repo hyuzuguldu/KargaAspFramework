@@ -83,7 +83,7 @@
 
                 </body>--%>
                     <!-- ---------------------------urunler------------------------------------------------------- -->
-                    <asp:Panel ID="anasayfaurunler" runat="server">
+                    <asp:Panel  ID="anasayfaurunler" runat="server" CssClass="gorunur">
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
