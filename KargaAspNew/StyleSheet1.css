@@ -56,6 +56,7 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top:15px;
     background-color: rgb(86, 193, 213);
     color: white;
     text-align: center;
@@ -145,7 +146,7 @@ display:block;
 .navbar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: rgb(86, 193, 213);
 }
