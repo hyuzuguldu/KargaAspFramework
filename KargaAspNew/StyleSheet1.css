@@ -42,6 +42,10 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    margin-block-start: 0;
+    margin-block-end:0;
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
@@ -212,12 +216,12 @@ display:block;
     float: right;
     width: 50%;
   
-    padding: 5px;
+    padding: 0;
    
 }
 .urunaciklama {
     float: right;
-    padding: 5px;
+    
 }
 .urunfiyat {
     float: left;

@@ -131,27 +131,24 @@
                     <asp:Panel CssClass="gorunmez positionRelative" ID="urundetaypanel" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
-                        <div>
+                        <div style=" padding:5px;">
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
                         </div>
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
                         </div>
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=" "></asp:Label>
+                       
+                        <h4> Kategori  </h4>
+                        <div class=" boxsizing">
+                            <asp:Label CssClass="floatleft" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
                         </div>
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunaciklama" ID="Label4" runat="server" Text="Kategori <br /> T-shirt Erkek"></asp:Label>
+                       
+                        <div class=" ">
+                            <asp:Label CssClass="" ID="Label6" runat="server" Text="Beden"></asp:Label>
                         </div>
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=" "></asp:Label>
-                        </div>
-                        <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
-                        </div>
-                        <div class="mybox boxsizing">
-                            <select class="urunfiyat">
+                        <div class=" boxsizing">
+                            <select class="">
                                 <option value="s">s</option>
                                 <option value="m">m</option>
                                 <option value="l">l</option>
