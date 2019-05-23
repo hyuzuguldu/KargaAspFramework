@@ -140,21 +140,17 @@
                         </div>
                        
                         <h4> Kategori  </h4>
-                        <div class=" boxsizing">
-                            <asp:Label CssClass="floatleft" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
-                        </div>
-                       
-                        <div class=" ">
-                            <asp:Label CssClass="" ID="Label6" runat="server" Text="Beden"></asp:Label>
-                        </div>
-                        <div class=" boxsizing">
-                            <select class="">
+                        
+                             <asp:Label CssClass="" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
+                       <asp:Label CssClass="" ID="Label6" runat="server" Text="Beden"></asp:Label>
+                      
+                        <select class="">
                                 <option value="s">s</option>
                                 <option value="m">m</option>
                                 <option value="l">l</option>
                                 <option value="xl">xl</option>
                             </select>
-                        </div>
+                        <h4>Adet</h4>
                         <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
                          </div>
                     </asp:Panel>
