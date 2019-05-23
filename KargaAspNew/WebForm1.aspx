@@ -169,40 +169,54 @@
                     </asp:Panel>
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
-                    <asp:Panel style="padding:100px;" ID="Panel5" runat="server">
+                    <asp:Panel CssClass="gorunur" style="padding:100px;" ID="urundetaypanel" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
 
-                            <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
-                            </div>
-                            <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
-                            </div>
-                         <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=""></asp:Label>
-                            </div>
-                            <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunaciklama" ID="Label4" runat="server" Text="Kategori <br /> T-shirt Erkek"></asp:Label>
-                            </div>
                         <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=""></asp:Label>
-                            </div>
-                            <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
-                            </div>
-                            <div class="mybox boxsizing">
-                        <select class="urunfiyat">
-  <option value="s">s</option>
-  <option value="m">m</option>
-  <option value="l">l</option>
-  <option value="xl">xl</option>
-</select>
-                                 </div>
+                            <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=""></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <asp:Label CssClass="urunaciklama" ID="Label4" runat="server" Text="Kategori <br /> T-shirt Erkek"></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=""></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
+                        </div>
+                        <div class="mybox boxsizing">
+                            <select class="urunfiyat">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </div>
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <div class="footer boxsizing">
 
                         <div class="row">

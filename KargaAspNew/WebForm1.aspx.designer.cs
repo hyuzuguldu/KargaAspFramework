@@ -175,13 +175,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton15;
         
         /// <summary>
-        /// Panel5 denetimi.
+        /// urundetaypanel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel5;
+        protected global::System.Web.UI.WebControls.Panel urundetaypanel;
         
         /// <summary>
         /// Image1 denetimi.

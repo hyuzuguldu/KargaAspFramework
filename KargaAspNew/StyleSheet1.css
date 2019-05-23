@@ -92,6 +92,12 @@ h3 {
     z-index: 1;
 }
 
+.gorunmez {
+display:none
+}
+.gorunur {
+display:block;
+}
 
 /* ----------------------------anasayfa----------------------------------------------------- */
 

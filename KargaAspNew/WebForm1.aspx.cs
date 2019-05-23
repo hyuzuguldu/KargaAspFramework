@@ -21,6 +21,20 @@ namespace KargaAspNew
 
             }
         }
+
+        void urundetayackapa() {
+            if (urundetaypanel.CssClass == "gorunur")
+            {
+                urundetaypanel.CssClass = "gorunmez";
+
+            }
+            else if (urundetaypanel.CssClass == "gorunmez")
+            {
+                urundetaypanel.CssClass = "gorunur";
+
+            }
+
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -46,7 +60,7 @@ namespace KargaAspNew
 
         protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("WEbForm2.aspx");
+            urundetayackapa();
         }
     }
 }
