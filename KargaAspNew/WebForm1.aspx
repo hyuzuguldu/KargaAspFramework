@@ -3,6 +3,7 @@
     <!DOCTYPE html>
 
     <html xmlns="http://www.w3.org/1999/xhtml">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -128,7 +129,7 @@
                     <asp:Panel CssClass="gorunur" style="padding:100px;" ID="urundetaypanel" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
-
+                        <div>
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
                         </div>
@@ -155,6 +156,8 @@
                                 <option value="xl">xl</option>
                             </select>
                         </div>
+                        <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
+                         </div>
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
