@@ -56,7 +56,7 @@
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
-                <asp:Panel ID="Panel1" runat="server" CssClass="navbar limon">
+                <asp:Panel ID="Panel1" runat="server" CssClass="navbar">
 
                     <div class="row">
                         <div class="columntop">
@@ -191,17 +191,19 @@
                             <div class="mybox boxsizing">
                                 <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
                             </div>
-                        <select>
+                            <div class="mybox boxsizing">
+                        <select class="urunfiyat">
   <option value="s">s</option>
   <option value="m">m</option>
   <option value="l">l</option>
   <option value="xl">xl</option>
 </select>
+                                 </div>
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    <div class="footer">
+                    <div class="footer boxsizing">
 
                         <div class="row">
                             <div class="column">

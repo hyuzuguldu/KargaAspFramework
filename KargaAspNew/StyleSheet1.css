@@ -70,17 +70,9 @@ h3 {
 .column {
     float: left;
     width: 25%;
-    padding: 2 px;
+    padding: 0px;
 }
 
-
-/* Clear floats after image containers */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 
 /* --------------------------------------------------------------------------------- */
@@ -108,8 +100,12 @@ h3 {
 
 .columnanasayfa {
     float: left;
-    width: 33%;
-    padding: 3px;
+    width: 32%;
+    padding: 0px;
+}
+.floatleft {
+
+    float:left;
 }
 
 
