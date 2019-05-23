@@ -137,13 +137,13 @@
                             <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
                         </div>
                         <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=""></asp:Label>
+                            <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=" "></asp:Label>
                         </div>
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunaciklama" ID="Label4" runat="server" Text="Kategori <br /> T-shirt Erkek"></asp:Label>
                         </div>
                         <div class="mybox boxsizing">
-                            <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=""></asp:Label>
+                            <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=" "></asp:Label>
                         </div>
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
