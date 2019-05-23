@@ -21,16 +21,16 @@ namespace KargaAspNew
 
             }
         }
-
-        void urundetayackapa() {
-            if (urundetaypanel.CssClass == "gorunur")
+        
+        void gorunmezyap(Panel panelim) {
+            if (panelim.CssClass == "gorunur")
             {
-                urundetaypanel.CssClass = "gorunmez";
+                panelim.CssClass = "gorunmez";
 
             }
-            else if (urundetaypanel.CssClass == "gorunmez")
+            else if (panelim.CssClass == "gorunmez")
             {
-                urundetaypanel.CssClass = "gorunur";
+                panelim.CssClass = "gorunur";
 
             }
 
@@ -60,7 +60,7 @@ namespace KargaAspNew
 
         protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
         {
-            urundetayackapa();
+            gorunmezyap(urundetaypanel);
         }
     }
 }
