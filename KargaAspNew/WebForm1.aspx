@@ -167,27 +167,40 @@
                             </div>
                         </div>
                     </asp:Panel>
-                    <!-- ---------------------------------------------------------------------------------- -->
+                    <!-- ------------------------urundetay---------------------------------------------------------- -->
 
                     <asp:Panel style="padding:100px;" ID="Panel5" runat="server">
 
                         <asp:Image CssClass="center product-images" ID="Image1" runat="server" ImageUrl="~/resimler/captainamericatshirt.jpg" />
 
-                        <asp:Panel ID="Panel6" runat="server">
                             <div class="mybox boxsizing">
                                 <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
-
                             </div>
                             <div class="mybox boxsizing">
-                                <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA SHIELD T-SHIRT"></asp:Label>
-
+                                <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
                             </div>
-
-                        </asp:Panel>
-
+                         <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunfiyat" ID="Label3" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunaciklama" ID="Label4" runat="server" Text="Kategori <br /> T-shirt Erkek"></asp:Label>
+                            </div>
+                        <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunfiyat" ID="Label5" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="mybox boxsizing">
+                                <asp:Label CssClass="urunaciklama" ID="Label6" runat="server" Text="Beden"></asp:Label>
+                            </div>
+                        <select>
+  <option value="s">s</option>
+  <option value="m">m</option>
+  <option value="l">l</option>
+  <option value="xl">xl</option>
+</select>
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                     <div class="footer">
 
                         <div class="row">
