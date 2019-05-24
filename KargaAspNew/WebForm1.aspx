@@ -56,13 +56,15 @@
                 <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems">
 
+                        <div class="columnside " style="display:inline;">
+                            <asp:ImageButton ID="sidenavsag3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
+                        </div>
+
                         <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
                             <h3 style="display:inline;"> Giriş yap  </h3>
                         </asp:Panel>
 
-                        <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="sidenavsag3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="Right" />
-                        </div>
+                        
 
                     </div>
 
