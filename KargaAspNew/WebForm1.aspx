@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -21,7 +21,7 @@
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel2" CssClass="columnside" style="display:inline;" runat="server">
-                            
+                           
                         </asp:Panel>
 
                         <div class="columnside" style="display:inline;">
@@ -48,7 +48,7 @@
 
                     <div class="rowside sideitems">
                         <div class="columnside ">
-                            <h3> Batman </h3>
+                            <h3> Batman saat</h3>
                         </div>
                     </div>
                     <hr>
@@ -69,7 +69,7 @@
                         </div>
 
                         <div class="columntop">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/adam.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
                         </div>
                     </div>
 
@@ -84,21 +84,22 @@
 
                 </body>--%>
                     <!-- ---------------------------urunler------------------------------------------------------- -->
-                    <asp:Panel ID="anasayfaurunler" runat="server" CssClass="gorunur">
+                    <asp:Panel ID="anasayfaurunler" runat="server" CssClass="gorunur anasayfaurunler">
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" OnClick="ImageButton9_Click" />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/captainamericatshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
                             </div>
                             <div class="columnanasayfa">
-                                <p> Batman saat</p>
-                                <p> 25 lira</p>
+                                
+                                <p>Captain America T-Shirt</p>
+                                <p>45,99 lira</p>
                             </div>
                         </div>
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa">
                                 <p> Batman saat</p>
@@ -107,7 +108,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa">
                                 <p> Batman saat</p>
@@ -116,7 +117,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="60px" ImageUrl="~/resimler/batmansa.jpg" Width="60px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa">
                                 <p> Batman saat</p>
