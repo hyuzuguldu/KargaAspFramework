@@ -3,14 +3,15 @@
     <!DOCTYPE html>
 
     <html xmlns="http://www.w3.org/1999/xhtml">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta charset="UTF-8">
+   
+    
 
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <link href="StyleSheet1.css" rel="stylesheet" />
-    </head>
+    </head> 
 
     <body>
         <form id="form1" runat="server">
