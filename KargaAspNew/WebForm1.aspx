@@ -84,14 +84,14 @@
                     </div>
 
                     <div class="rowside sideitems sideitemsright">
-                        <div class="columnside beyaz ">
-                            <asp:Button ID="Giris_yap" runat="server" Text="Giriş yap" />
+                        <div  style="width:100%; " class="columnside beyaz ">
+                            <asp:Button style="width:100%; color: #fff; background: #56c1d5; border:0;" ID="Giris_yap" runat="server" Text="Giriş yap" />
                         </div>
                     </div>
 
-                    <div class="rowside sideitems sideitemsright">
-                        <div class="columnside beyaz ">
-                            <asp:Button ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
+                    <div style="width:100%; " class="rowside sideitems sideitemsright">
+                        <div  style="width:100%; " class="columnside beyaz ">
+                            <asp:Button style="width:100%; color: #fff; background: #56c1d5; border:0;" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
                         </div>
                     </div>
 

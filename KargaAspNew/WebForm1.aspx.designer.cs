@@ -103,13 +103,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.TextBox password;
         
         /// <summary>
-        /// Giris_yap denetimi.
+        /// Giris_yap  denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Giris_yap;
+        protected global::System.Web.UI.WebControls.Button Giris_yap ;
         
         /// <summary>
         /// Sifremi_unuttum denetimi.
