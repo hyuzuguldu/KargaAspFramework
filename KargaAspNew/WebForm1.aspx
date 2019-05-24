@@ -19,7 +19,7 @@
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
 
-                <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
+                <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel2" CssClass="columnside beyaz" style="display:inline;" runat="server">
@@ -53,6 +53,43 @@
 
                 </asp:Panel>
 
+                    <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
+
+                <asp:Panel ID="Panel4" runat="server" CssClass="sidenavright dropdown-content">
+                    <div class="rowside sideitems">
+
+                        <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
+                            <h3 style="display:inline;"> Ürün Grupları  </h3>
+                        </asp:Panel>
+
+                        <div class="columnside " style="display:inline;">
+                            <asp:ImageButton ID="ImageButton11" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="rowside sideitems">
+                        <div class="columnside beyaz ">
+                            <h3> Anahtarlıklar</h3>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="rowside sideitems">
+                        <div class="columnside beyaz ">
+                            <h3> Takılar</h3>
+                        </div>
+                    </div>
+                    <hr>
+
+                    
+                    <hr>
+
+                </asp:Panel>
+
+
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
                 <asp:Panel ID="Panel1" runat="server" CssClass="navbar">
@@ -67,7 +104,7 @@
                         </div>
 
                         <div class="columntop">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Right" OnClick="ImageButton1_Click" />
+                            <asp:ImageButton ID="adamresmi" runat="server" Height="60px" ImageUrl="~/resimler/adam.bmp" Width="60px" ImageAlign="Right" OnClick="adamresmi_Click" />
                         </div>
                     </div>
 

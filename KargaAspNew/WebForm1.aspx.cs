@@ -21,6 +21,7 @@ namespace KargaAspNew
 
             }
         }
+
         
         void gorunurgorunmez(Panel panelim) {
             string paneliminCssSınıfı = panelim.CssClass;
@@ -44,11 +45,13 @@ namespace KargaAspNew
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            SolMenuAcKapa();
+
+            gorunurgorunmez(sidebarpanel);
+
         }
 
          
-        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        protected void adamresmi_Click(object sender, ImageClickEventArgs e)
         {
 
            
@@ -57,7 +60,7 @@ namespace KargaAspNew
 
         protected void ImageButton16_Click(object sender, ImageClickEventArgs e)
         {
-            SolMenuAcKapa();
+            gorunurgorunmez(sidebarpanel);
         }
 
         protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
