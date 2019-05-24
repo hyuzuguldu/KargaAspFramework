@@ -21,7 +21,7 @@
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel2" CssClass="columnside" style="display:inline;" runat="server">
-                            https://github.com/rowers7/KargaAspFramework.git
+                           
                         </asp:Panel>
 
                         <div class="columnside" style="display:inline;">
