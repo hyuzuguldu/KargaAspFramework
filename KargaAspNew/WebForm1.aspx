@@ -20,11 +20,11 @@
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content">
                     <div class="rowside sideitems">
 
-                        <asp:Panel ID="Panel2" CssClass="columnside" style="display:inline;" runat="server">
-                           
+                        <asp:Panel ID="Panel2" CssClass="columnside beyaz" style="display:inline;" runat="server">
+                            <h3 style="display:inline;"> Ürün Grupları  </h3>
                         </asp:Panel>
 
-                        <div class="columnside" style="display:inline;">
+                        <div class="columnside " style="display:inline;">
                             <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
                         </div>
 
@@ -33,24 +33,20 @@
                     <hr>
 
                     <div class="rowside sideitems">
-                        <div class="columnside ">
-                            <h3> Batman saat</h3>
+                        <div class="columnside beyaz ">
+                            <h3> Anahtarlıklar</h3>
                         </div>
                     </div>
                     <hr>
 
                     <div class="rowside sideitems">
-                        <div class="columnside ">
-                            <h3> Batman saat</h3>
+                        <div class="columnside beyaz ">
+                            <h3> Takılar</h3>
                         </div>
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems">
-                        <div class="columnside ">
-                            <h3> Batman saat</h3>
-                        </div>
-                    </div>
+                    
                     <hr>
 
                 </asp:Panel>
@@ -64,8 +60,8 @@
                             <asp:ImageButton ID="ImageButton2" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" ImageAlign="Left" OnClick="ImageButton2_Click" /> &nbsp;
                         </div>
 
-                        <div class="columntop">
-                            <h2 id="Tepeyazi">Anasayfa</h2>
+                        <div class="columntop  beyaz">
+                            <h2  id="Tepeyazi">Anasayfa</h2>
                         </div>
 
                         <div class="columntop">
@@ -90,38 +86,38 @@
                             <div class="columnanasayfa">
                                 <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/captainamericatshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
                             </div>
-                            <div class="columnanasayfa">
+                            <div class="columnanasayfa yazikaydirma">
                                 
                                 <p>Captain America T-Shirt</p>
-                                <p>45,99 lira</p>
+                                <p>45 lira</p>
                             </div>
                         </div>
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
                             </div>
-                            <div class="columnanasayfa">
-                                <p> Batman saat</p>
-                                <p> 25 lira</p>
-                            </div>
-                        </div>
-                        <div class="rowanasayfa">
-                            <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
-                            </div>
-                            <div class="columnanasayfa">
-                                <p> Batman saat</p>
-                                <p> 25 lira</p>
+                            <div class="columnanasayfa yazikaydirma">
+                                <p> Atatürk İmza T-Shirt</p>
+                                <p> 45 lira</p>
                             </div>
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="110px" ImageUrl="~/resimler/batmansa.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/stargecelambasi.jpg" Width="110px" />
                             </div>
+                            <div class="columnanasayfa yazikaydirma">
+                                <p> Star Gece Lambası</p>
+                                <p> 80 lira</p>
+                            </div>
+                        </div>
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <p> Batman saat</p>
-                                <p> 25 lira</p>
+                                <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+                                <p> DeadPool Figürü</p>
+                                <p> 50 lira</p>
                             </div>
                         </div>
 
