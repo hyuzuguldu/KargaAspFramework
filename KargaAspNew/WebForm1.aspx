@@ -27,7 +27,7 @@
                         </asp:Panel>
 
                         <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
+                            <asp:ImageButton ID="solsidenav3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
                         </div>
 
                     </div>
@@ -55,7 +55,7 @@
 
                     <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
 
-                <asp:Panel ID="Panel4" runat="server" CssClass="sidenavright dropdown-content">
+                <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
@@ -63,7 +63,7 @@
                         </asp:Panel>
 
                         <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="ImageButton11" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
+                            <asp:ImageButton ID="sidenavsag3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="Right" />
                         </div>
 
                     </div>

@@ -54,11 +54,17 @@ namespace KargaAspNew
         protected void adamresmi_Click(object sender, ImageClickEventArgs e)
         {
 
-           
-          
+
+            gorunurgorunmez(sidenavsag);
+        }
+        
+
+         protected void sidenavsag3cizgi_Click(object sender, ImageClickEventArgs e)
+        {
+            gorunurgorunmez(sidenavsag);
         }
 
-        protected void ImageButton16_Click(object sender, ImageClickEventArgs e)
+        protected void solsidenav3cizgi_Click(object sender, ImageClickEventArgs e)
         {
             gorunurgorunmez(sidebarpanel);
         }
