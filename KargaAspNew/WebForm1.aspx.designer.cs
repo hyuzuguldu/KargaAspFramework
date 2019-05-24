@@ -58,6 +58,33 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton16;
         
         /// <summary>
+        /// Panel4 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel4;
+        
+        /// <summary>
+        /// Panel5 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel5;
+        
+        /// <summary>
+        /// ImageButton11 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton11;
+        
+        /// <summary>
         /// Panel1 denetimi.
         /// </summary>
         /// <remarks>
@@ -76,13 +103,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
         
         /// <summary>
-        /// ImageButton1 denetimi.
+        /// adamresmi denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.ImageButton adamresmi;
         
         /// <summary>
         /// anasayfaurunler denetimi.
