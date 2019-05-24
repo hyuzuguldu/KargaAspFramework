@@ -21,7 +21,7 @@
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel2" CssClass="columnside" style="display:inline;" runat="server">
-                            
+                            <h3 style="display:inline;"> Ürün Grupları  </h3>
                         </asp:Panel>
 
                         <div class="columnside" style="display:inline;">
