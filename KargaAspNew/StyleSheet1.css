@@ -1,4 +1,4 @@
-﻿bod.topnav {
+bod.topnav {
     background-color: rgb(86, 193, 213);
     overflow: hidden;
 }
@@ -131,6 +131,11 @@ display:block;
     float:left;
 }
 
+.anasayfaurunler{
+    padding-left: 5%;
+
+}
+
 
 /* Clear floats after image containers */
 
@@ -138,6 +143,7 @@ display:block;
     content: "";
     clear: both;
     display: table;
+    padding-bottom: 10%
 }
 
 
