@@ -217,7 +217,7 @@ display:block;
 
 .columnside {
     
-    width: 40%;
+    width: 50%;
     
     display: inline;
 }
@@ -278,7 +278,11 @@ display:block;
 }
 
 .dikeyortala {
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     display: inline-block;
+}
+
+.bibucukfont {
+    font-size: 1.5em;
 }
