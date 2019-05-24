@@ -218,8 +218,9 @@ display:block;
 .columnside {
     
     width: 50%;
+float:left;
     
-    display: inline;
+    
 }
 
 
@@ -278,9 +279,9 @@ display:block;
 }
 
 .dikeyortala {
-    padding-bottom: 5%;
-    padding-top: 5%;
-    display: inline-block;
+    padding-bottom: 10%;
+    padding-top: 10%;
+   
 }
 
 .bibucukfont {

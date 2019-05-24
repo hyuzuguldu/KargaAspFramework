@@ -22,11 +22,9 @@
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
                     <div class="rowside sideitems">
 
-                        <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala " style=" " runat="server">
-                            <p  class="bibucukfont"> Ürün Grupları  </p>
-                        </asp:Panel>
+                        <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala " style=" " runat="server"> Ürün Grupları </asp:Panel>
 
-                        <div class="columnside " style="display:inline;">
+                        <div class="columnside " style="">
                             <asp:ImageButton ID="solsidenav3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
                         </div>
 
