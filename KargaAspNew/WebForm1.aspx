@@ -25,7 +25,7 @@
                         </asp:Panel>
 
                         <div class="columnside" style="display:inline;">
-                            <asp:ImageButton ID="ImageButton16" runat="server" Height="40px" Width="40" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
+                            <asp:ImageButton ID="ImageButton16" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="ImageButton16_Click" ImageAlign="Right" />
                         </div>
 
                     </div>
