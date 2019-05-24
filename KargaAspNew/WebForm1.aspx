@@ -22,7 +22,7 @@
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
                     <div class="rowside sideitems">
 
-                        <asp:Panel ID="Panel2" CssClass="columnside beyaz" style="display:inline;" runat="server">
+                        <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala" style=" " runat="server">
                             <h3 style="display:inline;"> Ürün Grupları  </h3>
                         </asp:Panel>
 

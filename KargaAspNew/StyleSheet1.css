@@ -116,6 +116,8 @@ display:none
 display:block;
 }
 
+
+
 /* ----------------------------anasayfa----------------------------------------------------- */
 
 
@@ -216,7 +218,7 @@ display:block;
 .columnside {
     
     width: 40%;
-    padding: 2px;
+    
     display: inline;
 }
 
@@ -275,3 +277,8 @@ display:block;
     color: white;
 }
 
+.dikeyortala {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+}
