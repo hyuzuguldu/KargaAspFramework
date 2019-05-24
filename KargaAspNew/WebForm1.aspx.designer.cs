@@ -67,15 +67,6 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel sidenavsag;
         
         /// <summary>
-        /// Panel5 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel5;
-        
-        /// <summary>
         /// sidenavsag3cizgi denetimi.
         /// </summary>
         /// <remarks>
@@ -83,6 +74,15 @@ namespace KargaAspNew {
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton sidenavsag3cizgi;
+        
+        /// <summary>
+        /// Panel5 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel5;
         
         /// <summary>
         /// Mail denetimi.
@@ -119,6 +119,15 @@ namespace KargaAspNew {
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Sifremi_unuttum;
+        
+        /// <summary>
+        /// Uye_ol denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Uye_ol;
         
         /// <summary>
         /// Panel1 denetimi.

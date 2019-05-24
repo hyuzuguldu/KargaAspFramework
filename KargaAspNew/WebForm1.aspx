@@ -70,28 +70,34 @@
 
                     <hr>
 
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitemsright">
                         <div class="columnside beyaz ">
-                            <asp:TextBox ID="Mail" runat="server" ></asp:TextBox>
+                            <asp:TextBox ID="Mail" runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitems sideitemsright">
                         <div class="columnside beyaz ">
-                            <asp:TextBox ID="password" runat="server" ></asp:TextBox>
+                            <asp:TextBox ID="password" runat="server"  BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
 
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitems sideitemsright">
                         <div class="columnside beyaz ">
                             <asp:Button ID="Giris_yap" runat="server" Text="Giriş yap" />
                         </div>
                     </div>
 
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitems sideitemsright">
                         <div class="columnside beyaz ">
                             <asp:Button ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
+                        </div>
+                    </div>
+
+                    <div class="rowside sideitems sideitemsright">
+                        <div class="columnside beyaz ">
+                            <asp:Button ID="Uye_ol" runat="server" Text="Üye ol" />
                         </div>
                     </div>
 
