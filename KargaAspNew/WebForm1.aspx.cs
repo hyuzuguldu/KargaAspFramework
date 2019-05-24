@@ -43,7 +43,7 @@ namespace KargaAspNew
             
         }
 
-        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
         {
 
             gorunurgorunmez(sidebarpanel);
