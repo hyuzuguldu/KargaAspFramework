@@ -61,7 +61,7 @@
                         </div>
 
                         <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
-                            <h3 style="display:inline;"> Giriş yap  </h3>
+                            <h3 style=""> Giriş yap  </h3>
                         </asp:Panel>
 
                         
