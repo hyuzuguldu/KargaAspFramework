@@ -57,7 +57,7 @@
                     <div class="rowside sideitems">
 
                         <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
-                            <h3 style="display:inline;"> Ürün Grupları  </h3>
+                            <h3 style="display:inline;"> Giriş yap  </h3>
                         </asp:Panel>
 
                         <div class="columnside " style="display:inline;">
@@ -70,16 +70,31 @@
 
                     <div class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <h3> Anahtarlıklar</h3>
+                            <asp:TextBox ID="Mail" runat="server" ></asp:TextBox>
                         </div>
                     </div>
                     <hr>
 
                     <div class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <h3> Takılar</h3>
+                            <asp:TextBox ID="password" runat="server" ></asp:TextBox>
                         </div>
                     </div>
+
+                    <div class="rowside sideitems">
+                        <div class="columnside beyaz ">
+                            <asp:Button ID="Giris_yap" runat="server" Text="Giriş yap" />
+                        </div>
+                    </div>
+
+                    <div class="rowside sideitems">
+                        <div class="columnside beyaz ">
+                            <asp:Button ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
+                        </div>
+                    </div>
+
+
+
                     <hr>
 
                     
