@@ -48,7 +48,7 @@
 
                     <div class="rowside sideitems">
                         <div class="columnside ">
-                            <h3> Batman saat</h3>
+                            <h3> Batman </h3>
                         </div>
                     </div>
                     <hr>
