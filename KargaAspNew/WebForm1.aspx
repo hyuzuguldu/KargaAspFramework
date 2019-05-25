@@ -77,7 +77,7 @@
 
                     <div class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button CssClass="butonum" ID="Giris_yap" runat="server" Text="Giriş yap" />
+                            <asp:Button CssClass="butonum" OnClick="Giris_yap_Click" ID="Giris_yap" runat="server" Text="Giriş yap" />
                         </div>
                     </div>
 
