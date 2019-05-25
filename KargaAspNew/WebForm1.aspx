@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -199,10 +199,11 @@
                     <asp:Panel ID="yeniuyeol" runat="server">
 
                         <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Şifre" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox7" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
                         <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
 
                         <script>
@@ -210,7 +211,7 @@
                                 alert("I am an alert box!");
                             }
                         </script>
-                        <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
+                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
 
                     </asp:Panel>
 
@@ -230,19 +231,19 @@
 
                         <div class="row">
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/anasayfa.bmp" Width="70px" /> &nbsp;
                             </div>
 
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/arama.bmp" Width="70px" /> &nbsp;
                             </div>
 
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/sepetim.bmp" Width="70px" /> &nbsp;
                             </div>
 
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/3cizgi.bmp" Width="60px" /> &nbsp;
+                                <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/iletişim.bmp" Width="70px" /> &nbsp;
                             </div>
 
                         </div>
