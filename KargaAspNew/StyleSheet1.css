@@ -184,15 +184,19 @@ display:block;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: aquamarine;
+    background-color: #c0bebe;
     overflow: hidden;
+}
+
+.mavirenk {
+    background-color: rgb(86, 193, 213);
 }
 
 .sideitems {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(86, 193, 213);
+    
 }
 
 .sidenavright {

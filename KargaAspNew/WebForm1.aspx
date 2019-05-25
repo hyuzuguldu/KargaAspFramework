@@ -18,7 +18,7 @@
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
 
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitems mavirenk">
 
                         <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala  " style=" " runat="server"> Ürün Grupları </asp:Panel>
 
@@ -44,20 +44,20 @@
                     </div>
                     <hr>
 
-                    <hr>
+                 
 
                 </asp:Panel>
 
                 <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
 
                 <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunur">
-                    <div class="rowside sideitems">
+                    <div class="rowside sideitems mavirenk">
 
                         <div class="columnside " style="display:inline;">
                             <asp:ImageButton ID="sidenavsag3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
                         </div>
 
-                        <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
+                        <asp:Panel ID="Panel5" CssClass="columnside beyaz " style="display:inline;" runat="server">
                             <h3 style=""> Giriş yap  </h3>
                         </asp:Panel>
 
