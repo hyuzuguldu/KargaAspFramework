@@ -287,3 +287,9 @@ float:left;
 .bibucukfont {
     font-size: 1.1em;
 }
+.butonum {
+    width: 100%;
+    color: #fff;
+    background: #56c1d5;
+    border: 0;
+}

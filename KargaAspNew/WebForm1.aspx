@@ -85,19 +85,19 @@
 
                     <div class="rowside sideitems sideitemsright">
                         <div  style="width:100%; " class="columnside beyaz ">
-                            <asp:Button style="width:100%; color: #fff; background: #56c1d5; border:0;" ID="Giris_yap" runat="server" Text="Giriş yap" />
+                            <asp:Button CssClass="butonum" ID="Giris_yap" runat="server" Text="Giriş yap" />
                         </div>
                     </div>
 
                     <div style="width:100%; " class="rowside sideitems sideitemsright">
                         <div  style="width:100%; " class="columnside beyaz ">
-                            <asp:Button style="width:100%; color: #fff; background: #56c1d5; border:0;" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
+                            <asp:Button CssClass="butonum" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
                         </div>
                     </div>
 
-                    <div class="rowside sideitems sideitemsright">
-                        <div class="columnside beyaz ">
-                            <asp:Button ID="Uye_ol" runat="server" Text="Üye ol" />
+                    <div  class="rowside sideitems sideitemsright">
+                        <div style="width:100%; " class="columnside beyaz ">
+                            <asp:Button  CssClass="butonum" ID="Uye_ol" runat="server" Text="Üye ol" BackColor="#333333" />
                         </div>
                     </div>
 
@@ -212,12 +212,6 @@
                     </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <br />
                     <br />
                     <br />
