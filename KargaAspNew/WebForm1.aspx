@@ -17,10 +17,11 @@
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
 
-                <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
+                <asp:Panel ID="sidebarpanel" runat="server"  CssClass="sidenav dropdown-content gorunmez" >
+                   
                     <div class="rowside sideitems mavirenk">
 
-                        <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala  " style=" " runat="server"> Ürün Grupları </asp:Panel>
+                        <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala   " style=" margin-left:2%" runat="server"> Ürün Grupları </asp:Panel>
 
                         <div class="columnside " style="">
                             <asp:ImageButton ID="solsidenav3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
@@ -30,21 +31,21 @@
 
                     <hr>
 
-                    <div class="rowside sideitems">
+                    <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <h3> Anahtarlıklar</h3>
+                             Anahtarlıklar
                         </div>
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems">
+                    <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <h3> Takılar</h3>
+                             Takılar
                         </div>
                     </div>
                     <hr>
 
-                 
+              
 
                 </asp:Panel>
 
