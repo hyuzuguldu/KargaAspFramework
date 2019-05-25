@@ -199,10 +199,11 @@
                     <asp:Panel ID="yeniuyeol" runat="server">
 
                         <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Şifre" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox7" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
                         <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
 
                         <script>
@@ -210,7 +211,7 @@
                                 alert("I am an alert box!");
                             }
                         </script>
-                        <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
+                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
 
                     </asp:Panel>
 
