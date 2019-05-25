@@ -1,14 +1,17 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using KargaAspNew.ServiceReference1;
 namespace KargaAspNew
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        Service1Client Client = new Service1Client();
+
+
         void SolMenuAcKapa() {
             if (sidebarpanel.CssClass == "sidenav dropdown-content")
             {
@@ -40,7 +43,7 @@ namespace KargaAspNew
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
         }
 
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
@@ -73,6 +76,11 @@ namespace KargaAspNew
         {
             gorunurgorunmez(urundetaypanel);
             gorunurgorunmez(anasayfaurunler);
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox7.Text), TextBox4.Text);
         }
     }
 }
