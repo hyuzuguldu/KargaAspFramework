@@ -319,6 +319,15 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.TextBox TextBox6;
         
         /// <summary>
+        /// GÜvenlik_kodu denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GÜvenlik_kodu;
+        
+        /// <summary>
         /// Button1 denetimi.
         /// </summary>
         /// <remarks>

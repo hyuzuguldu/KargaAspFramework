@@ -206,13 +206,14 @@
                 <asp:Panel ID="yeniuyeol" runat="server">
 
 
-                    <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
 
-                    <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Button" />
+                    <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Üye ol" />
 
                 </asp:Panel>
 
