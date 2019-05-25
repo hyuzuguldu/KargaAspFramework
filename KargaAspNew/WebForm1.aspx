@@ -63,18 +63,18 @@
 
                     </div>
 
-                    <hr>
+                   
 
                     <div class="rowside sideitemsright">
                         <div class="columnside beyaz ">
-                            <asp:TextBox ID="Mail" runat="server" BackColor="#D5D5D5"></asp:TextBox>
+                            <asp:TextBox ID="Mail" CssClass="mytextbox" runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
                     <hr>
 
                     <div class="rowside sideitems sideitemsright">
                         <div class="columnside beyaz ">
-                            <asp:TextBox ID="password" runat="server" BackColor="#D5D5D5"></asp:TextBox>
+                            <asp:TextBox ID="password" CssClass="mytextbox"  runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
 
@@ -96,9 +96,7 @@
                         </div>
                     </div>
 
-                    <hr>
-
-                    <hr>
+                   
 
                 </asp:Panel>
 
@@ -202,6 +200,22 @@
                         </div>
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
+
+
+                <asp:Panel ID="yeniuyeol" runat="server">
+
+
+                    <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" runat="server"></asp:TextBox>
+
+                    <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Button" />
+
+                </asp:Panel>
+
+
 
                     <!-- ---------------------------------------------------------------------------------- -->
 
