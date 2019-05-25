@@ -97,7 +97,7 @@
 
                     <div  class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button  CssClass="butonum" ID="Uye_ol" runat="server" Text="Üye ol" BackColor="#333333" />
+                            <asp:Button  CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
                         </div>
                     </div>
 
