@@ -80,7 +80,7 @@ namespace KargaAspNew
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox7.Text), TextBox4.Text);
+            Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
         }
 
         protected void Giris_yap_Click(object sender, EventArgs e)

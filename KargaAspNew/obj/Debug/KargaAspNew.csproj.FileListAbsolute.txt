@@ -105,7 +105,6 @@ C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\bi
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.csprojAssemblyReference.cache
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.csproj.CoreCompileInputs.cache
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.csproj.CopyComplete
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.dll

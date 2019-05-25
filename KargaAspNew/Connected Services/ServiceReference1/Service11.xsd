@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="kayitol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="soyad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifretekrar" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tel" type="xs:long" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kayitolResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kayitolResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="giris">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="girisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="girisResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="guvenlikkodugndr">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="guvenlikkodugndrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="guvenlikkodugndrResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iletisimformual">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="adsoyad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tel" type="xs:long" />
+        <xs:element minOccurs="0" name="konu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mesaj" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iletisimformualResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sifremiunuttum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sifremiunuttumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sifremiunuttumResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bilgigetir">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="soyad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tel" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bilgigetirResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="soyad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tel" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tcnoctrl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tcno" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tcnoctrlResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tcnoctrlResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

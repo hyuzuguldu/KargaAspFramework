@@ -19,3 +19,10 @@ C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\w
 C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.csproj.CoreCompileInputs.cache
 C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.dll
 C:\Users\msn\Desktop\saatdüzgün\wpf-borderless-items\wcforn\wcforn\obj\Debug\wcforn.pdb
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\bin\wcforn.dll.config
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\bin\wcforn.dll
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\bin\wcforn.pdb
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\obj\Debug\wcforn.csprojAssemblyReference.cache
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\obj\Debug\wcforn.csproj.CoreCompileInputs.cache
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\obj\Debug\wcforn.dll
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\wcforn\wcforn\obj\Debug\wcforn.pdb
