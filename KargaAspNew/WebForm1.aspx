@@ -72,9 +72,9 @@
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems sideitemsright">
-                        <div class="columnside beyaz ">
-                            <asp:TextBox ID="password" CssClass="mytextbox"  runat="server" BackColor="#D5D5D5"></asp:TextBox>
+                    <div class="rowside sideitems sideitemsright center">
+                        <div class="columnside beyaz  ">
+                            <asp:TextBox ID="password" CssClass="mytextbox "  runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
 
