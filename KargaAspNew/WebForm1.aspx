@@ -3,15 +3,13 @@
     <!DOCTYPE html>
 
     <html xmlns="http://www.w3.org/1999/xhtml">
-   
-    
 
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <link href="StyleSheet1.css" rel="stylesheet" />
-    </head> 
+    </head>
 
     <body>
         <form id="form1" runat="server">
@@ -46,12 +44,11 @@
                     </div>
                     <hr>
 
-                    
                     <hr>
 
                 </asp:Panel>
 
-                    <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
+                <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
 
                 <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems">
@@ -63,8 +60,6 @@
                         <asp:Panel ID="Panel5" CssClass="columnside beyaz" style="display:inline;" runat="server">
                             <h3 style=""> Giriş yap  </h3>
                         </asp:Panel>
-
-                        
 
                     </div>
 
@@ -79,37 +74,33 @@
 
                     <div class="rowside sideitems sideitemsright">
                         <div class="columnside beyaz ">
-                            <asp:TextBox ID="password" runat="server"  BackColor="#D5D5D5"></asp:TextBox>
+                            <asp:TextBox ID="password" runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
 
                     <div class="rowside sideitems sideitemsright">
-                        <div  style="width:100%; " class="columnside beyaz ">
+                        <div style="width:100%; " class="columnside beyaz ">
                             <asp:Button CssClass="butonum" ID="Giris_yap" runat="server" Text="Giriş yap" />
                         </div>
                     </div>
 
                     <div style="width:100%; " class="rowside sideitems sideitemsright">
-                        <div  style="width:100%; " class="columnside beyaz ">
+                        <div style="width:100%; " class="columnside beyaz ">
                             <asp:Button CssClass="butonum" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
                         </div>
                     </div>
 
-                    <div  class="rowside sideitems sideitemsright">
+                    <div class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button  CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
+                            <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
                         </div>
                     </div>
 
-
-
                     <hr>
 
-                    
                     <hr>
 
                 </asp:Panel>
-
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
@@ -121,7 +112,7 @@
                         </div>
 
                         <div class="columntop  beyaz">
-                            <h2  id="Tepeyazi">Anasayfa</h2>
+                            <h2 id="Tepeyazi">Anasayfa</h2>
                         </div>
 
                         <div class="columntop">
@@ -147,7 +138,7 @@
                                 <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/captainamericatshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
-                                
+
                                 <p>Captain America T-Shirt</p>
                                 <p>45 lira</p>
                             </div>
@@ -210,6 +201,9 @@
                             <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
                         </div>
                     </asp:Panel>
+                    <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
+
+                    <!-- ---------------------------------------------------------------------------------- -->
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                     <br />
