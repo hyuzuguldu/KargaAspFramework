@@ -17,8 +17,8 @@
             <asp:Panel ID="Panel3" runat="server">
                 <!-- --------------------------------sidenav-------------------------------------------------- -->
 
-                <asp:Panel ID="sidebarpanel" runat="server"  CssClass="sidenav dropdown-content gorunmez" >
-                   
+                <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
+
                     <div class="rowside sideitems mavirenk">
 
                         <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala   " style=" margin-left:2%" runat="server"> Ürün Grupları </asp:Panel>
@@ -33,19 +33,17 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                             Anahtarlıklar
+                            Anahtarlıklar
                         </div>
                     </div>
                     <hr>
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                             Takılar
+                            Takılar
                         </div>
                     </div>
                     <hr>
-
-              
 
                 </asp:Panel>
 
@@ -64,8 +62,6 @@
 
                     </div>
 
-                   
-
                     <div class="rowside sideitemsright">
                         <div class="columnside beyaz ">
                             <asp:TextBox ID="Mail" CssClass="mytextbox" runat="server" BackColor="#D5D5D5"></asp:TextBox>
@@ -75,7 +71,7 @@
 
                     <div class="rowside sideitems sideitemsright center">
                         <div class="columnside beyaz  ">
-                            <asp:TextBox ID="password" CssClass="mytextbox "  runat="server" BackColor="#D5D5D5"></asp:TextBox>
+                            <asp:TextBox ID="password" CssClass="mytextbox " runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
                     </div>
 
@@ -96,8 +92,6 @@
                             <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
                         </div>
                     </div>
-
-                   
 
                 </asp:Panel>
 
@@ -202,22 +196,23 @@
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
 
+                    <asp:Panel ID="yeniuyeol" runat="server">
 
-                <asp:Panel ID="yeniuyeol" runat="server">
+                        <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
 
+                        <script>
+                            function myFunction() {
+                                alert("I am an alert box!");
+                            }
+                        </script>
+                        <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
 
-                    <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox4" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
-
-                    <asp:Button ID="Button1" cssclass="butonum" runat="server" Text="Üye ol" />
-
-                </asp:Panel>
-
-
+                    </asp:Panel>
 
                     <!-- ---------------------------------------------------------------------------------- -->
 
