@@ -211,7 +211,7 @@
                                 alert("I am an alert box!");
                             }
                         </script>
-                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" OnClientClick="myFunction()" />
+                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol"  />
 
                     </asp:Panel>
 

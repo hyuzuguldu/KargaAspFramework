@@ -43,7 +43,7 @@ namespace KargaAspNew
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
+           // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
         }
 
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
@@ -80,12 +80,13 @@ namespace KargaAspNew
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+           // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            Response.Write("<script>alert('" + "msg" + "')</script>");
         }
 
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
-            Client.giris(Mail.Text, password.Text);
+           // Client.giris(Mail.Text, password.Text);
         }
     }
 }
