@@ -96,16 +96,25 @@ namespace KargaAspNew
             gorunurgorunmez(anasayfaurunler);
         }
 
+        int sepetsayac = 1;
         protected void Button1_Click(object sender, EventArgs e)
         {
-           // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
-            //Response.Write("<script>alert('" + "msg" + "')</script>"); tüm yorumları kaldırabilirsin çalışıyorlar
+            // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            //Response.Write("<script>alert('" + "msg" + "')</script>");  yorumları kaldırabilirsin çoğu çalışıyor
 
 
-            string eklenecek_kod = "       <asp:Panel ID=\"SepetimTekUrun\" CssClass=\"\" runat=\"server\">                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <asp:Panel ID=\"yazilar\" class=\"sepetimyazilar \" style=\"display:block; margin:10% 0% 10% 5%\" runat=\"server\">                                <asp:Label style=\"display:block\" ID=\"Label3\" runat=\"server\" Text=\"Label\"></asp:Label>                                <asp:Label style=\"display:block\" ID=\"Label5\" runat=\"server\" Text=\"Label\"></asp:Label>                            </asp:Panel>                            <asp:ImageButton ID=\"Carpi\" class=\"sepetimcarpi \" runat=\"server\" ImageUrl=\"~/resimler/111.PNG\" />                                <asp:TextBox ID=\"Adet\" style=\"float:right; margin-right:30%; font-size:1.3em;\" runat=\"server\" TextMode=\"Number\" Width=\"30%\" ></asp:TextBox>                        </asp:Panel>           ";
+            string eklenecek_kod = " <div>                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <div class=\"sepetimyazilar\" style=\"display:block; margin:10% 0% 10% 5%\" >                                <p style=\"display:block\">Pırasa</p>                                <p style=\"display:block\">Pırasa</p>                            </div>                           <img class=\"sepetimcarpi \" src=\"/resimler/111.PNG\">                              <form action=\"/WebForm1.aspx\">                              <input style=\"float:right; margin-right:30%; font-size:1.3em;  Width=30%\"  type=\"number\" name=\"quantity\" min=\"1\" max=\"9\">                                <input type=\"submit\">                              </form>                                                    </div>   ";
             string arttılmıs=Idarttırıcı(eklenecek_kod);
 
-            SepetimUrunler.Controls.Add(new LiteralControl(arttılmıs));
+            
+            for (int i = 0; i < sepetsayac; i++)
+            {
+                SepetimUrunler.Controls.Add(new LiteralControl(eklenecek_kod));
+            }
+            sepetsayac++;
+            
+            
+
         }
 
     

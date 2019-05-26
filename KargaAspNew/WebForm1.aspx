@@ -110,15 +110,23 @@
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                        <asp:Panel ID="SepetimTekUrun" CssClass="" runat="server">
+                        <!-- --------------------------------teset--------------------------------- -->
+
+                       
+                        <!-- ----------------------------------------------------------------------- -->
+                        <div>
                             <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
-                            <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; margin:10% 0% 10% 5%" runat="server">
-                                <asp:Label style="display:block" ID="Label3" runat="server" Text="Label"></asp:Label>
-                                <asp:Label style="display:block" ID="Label5" runat="server" Text="Label"></asp:Label>
-                            </asp:Panel>
-                            <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
-                            <asp:TextBox ID="Adet" style="float:right; margin-right:30%; font-size:1.3em;" runat="server" TextMode="Number" Width="30%" ></asp:TextBox>
-                        </asp:Panel>
+                            <div class="sepetimyazilar" style="display:block; margin:10% 0% 10% 5%" >
+                                <p style="display:block">Pırasa</p>
+                                <p style="display:block">Pırasa</p>
+                            </div>
+                           <img class="sepetimcarpi " src="/resimler/111.PNG">  
+                            <form action="/WebForm1.aspx">
+                              <input style="float:right; margin-right:30%; font-size:1.3em;  Width=30%"  type="number" name="quantity" min="1" max="9">
+                                <input type="submit">
+                              </form>
+                            
+                        </div>
 
                     </asp:Panel>
                    
