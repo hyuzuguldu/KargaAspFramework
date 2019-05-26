@@ -109,3 +109,4 @@ C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\ob
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.csproj.CopyComplete
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.dll
 C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.pdb
+C:\Users\Canavar\source\repos\KargaAspFramework\KargaAspFramework\KargaAspNew\obj\Debug\KargaAspNew.csprojAssemblyReference.cache

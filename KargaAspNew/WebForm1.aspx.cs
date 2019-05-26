@@ -9,7 +9,7 @@ namespace KargaAspNew
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        Service1Client Client = new Service1Client();
+       // Service1Client Client = new Service1Client();
 
 
         void SolMenuAcKapa() {
