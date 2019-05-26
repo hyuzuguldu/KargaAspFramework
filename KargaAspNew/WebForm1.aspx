@@ -235,6 +235,7 @@
                             </select>
                             <h4>Adet</h4>
                             <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
+                            <asp:Button ID="SepeteEkle" runat="server" Text="Sepete Ekle" OnClick="SepeteEkle_Click" />
                         </div>
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->

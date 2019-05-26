@@ -97,13 +97,15 @@ namespace KargaAspNew
         }
 
         int sepetsayac = 1;
+        string eklenecek_kod = " <div>                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <div class=\"sepetimyazilar\" style=\"display:block; margin:10% 0% 10% 5%\" >                                <p style=\"display:block\">Pırasa</p>                                <p style=\"display:block\">Pırasa</p>                            </div>                           <img class=\"sepetimcarpi \" src=\"/resimler/111.PNG\">                              <form action=\"/WebForm1.aspx\">                              <input style=\"float:right; margin-right:30%; font-size:1.3em;  Width=30%\"  type=\"number\" name=\"quantity\" min=\"1\" max=\"9\">                                <input type=\"submit\">                              </form>                                                    </div>   ";
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
             //Response.Write("<script>alert('" + "msg" + "')</script>");  yorumları kaldırabilirsin çoğu çalışıyor
 
 
-            string eklenecek_kod = " <div>                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <div class=\"sepetimyazilar\" style=\"display:block; margin:10% 0% 10% 5%\" >                                <p style=\"display:block\">Pırasa</p>                                <p style=\"display:block\">Pırasa</p>                            </div>                           <img class=\"sepetimcarpi \" src=\"/resimler/111.PNG\">                              <form action=\"/WebForm1.aspx\">                              <input style=\"float:right; margin-right:30%; font-size:1.3em;  Width=30%\"  type=\"number\" name=\"quantity\" min=\"1\" max=\"9\">                                <input type=\"submit\">                              </form>                                                    </div>   ";
+            
             string arttılmıs=Idarttırıcı(eklenecek_kod);
 
             
@@ -117,10 +119,16 @@ namespace KargaAspNew
 
         }
 
-        
 
-             protected void sepetbuton_click(object sender, EventArgs e)
+        
+             protected void SepeteEkle_Click(object sender, EventArgs e)
         {
+            gorunurgorunmez(Sepetim);
+
+        }
+        protected void sepetbuton_click(object sender, EventArgs e)
+        {
+            SepetimUrunler.Controls.Add(new LiteralControl(eklenecek_kod));
             gorunurgorunmez(Sepetim);
 
         }
