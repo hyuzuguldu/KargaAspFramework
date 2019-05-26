@@ -118,7 +118,7 @@
                             </asp:Panel>
                             <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
                           
-                            
+                            <asp:TextBox ID="Adet" style="float:right; margin-right:30%; font-size:1.3em;" runat="server" TextMode="Number" Width="30%" ></asp:TextBox>
                         </asp:Panel>
                     </asp:Panel>
                    
