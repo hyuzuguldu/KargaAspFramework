@@ -117,7 +117,18 @@ namespace KargaAspNew
 
         }
 
-    
+        
+
+             protected void sepetbuton_click(object sender, EventArgs e)
+        {
+            gorunurgorunmez(Sepetim);
+
+        }
+        protected void sepetim3cizgi(object sender, EventArgs e)
+        {
+            gorunurgorunmez(Sepetim);
+
+        }
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
            // Client.giris(Mail.Text, password.Text);

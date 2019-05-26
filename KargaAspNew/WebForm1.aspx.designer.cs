@@ -130,13 +130,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Uye_ol;
         
         /// <summary>
-        /// Panel4 denetimi.
+        /// Sepetim denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
+        protected global::System.Web.UI.WebControls.Panel Sepetim;
         
         /// <summary>
         /// ImageButton1 denetimi.
@@ -400,13 +400,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
         
         /// <summary>
-        /// ImageButton5 denetimi.
+        /// sepetbuton denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
+        protected global::System.Web.UI.WebControls.ImageButton sepetbuton;
         
         /// <summary>
         /// ImageButton6 denetimi.

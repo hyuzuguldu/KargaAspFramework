@@ -95,11 +95,11 @@
 
                 </asp:Panel>
                  <!-- ------------------------------------sepetim---------------------------------------------- -->
-                <asp:Panel ID="Panel4" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                <asp:Panel ID="Sepetim" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems mavirenk">
 
                         <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sepetim3cizgi" ImageAlign="NotSet" />
                         </div>
 
                         <asp:Panel ID="Panel6" CssClass="columnside beyaz " style="display:inline;" runat="server">
@@ -282,7 +282,7 @@
                             </div>
 
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton5" runat="server" Height="60px" ImageUrl="~/resimler/sepetim.bmp" Width="70px" /> &nbsp;
+                                <asp:ImageButton ID="sepetbuton" runat="server" Height="60px" ImageUrl="~/resimler/sepetim.bmp" Width="70px"  OnClick="sepetbuton_click" /> &nbsp;
                             </div>
 
                             <div class="column">
