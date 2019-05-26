@@ -82,10 +82,15 @@ namespace KargaAspNew
         {
            // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
             Response.Write("<script>alert('" + "msg" + "')</script>");
-            string eklenecek_kod = " <img src=\"/resimler/deadpoolfigur.jpg\" > ";
+
+
+            string eklenecek_kod = "       <asp:Panel ID=\"SepetimTekUrun\" CssClass=\"\" runat=\"server\">                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <asp:Panel ID=\"yazilar\" class=\"sepetimyazilar \" style=\"display:block; margin:10% 0% 10% 5%\" runat=\"server\">                                <asp:Label style=\"display:block\" ID=\"Label3\" runat=\"server\" Text=\"Label\"></asp:Label>                                <asp:Label style=\"display:block\" ID=\"Label5\" runat=\"server\" Text=\"Label\"></asp:Label>                            </asp:Panel>                            <asp:ImageButton ID=\"Carpi\" class=\"sepetimcarpi \" runat=\"server\" ImageUrl=\"~/resimler/111.PNG\" />                                <asp:TextBox ID=\"Adet\" style=\"float:right; margin-right:30%; font-size:1.3em;\" runat=\"server\" TextMode=\"Number\" Width=\"30%\" ></asp:TextBox>                        </asp:Panel>           ";
+
+
             Panel4.Controls.Add(new LiteralControl(eklenecek_kod));
         }
 
+    
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
            // Client.giris(Mail.Text, password.Text);
