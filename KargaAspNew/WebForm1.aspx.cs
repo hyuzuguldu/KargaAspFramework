@@ -9,7 +9,7 @@ namespace KargaAspNew
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-       // Service1Client Client = new Service1Client();
+        // Service1Client Client = new Service1Client();
 
 
         void SolMenuAcKapa() {
@@ -25,22 +25,40 @@ namespace KargaAspNew
             }
         }
 
-        
+
         void gorunurgorunmez(Panel panelim) {
             string paneliminCssSınıfı = panelim.CssClass;
-            
+
             if (paneliminCssSınıfı.Contains("gorunur"))
             {
-                panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez") ;
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez");
 
             }
             else if (paneliminCssSınıfı.Contains("gorunmez"))
             {
-                panelim.CssClass = paneliminCssSınıfı.Replace("gorunmez", "gorunur")  ;
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunmez", "gorunur");
 
             }
 
         }
+        int sayac = 1;
+        string Idarttırıcı (string degisecek)
+        {
+            int start1 = 0;
+            string kalankisim = degisecek;
+            while (kalankisim.Contains("ID=")) {
+                int Idninyeri = degisecek.IndexOf("ID=", start1);
+                int Tırnakyeri = degisecek.IndexOf("\"", Idninyeri);
+                start1 = Tırnakyeri;
+                string aranacak = degisecek.Substring(Idninyeri, Tırnakyeri - Idninyeri + 3);
+                kalankisim = degisecek.Substring(Tırnakyeri);
+                degisecek.Replace(aranacak, aranacak + sayac.ToString());
+
+            }
+            return degisecek;
+        }
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
            // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
@@ -81,13 +99,13 @@ namespace KargaAspNew
         protected void Button1_Click(object sender, EventArgs e)
         {
            // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
-            Response.Write("<script>alert('" + "msg" + "')</script>");
+            //Response.Write("<script>alert('" + "msg" + "')</script>"); tüm yorumları kaldırabilirsin çalışıyorlar
 
 
             string eklenecek_kod = "       <asp:Panel ID=\"SepetimTekUrun\" CssClass=\"\" runat=\"server\">                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <asp:Panel ID=\"yazilar\" class=\"sepetimyazilar \" style=\"display:block; margin:10% 0% 10% 5%\" runat=\"server\">                                <asp:Label style=\"display:block\" ID=\"Label3\" runat=\"server\" Text=\"Label\"></asp:Label>                                <asp:Label style=\"display:block\" ID=\"Label5\" runat=\"server\" Text=\"Label\"></asp:Label>                            </asp:Panel>                            <asp:ImageButton ID=\"Carpi\" class=\"sepetimcarpi \" runat=\"server\" ImageUrl=\"~/resimler/111.PNG\" />                                <asp:TextBox ID=\"Adet\" style=\"float:right; margin-right:30%; font-size:1.3em;\" runat=\"server\" TextMode=\"Number\" Width=\"30%\" ></asp:TextBox>                        </asp:Panel>           ";
+            string arttılmıs=Idarttırıcı(eklenecek_kod);
 
-
-            Panel4.Controls.Add(new LiteralControl(eklenecek_kod));
+            SepetimUrunler.Controls.Add(new LiteralControl(arttılmıs));
         }
 
     
