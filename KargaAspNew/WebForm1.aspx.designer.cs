@@ -175,13 +175,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel SepetimTekUrun;
         
         /// <summary>
-        /// Panel7 denetimi.
+        /// yazilar denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel7;
+        protected global::System.Web.UI.WebControls.Panel yazilar;
         
         /// <summary>
         /// Label3 denetimi.
@@ -200,6 +200,15 @@ namespace KargaAspNew {
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// Carpi denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton Carpi;
         
         /// <summary>
         /// Panel1 denetimi.

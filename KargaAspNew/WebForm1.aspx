@@ -108,15 +108,15 @@
 
                     </div>
 
-                    <asp:Panel ID="SepetimUrunler" runat="server">
-                        <asp:Panel ID="SepetimTekUrun" runat="server">
+                    <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
+                        <asp:Panel ID="SepetimTekUrun" CssClass="" runat="server">
 
-                            <img class="sepetimresim" src="/resimler/deadpoolfigur.jpg" > 
-                            <asp:Panel ID="Panel7" class="sepetimyazilar" runat="server">
-                                <asp:Label  ID="Label3" runat="server" Text="Label"></asp:Label>
-                                <asp:Label  ID="Label5" runat="server" Text="Label"></asp:Label>
+                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; margin:10% 0% 10% 5%" runat="server">
+                                <asp:Label style="display:block" ID="Label3" runat="server" Text="Label"></asp:Label>
+                                <asp:Label style="display:block" ID="Label5" runat="server" Text="Label"></asp:Label>
                             </asp:Panel>
-                                
+                            <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
                           
                             
                         </asp:Panel>
