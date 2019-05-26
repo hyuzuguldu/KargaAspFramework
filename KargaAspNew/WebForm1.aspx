@@ -49,7 +49,7 @@
 
                 <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
 
-                <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                <asp:Panel ID="sidenavsag" runat="server" CssClass="sidenavright dropdown-content gorunmez">
                     <div class="rowside sideitems mavirenk">
 
                         <div class="columnside " style="display:inline;">
@@ -94,6 +94,41 @@
                     </div>
 
                 </asp:Panel>
+                 <!-- ------------------------------------sepetim---------------------------------------------- -->
+                <asp:Panel ID="Panel4" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                    <div class="rowside sideitems mavirenk">
+
+                        <div class="columnside " style="display:inline;">
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
+                        </div>
+
+                        <asp:Panel ID="Panel6" CssClass="columnside beyaz " style="display:inline;" runat="server">
+                            <h3 style=""> Giriş yap  </h3>
+                        </asp:Panel>
+
+                    </div>
+
+                    <asp:Panel ID="SepetimUrunler" runat="server">
+                        <asp:Panel ID="SepetimTekUrun" runat="server">
+
+                            <img class="sepetimresim" src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Panel ID="Panel7" class="sepetimyazilar" runat="server">
+                                <asp:Label  ID="Label3" runat="server" Text="Label"></asp:Label>
+                                <asp:Label  ID="Label5" runat="server" Text="Label"></asp:Label>
+                            </asp:Panel>
+                                
+                          
+                            
+                        </asp:Panel>
+                    </asp:Panel>
+                   
+
+
+                    </asp:ListBox>
+
+                </asp:Panel>
+
+
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 

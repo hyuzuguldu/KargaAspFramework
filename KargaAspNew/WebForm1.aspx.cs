@@ -82,6 +82,8 @@ namespace KargaAspNew
         {
            // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
             Response.Write("<script>alert('" + "msg" + "')</script>");
+            string eklenecek_kod = " <img src=\"/resimler/deadpoolfigur.jpg\" > ";
+            Panel4.Controls.Add(new LiteralControl(eklenecek_kod));
         }
 
         protected void Giris_yap_Click(object sender, EventArgs e)
