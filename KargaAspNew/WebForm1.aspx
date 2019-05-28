@@ -6,7 +6,7 @@
 
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title></title>
         <link href="StyleSheet1.css" rel="stylesheet" />
     </head>
@@ -94,7 +94,7 @@
                     </div>
 
                 </asp:Panel>
-                 <!-- ------------------------------------sepetim---------------------------------------------- -->
+                <!-- ------------------------------------sepetim---------------------------------------------- -->
                 <asp:Panel ID="Sepetim" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems mavirenk">
                         <div class="columnside " style="display:inline;">
@@ -108,45 +108,40 @@
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
                         <asp:Panel ID="SepetimTekUrun" CssClass="SepetimTekUrun" runat="server">
-                            <asp:Image ID="sepetimresim1"  CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
-                            
+                            <asp:Image ID="sepetimresim1" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
+
                             <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat" runat="server" Text="30 Lira "></asp:Label>
                                 <asp:Label style="display:block" ID="urunadi" runat="server" Text=" marvel T-shirt"></asp:Label>
-                                 <asp:Label style="display:block" ID="adet" runat="server" Text=" 1 adet"></asp:Label>
+                                <asp:Label style="display:block" ID="adet" runat="server" Text=" 1 adet"></asp:Label>
                             </asp:Panel>
-                            <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
-                            
+                            <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
+
                         </asp:Panel>
                         <asp:Panel ID="SepetimTekUrun2" CssClass="SepetimTekUrun" runat="server">
-                            <asp:Image ID="sepetimresim2"  CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
+                            <asp:Image ID="sepetimresim2" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
                             <asp:Panel ID="yazilar2" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat2" runat="server" Text="30 Lira "></asp:Label>
                                 <asp:Label style="display:block" ID="urunadi2" runat="server" Text=" marvel T-shirt"></asp:Label>
                                 <asp:Label style="display:block" ID="adet2" runat="server" Text=" 1 adet"></asp:Label>
                             </asp:Panel>
-                            <asp:ImageButton ID="Carpi2" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" /> 
+                            <asp:ImageButton ID="Carpi2" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
                         </asp:Panel>
                         <asp:Panel ID="sepetimresim3" CssClass="SepetimTekUrun gorunur" runat="server">
-                           <asp:Image ID="Image3"  CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
+                            <asp:Image ID="Image3" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
                             <asp:Panel ID="yazilar3" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat3" runat="server" Text="30 Lira "></asp:Label>
                                 <asp:Label style="display:block" ID="urunadi3" runat="server" Text=" marvel T-shirt"></asp:Label>
                                 <asp:Label style="display:block" ID="adet3" runat="server" Text=" 1 adet"></asp:Label>
                             </asp:Panel>
-                            <asp:ImageButton ID="Carpi3" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />  
+                            <asp:ImageButton ID="Carpi3" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
                         </asp:Panel>
-                        
 
                     </asp:Panel>
-                   
-
 
                     <asp:Button ID="satinal" runat="server" Text="Satın al " />
 
                 </asp:Panel>
-
-
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
@@ -192,7 +187,7 @@
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="ImageButton7_Click"  ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" OnClick="ImageButton7_Click" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> Atatürk İmza T-Shirt</p>
@@ -220,10 +215,10 @@
 
                     </asp:Panel>
                     <!-- ------------------------Abajurlar---------------------------------------------------------- -->
-                <asp:Panel ID="Abajurlarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
-                <div class="rowanasayfa">
+                    <asp:Panel ID="Abajurlarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="gotBttn_Click" href="/WebForm2.aspx" ID="gotBttn" runat="server" Height="110px" ImageUrl="~/resimler/gameofthronesab.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="gotBttn_Click" href="/WebForm2.aspx" ID="gotBttn" runat="server" Height="110px" ImageUrl="~/resimler/gameofthronesab.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -232,9 +227,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="lotrabbttn" OnClick="lotrabbttn_Click" runat="server" Height="110px" ImageUrl="~/resimler/lotrab.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="lotrabbttn" OnClick="lotrabbttn_Click" runat="server" Height="110px" ImageUrl="~/resimler/lotrab.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -243,9 +238,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" OnClick="swabbttn_Click" ID="swabbttn" runat="server" Height="110px" ImageUrl="~/resimler/starwarsab.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" OnClick="swabbttn_Click" ID="swabbttn" runat="server" Height="110px" ImageUrl="~/resimler/starwarsab.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -254,9 +249,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="okulabbttn_Click" href="/WebForm2.aspx" ID="okulabbttn" runat="server" Height="110px" ImageUrl="~/resimler/okulab.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="okulabbttn_Click" href="/WebForm2.aspx" ID="okulabbttn" runat="server" Height="110px" ImageUrl="~/resimler/okulab.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -266,10 +261,10 @@
                         </div>
                     </asp:Panel>
                     <!-- ------------------------anahtarlıklar---------------------------------------------------------- -->
-                 <asp:Panel ID="anahtarliklarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
-                <div class="rowanasayfa">
+                    <asp:Panel ID="anahtarliklarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="anbttn_Click"   href="/WebForm2.aspx" ID="anbttn" runat="server" Height="110px" ImageUrl="~/resimler/934an.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="anbttn_Click" href="/WebForm2.aspx" ID="anbttn" runat="server" Height="110px" ImageUrl="~/resimler/934an.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -278,9 +273,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="grootanbttn_Click"   href="/WebForm2.aspx" ID="grootanbttn" runat="server" Height="110px" ImageUrl="~/resimler/babygrootan.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="grootanbttn_Click" href="/WebForm2.aspx" ID="grootanbttn" runat="server" Height="110px" ImageUrl="~/resimler/babygrootan.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -289,9 +284,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="temelrbttn_Click"   href="/WebForm2.aspx" ID="temelrbttn" runat="server" Height="110px" ImageUrl="~/resimler/temelreisan.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="temelrbttn_Click" href="/WebForm2.aspx" ID="temelrbttn" runat="server" Height="110px" ImageUrl="~/resimler/temelreisan.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -300,9 +295,9 @@
                             </div>
                         </div>
 
-                <div class="rowanasayfa">
+                        <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="captainanbttn_Click"   href="/WebForm2.aspx" ID="captainanbttn" runat="server" Height="110px" ImageUrl="~/resimler/captainamericaan.jpg" Width="110px"  />
+                                <asp:ImageButton CssClass="center" OnClick="captainanbttn_Click" href="/WebForm2.aspx" ID="captainanbttn" runat="server" Height="110px" ImageUrl="~/resimler/captainamericaan.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
@@ -310,7 +305,7 @@
                                 <p>15 lira</p>
                             </div>
                         </div>
-                     </asp:Panel>
+                    </asp:Panel>
 
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
@@ -328,7 +323,7 @@
                             <h4> Kategori  </h4>
 
                             <asp:Label CssClass="" ID="Label4" runat="server" Text="T-shirt Erkek"></asp:Label>
-                            
+
                             <h4>Adet</h4>
                             <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
                             <asp:Button ID="SepeteEkle" runat="server" Text="Sepete Ekle" OnClick="SepeteEkle_Click" />
@@ -336,7 +331,7 @@
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
 
-                    <asp:Panel ID="yeniuyeol"  cssClass="gorunmez"  runat="server">
+                    <asp:Panel ID="yeniuyeol" cssClass="gorunmez" runat="server">
 
                         <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
                         <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
@@ -351,7 +346,7 @@
                                 alert("I am an alert box!");
                             }
                         </script>
-                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol"  />
+                        <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" />
 
                     </asp:Panel>
 
@@ -379,7 +374,7 @@
                             </div>
 
                             <div class="column">
-                                <asp:ImageButton ID="sepetbuton" runat="server" Height="60px" ImageUrl="~/resimler/sepetim.bmp" Width="70px"  OnClick="sepetbuton_click" /> &nbsp;
+                                <asp:ImageButton ID="sepetbuton" runat="server" Height="60px" ImageUrl="~/resimler/sepetim.bmp" Width="70px" OnClick="sepetbuton_click" /> &nbsp;
                             </div>
 
                             <div class="column">
