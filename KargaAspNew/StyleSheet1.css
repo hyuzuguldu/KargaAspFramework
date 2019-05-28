@@ -40,11 +40,16 @@ h2 {
 .sepetimresim {
     float: left;
     width: 35%;
+    margin-bottom: 10%;
+}
+.SepetimTekUrun{
+    float:left;
 
 }
 .sepetimyazilar {
     float: left;
     width: 50%;
+    margin: 2% 0% 10% 5%
 }
 .sepetimcarpi {
     float: left;

@@ -107,14 +107,33 @@
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                        <asp:Panel ID="SepetimTekUrun" CssClass="" runat="server">
+                        <asp:Panel ID="SepetimTekUrun" CssClass="SepetimTekUrun" runat="server">
                             <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
-                            <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; margin:10% 0% 10% 5%" runat="server">
+                            <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat" runat="server" Text="30 Lira "></asp:Label>
                                 <asp:Label style="display:block" ID="urunadi" runat="server" Text=" marvel T-shirt"></asp:Label>
+                                 <asp:Label style="display:block" ID="adet" runat="server" Text=" 1 adet"></asp:Label>
                             </asp:Panel>
                             <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
-                            <asp:TextBox ID="Adet" style="float:right; margin-right:30%; font-size:1.3em;" runat="server" TextMode="Number" Width="30%" ></asp:TextBox>
+                            
+                        </asp:Panel>
+                        <asp:Panel ID="SepetimTekUrun2" CssClass="SepetimTekUrun" runat="server">
+                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Panel ID="yazilar2" class="sepetimyazilar " style="display:block; " runat="server">
+                                <asp:Label style="display:block" ID="fiyat2" runat="server" Text="30 Lira "></asp:Label>
+                                <asp:Label style="display:block" ID="urunadi2" runat="server" Text=" marvel T-shirt"></asp:Label>
+                                <asp:Label style="display:block" ID="adet2" runat="server" Text=" 1 adet"></asp:Label>
+                            </asp:Panel>
+                            <asp:ImageButton ID="Carpi2" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" /> 
+                        </asp:Panel>
+                        <asp:Panel ID="SepetimTekUrun3" CssClass="SepetimTekUrun gorunur" runat="server">
+                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Panel ID="yazilar3" class="sepetimyazilar " style="display:block; " runat="server">
+                                <asp:Label style="display:block" ID="fiyat3" runat="server" Text="30 Lira "></asp:Label>
+                                <asp:Label style="display:block" ID="urunadi3" runat="server" Text=" marvel T-shirt"></asp:Label>
+                                <asp:Label style="display:block" ID="adet3" runat="server" Text=" 1 adet"></asp:Label>
+                            </asp:Panel>
+                            <asp:ImageButton ID="Carpi3" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />  
                         </asp:Panel>
                         
 
