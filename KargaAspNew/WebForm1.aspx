@@ -108,7 +108,8 @@
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
                         <asp:Panel ID="SepetimTekUrun" CssClass="SepetimTekUrun" runat="server">
-                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Image ID="sepetimresim1"  CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
+                            
                             <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat" runat="server" Text="30 Lira "></asp:Label>
                                 <asp:Label style="display:block" ID="urunadi" runat="server" Text=" marvel T-shirt"></asp:Label>
