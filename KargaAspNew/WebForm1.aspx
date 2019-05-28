@@ -99,13 +99,11 @@
                     <div class="rowside sideitems mavirenk">
 
                         <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sepetim3cizgi" ImageAlign="NotSet" />
+                            <asp:ImageButton ID="Sepetim3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sepetim3cizgi" ImageAlign="NotSet" />
                         </div>
-
                         <asp:Panel ID="Panel6" CssClass="columnside beyaz " style="display:inline;" runat="server">
-                            <h3 style=""> Giriş yap  </h3>
+                            <h3 style=""> Sepetim </h3>
                         </asp:Panel>
-
                     </div>
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">

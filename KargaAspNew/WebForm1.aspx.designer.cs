@@ -139,13 +139,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel Sepetim;
         
         /// <summary>
-        /// ImageButton1 denetimi.
+        /// Sepetim3cizgi denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.ImageButton Sepetim3cizgi;
         
         /// <summary>
         /// Panel6 denetimi.
