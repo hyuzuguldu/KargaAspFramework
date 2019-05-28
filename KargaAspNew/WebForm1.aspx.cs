@@ -196,6 +196,11 @@ namespace KargaAspNew
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
         }
 
+        protected void gotBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            
+        }
+
         protected void ImageButton10_Click(object sender, ImageClickEventArgs e)
         {
             int inx = indbul(ImageButton10.ImageUrl);

@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -97,36 +97,18 @@
                  <!-- ------------------------------------sepetim---------------------------------------------- -->
                 <asp:Panel ID="Sepetim" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems mavirenk">
-
                         <div class="columnside " style="display:inline;">
                             <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sepetim3cizgi" ImageAlign="NotSet" />
                         </div>
-
                         <asp:Panel ID="Panel6" CssClass="columnside beyaz " style="display:inline;" runat="server">
                             <h3 style=""> Giriş yap  </h3>
                         </asp:Panel>
-
                     </div>
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                        <!-- --------------------------------teset--------------------------------- -->
-
                        
-                        <!-- ----------------------------------------------------------------------- -->
-                        <div>
-                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
-                            <div class="sepetimyazilar" style="display:block; margin:10% 0% 10% 5%" >
-                                <p style="display:block">Pırasa</p>
-                                <p style="display:block">Pırasa</p>
-                            </div>
-                           <img class="sepetimcarpi " src="/resimler/111.PNG">  
-                            <form action="/WebForm1.aspx">
-                              <input style="float:right; margin-right:30%; font-size:1.3em;  Width=30%"  type="number" name="quantity" min="1" max="9">
-                                <input type="submit">
-                              </form>
-                            
-                        </div>
+                        
 
                     </asp:Panel>
                    
