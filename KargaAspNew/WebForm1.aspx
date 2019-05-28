@@ -108,33 +108,10 @@
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                        <!-- --------------------------------teset--------------------------------- -->
+                        </asp:Panel>
+                    </asp:Panel>
 
                        
-                        <!-- ----------------------------------------------------------------------- -->
-                        <div>
-                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
-                            <div class="sepetimyazilar" style="display:block; margin:10% 0% 10% 5%" >
-                                <p style="display:block">Pırasa</p>
-                                <p style="display:block">Pırasa</p>
-                            </div>
-                           <img class="sepetimcarpi " src="/resimler/111.PNG">  
-                            <form action="/WebForm1.aspx">
-                              <input style="float:right; margin-right:30%; font-size:1.3em;  Width=30%"  type="number" name="quantity" min="1" max="9">
-                                <input type="submit">
-                              </form>
-                            
-                        </div>
-
-                    </asp:Panel>
-                   
-
-
-                   
-
-                </asp:Panel>
-
-
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
