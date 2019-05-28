@@ -19,23 +19,47 @@ namespace KargaAspNew
             public string urunaciklamasi;
 
         }
-        public List<Urunler> UrunList = new List<Urunler>()
+        public List<Urunler> UrunList = new List<Urunler>() {
+   new Urunler() {
+     ad = "Marvel Tshirt", fiyat = 30, imagesource = "~/resimler/marveltshirt.jpg"
+    },
+    new Urunler() {
+     ad = "Atatürk İmza Tshirt", fiyat = 30, imagesource = "~/resimler/imzatshirt.jpg"
+    },
+    new Urunler() {
+     ad = "Star Gece Lambası", fiyat = 35, imagesource = "~/resimler/stargecelambasi.jpg"
+    },
+    new Urunler() {
+     ad = "Deadpool Figur", fiyat = 75, imagesource = "~/resimler/deadpoolfigur.jpg"
+    },
+    new Urunler() {
+     ad = "Game of Thrones Abajur", fiyat = 70, imagesource = "~/resimler/gameofthronesab.jpg"
+    },
+    new Urunler() {
+     ad = "LOTR Abajur", fiyat = 70, imagesource = "~/resimler/lotrab.jpg"
+    },
+    new Urunler() {
+     ad = "StarWars Abajur", fiyat = 70, imagesource = "~/resimler/starwarsab.jpg"
+    },
+    new Urunler() {
+     ad = "Okul Abajur", fiyat = 70, imagesource = "~/resimler/okulab.jpg"
+    },
+    new Urunler() {
+     ad = "934 Anahtarlık", fiyat = 15, imagesource = "~/resimler/934an.jpg"
+    },
+    new Urunler() {
+     ad = "Baby Groot Anahtarlık", fiyat = 15, imagesource = "~/resimler/babygrootan.jpg"
+    },
+    new Urunler() {
+     ad = "Temel Reis Anahtarlık", fiyat = 15, imagesource = "~/resimler/temelreisan.jpg"
+    },
+    new Urunler() {
+     ad = "Captain America Anahtarlık", fiyat = 15, imagesource = "~/resimler/captainamericaan.jpg"
+    }
+  };
+
+        void SolMenuAcKapa()
         {
-             new Urunler(){ ad="Marvel Tshirt", fiyat =30 , imagesource="~/resimler/marveltshirt.jpg" },
-             new Urunler(){ ad="Atatürk İmza Tshirt", fiyat =30 , imagesource="~/resimler/imzatshirt.jpg"  },
-             new Urunler(){ ad="Star Gece Lambası", fiyat =35 , imagesource="~/resimler/stargecelambasi.jpg" },
-             new Urunler(){ ad="Deadpool Figur", fiyat =75 , imagesource="~/resimler/deadpoolfigur.jpg" },
-             new Urunler(){ ad="Game of Thrones Abajur", fiyat =70 , imagesource="~/resimler/gameofthronesab.jpg" },
-             new Urunler(){ ad="LOTR Abajur", fiyat =70 , imagesource="~/resimler/lotrab.jpg" },
-             new Urunler(){ ad="StarWars Abajur", fiyat =70 , imagesource="~/resimler/starwarsab.jpg" },
-             new Urunler(){ ad="Okul Abajur", fiyat =70 , imagesource="~/resimler/okulab.jpg" },
-             new Urunler(){ ad="934 Anahtarlık", fiyat =15 , imagesource="~/resimler/934an.jpg" },
-             new Urunler(){ ad="Baby Groot Anahtarlık", fiyat =15 , imagesource="~/resimler/babygrootan.jpg" },
-             new Urunler(){ ad="Temel Reis Anahtarlık", fiyat =15 , imagesource="~/resimler/temelreisan.jpg"},
-             new Urunler(){ ad="Captain America Anahtarlık", fiyat =15 , imagesource="~/resimler/captainamericaan.jpg" }
-        };
-        
-        void SolMenuAcKapa() {
             if (sidebarpanel.CssClass == "sidenav dropdown-content")
             {
                 sidebarpanel.CssClass = "sidenav";
@@ -49,7 +73,8 @@ namespace KargaAspNew
         }
 
 
-        void gorunurgorunmez(Panel panelim) {
+        void gorunurgorunmez(Panel panelim)
+        {
             string paneliminCssSınıfı = panelim.CssClass;
 
             if (paneliminCssSınıfı.Contains("gorunur"))
@@ -65,7 +90,7 @@ namespace KargaAspNew
 
         }
 
-        
+
         void gorunmezyap(Panel panelim)
         {
             string paneliminCssSınıfı = panelim.CssClass;
@@ -74,7 +99,7 @@ namespace KargaAspNew
             {
                 panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez");
             }
-           
+
 
         }
         void gorunuryap(Panel panelim)
@@ -90,11 +115,12 @@ namespace KargaAspNew
 
 
         int sayac = 1;
-        string Idarttırıcı (string degisecek)
+        string Idarttırıcı(string degisecek)
         {
             int start1 = 0;
             string kalankisim = degisecek;
-            while (kalankisim.Contains("ID=")) {
+            while (kalankisim.Contains("ID="))
+            {
                 int Idninyeri = degisecek.IndexOf("ID=", start1);
                 int Tırnakyeri = degisecek.IndexOf("\"", Idninyeri);
                 start1 = Tırnakyeri;
@@ -108,7 +134,7 @@ namespace KargaAspNew
 
         protected void Page_Load(object sender, EventArgs e)
         {
-           // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
+            // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
         }
 
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
@@ -116,14 +142,14 @@ namespace KargaAspNew
             gorunurgorunmez(sidebarpanel);
         }
 
-         
+
         protected void adamresmi_Click(object sender, ImageClickEventArgs e)
         {
             gorunurgorunmez(sidenavsag);
         }
-        
 
-         protected void sidenavsag3cizgi_Click(object sender, ImageClickEventArgs e)
+
+        protected void sidenavsag3cizgi_Click(object sender, ImageClickEventArgs e)
         {
             gorunurgorunmez(sidenavsag);
         }
@@ -138,7 +164,7 @@ namespace KargaAspNew
             int inx = indbul(ImageButton9.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
-            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString()+" "+"Lira";
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
             gorunurgorunmez(urundetaypanel);
             gorunurgorunmez(anasayfaurunler);
         }
@@ -152,17 +178,17 @@ namespace KargaAspNew
 
 
         int mevcutitemsayisi = 0;
-             protected void SepeteEkle_Click(object sender, EventArgs e)
+        protected void SepeteEkle_Click(object sender, EventArgs e)
         {
-            
-           
-            
+
+
+
             gorunurgorunmez(Sepetim);
-            mevcutitemsayisi++;//ürün sayısına göre if döngüsü ekle değiştir sepetimfiyat2.text
+            mevcutitemsayisi++; //ürün sayısına göre if döngüsü ekle değiştir sepetimfiyat2.text
         }
         protected void sepetbuton_click(object sender, EventArgs e)
         {
-           
+
             gorunurgorunmez(Sepetim);
 
         }
@@ -173,20 +199,20 @@ namespace KargaAspNew
         }
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
-           // Client.giris(Mail.Text, password.Text);
+            // Client.giris(Mail.Text, password.Text);
         }
-       public int indbul(string resimurl)
-                                        {
-        for(int y= 0; y < UrunList.Count; y++)
-                                            {
-          if (UrunList.ElementAt(y).imagesource == resimurl)
-                                                {
-                                                    return y;
-                                                }               
-                
-                                            }
-                                            return 0;
-                                        }
+        public int indbul(string resimurl)
+        {
+            for (int y = 0; y < UrunList.Count; y++)
+            {
+                if (UrunList.ElementAt(y).imagesource == resimurl)
+                {
+                    return y;
+                }
+
+            }
+            return 0;
+        }
         protected void ImageButton7_Click(object sender, ImageClickEventArgs e)
         {
             int inx = indbul(ImageButton7.ImageUrl);
@@ -209,7 +235,7 @@ namespace KargaAspNew
 
         protected void gotBttn_Click(object sender, ImageClickEventArgs e)
         {
-            
+
         }
 
         protected void ImageButton10_Click(object sender, ImageClickEventArgs e)
@@ -227,7 +253,7 @@ namespace KargaAspNew
 
         }
 
-        
+
 
         protected void swabbttn_Click(object sender, ImageClickEventArgs e)
         {
@@ -273,7 +299,7 @@ namespace KargaAspNew
             gorunurgorunmez(Abajurlarpaneli);
         }
 
-        
+
         protected void Uye_ol_click(object sender, EventArgs e)
         {
             gorunmezyap(anasayfaurunler);
