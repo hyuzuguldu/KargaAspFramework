@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
         <form id="form1" runat="server">
 
             <asp:Panel ID="Panel3" runat="server">
-                <!-- --------------------------------sidenav sol-------------------------------------------------- -->
+                <!-- --------------------------------sidenav-------------------------------------------------- -->
 
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
 
@@ -33,14 +33,14 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Anahtarlıklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
+                            Anahtarlıklar
                         </div>
                     </div>
                     <hr>
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Abajurlar" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
+                            Abajurlar
                         </div>
                     </div>
                     <hr>
@@ -89,7 +89,7 @@
 
                     <div class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" OnClick="Uye_ol_click" />
+                            <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
                         </div>
                     </div>
 
@@ -220,7 +220,7 @@
 
                     </asp:Panel>
                     <!-- ------------------------Abajurlar---------------------------------------------------------- -->
-                <asp:Panel ID="Abajurlarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
+                <asp:Panel ID="Panel4" runat="server" CssClass="gorunur anasayfaurunler">
                 <div class="rowanasayfa">
                             <div class="columnanasayfa">
                                 <asp:ImageButton CssClass="center" OnClick="gotBttn_Click" href="/WebForm2.aspx" ID="gotBttn" runat="server" Height="110px" ImageUrl="~/resimler/gameofthronesab.jpg" Width="110px"  />
@@ -266,7 +266,7 @@
                         </div>
                     </asp:Panel>
                     <!-- ------------------------anahtarlıklar---------------------------------------------------------- -->
-                 <asp:Panel ID="anahtarliklarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
+                 <asp:Panel ID="Panel7" runat="server" CssClass="gorunur anasayfaurunler">
                 <div class="rowanasayfa">
                             <div class="columnanasayfa">
                                 <asp:ImageButton CssClass="center" OnClick="anbttn_Click"   href="/WebForm2.aspx" ID="anbttn" runat="server" Height="110px" ImageUrl="~/resimler/934an.jpg" Width="110px"  />
@@ -336,7 +336,7 @@
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
 
-                    <asp:Panel ID="yeniuyeol"  cssClass="gorunmez"  runat="server">
+                    <asp:Panel ID="yeniuyeol" runat="server">
 
                         <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
                         <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
