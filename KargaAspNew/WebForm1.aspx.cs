@@ -7,8 +7,19 @@ using System.Web.UI.WebControls;
 using KargaAspNew.ServiceReference1;
 namespace KargaAspNew
 {
+    
     public partial class WebForm1 : System.Web.UI.Page
     {
+
+        static int mevcutitemsayisi= 0;
+        protected void Page_Load(object sender, EventArgs e) 
+        {
+            if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
+            {
+            }
+            // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
+        }
+
         // Service1Client Client = new Service1Client();
         public class Urunler
         {
@@ -114,28 +125,24 @@ namespace KargaAspNew
         }
 
 
-        int sayac = 1;
-        string Idarttırıcı(string degisecek)
-        {
-            int start1 = 0;
-            string kalankisim = degisecek;
-            while (kalankisim.Contains("ID="))
-            {
-                int Idninyeri = degisecek.IndexOf("ID=", start1);
-                int Tırnakyeri = degisecek.IndexOf("\"", Idninyeri);
-                start1 = Tırnakyeri;
-                string aranacak = degisecek.Substring(Idninyeri, Tırnakyeri - Idninyeri + 3);
-                kalankisim = degisecek.Substring(Tırnakyeri);
-                degisecek.Replace(aranacak, aranacak + sayac.ToString());
-            }
-            return degisecek;
-        }
+        //int sayac = 1;
+        //string Idarttırıcı(string degisecek)
+        //{
+        //    int start1 = 0;
+        //    string kalankisim = degisecek;
+        //    while (kalankisim.Contains("ID="))
+        //    {
+        //        int Idninyeri = degisecek.IndexOf("ID=", start1);
+        //        int Tırnakyeri = degisecek.IndexOf("\"", Idninyeri);
+        //        start1 = Tırnakyeri;
+        //        string aranacak = degisecek.Substring(Idninyeri, Tırnakyeri - Idninyeri + 3);
+        //        kalankisim = degisecek.Substring(Tırnakyeri);
+        //        degisecek.Replace(aranacak, aranacak + sayac.ToString());
+        //    }
+        //    return degisecek;
+        //}
 
-
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
-        }
+        
 
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
         {
@@ -177,14 +184,37 @@ namespace KargaAspNew
         }
 
 
-        int mevcutitemsayisi = 0;
+        
         protected void SepeteEkle_Click(object sender, EventArgs e)
         {
+               // gorunurgorunmez(Sepetim);
+                if (mevcutitemsayisi == 0)
+                {
+                    sepetimresim1.ImageUrl = Image1.ImageUrl;
+                    fiyat.Text = Label2.Text;
+                    urunadi.Text = Label1.Text;
+                    adet.Text = TextBox1.Text.ToString();
+                    mevcutitemsayisi++;
+                }
+                else if (mevcutitemsayisi == 1)
+                {
+                    sepetimresim2.ImageUrl = Image1.ImageUrl;
+                    fiyat2.Text = Label2.Text;
+                    urunadi2.Text = Label1.Text;
+                    adet2.Text = TextBox1.Text.ToString();
+                    mevcutitemsayisi++;
 
+                }
+                else if (mevcutitemsayisi == 2)
+                {
+                    Image3.ImageUrl = Image1.ImageUrl;
+                    fiyat3.Text = Label2.Text;
+                    urunadi3.Text = Label1.Text;
+                    adet3.Text = TextBox1.Text.ToString();
+                    mevcutitemsayisi++;
 
+                }
 
-            gorunurgorunmez(Sepetim);
-            mevcutitemsayisi++; //ürün sayısına göre if döngüsü ekle değiştir sepetimfiyat2.text
         }
         protected void sepetbuton_click(object sender, EventArgs e)
         {
@@ -307,5 +337,14 @@ namespace KargaAspNew
             gorunmezyap(Abajurlarpaneli);
             gorunuryap(yeniuyeol);
         }
+        
+        protected void AnasayfaFooter_click(object sender, EventArgs e)
+        {
+            gorunmezyap(Abajurlarpaneli);
+            gorunmezyap(anahtarliklarpaneli);
+            gorunuryap(anasayfaurunler);
+        }
+
+
     }
 }

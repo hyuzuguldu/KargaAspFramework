@@ -366,7 +366,7 @@
 
                         <div class="row">
                             <div class="column">
-                                <asp:ImageButton ID="ImageButton3" runat="server" Height="60px" ImageUrl="~/resimler/anasayfa.bmp" Width="70px" /> &nbsp;
+                                <asp:ImageButton ID="AnasayfaFooter" runat="server" Height="60px" ImageUrl="~/resimler/anasayfa.bmp" Width="70px" OnClick="AnasayfaFooter_click" /> &nbsp;
                             </div>
 
                             <div class="column">
