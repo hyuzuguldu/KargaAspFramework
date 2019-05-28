@@ -107,7 +107,15 @@
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                       
+                        <asp:Panel ID="SepetimTekUrun" CssClass="" runat="server">
+                            <img class="sepetimresim " src="/resimler/deadpoolfigur.jpg" > 
+                            <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; margin:10% 0% 10% 5%" runat="server">
+                                <asp:Label style="display:block" ID="fiyat" runat="server" Text="30 Lira "></asp:Label>
+                                <asp:Label style="display:block" ID="urunadi" runat="server" Text=" marvel T-shirt"></asp:Label>
+                            </asp:Panel>
+                            <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />    
+                            <asp:TextBox ID="Adet" style="float:right; margin-right:30%; font-size:1.3em;" runat="server" TextMode="Number" Width="30%" ></asp:TextBox>
+                        </asp:Panel>
                         
 
                     </asp:Panel>
