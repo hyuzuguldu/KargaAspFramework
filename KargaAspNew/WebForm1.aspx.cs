@@ -220,10 +220,7 @@ namespace KargaAspNew
 
         }
 
-        protected void gotBttn_Click(object sender, ImageClickEventArgs e)
-        {
-
-        }
+        
 
         protected void swabbttn_Click(object sender, ImageClickEventArgs e)
         {
