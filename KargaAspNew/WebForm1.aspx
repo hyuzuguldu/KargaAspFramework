@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -40,7 +40,7 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            Takılar
+                            Abajurlar
                         </div>
                     </div>
                     <hr>
@@ -146,18 +146,18 @@
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/captainamericatshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/marveltshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
-                                <p>Captain America T-Shirt</p>
-                                <p>45 lira</p>
+                                <p>Marvel T-Shirt</p>
+                                <p>30 lira</p>
                             </div>
                         </div>
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" OnClick="ImageButton7_Click"  ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> Atatürk İmza T-Shirt</p>
@@ -166,7 +166,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/stargecelambasi.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" OnClick="ImageButton8_Click" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/stargecelambasi.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> Star Gece Lambası</p>
@@ -175,7 +175,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton10" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" ID="ImageButton10" OnClick="ImageButton10_Click" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> DeadPool Figürü</p>
@@ -184,6 +184,99 @@
                         </div>
 
                     </asp:Panel>
+                    <!-- ------------------------Abajurlar---------------------------------------------------------- -->
+                <asp:Panel ID="Panel4" runat="server" CssClass="gorunur anasayfaurunler">
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="gotBttn_Click" href="/WebForm2.aspx" ID="gotBttn" runat="server" Height="110px" ImageUrl="~/resimler/gameofthronesab.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Game of Thrones Abajur</p>
+                                <p>70 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="lotrabbttn" OnClick="lotrabbttn_Click" runat="server" Height="110px" ImageUrl="~/resimler/lotrab.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>LOTR Abajur</p>
+                                <p>70 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" OnClick="swabbttn_Click" ID="swabbttn" runat="server" Height="110px" ImageUrl="~/resimler/starwarsab.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Star Wars Abajur</p>
+                                <p>70 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="okulabbttn_Click" href="/WebForm2.aspx" ID="okulabbttn" runat="server" Height="110px" ImageUrl="~/resimler/okulab.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Okul Abajur</p>
+                                <p>70 lira</p>
+                            </div>
+                        </div>
+                    </asp:Panel>
+                    <!-- ------------------------anahtarlıklar---------------------------------------------------------- -->
+                 <asp:Panel ID="Panel7" runat="server" CssClass="gorunur anasayfaurunler">
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="anbttn_Click"   href="/WebForm2.aspx" ID="anbttn" runat="server" Height="110px" ImageUrl="~/resimler/934an.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>934 Anahtarlık</p>
+                                <p>15 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="grootanbttn_Click"   href="/WebForm2.aspx" ID="grootanbttn" runat="server" Height="110px" ImageUrl="~/resimler/babygrootan.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Baby Groot Anahtarlık</p>
+                                <p>15 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="temelrbttn_Click"   href="/WebForm2.aspx" ID="temelrbttn" runat="server" Height="110px" ImageUrl="~/resimler/temelreisan.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Temel Reis Anahtarlık</p>
+                                <p>15 lira</p>
+                            </div>
+                        </div>
+
+                <div class="rowanasayfa">
+                            <div class="columnanasayfa">
+                                <asp:ImageButton CssClass="center" OnClick="captainanbttn_Click"   href="/WebForm2.aspx" ID="captainanbttn" runat="server" Height="110px" ImageUrl="~/resimler/captainamericaan.jpg" Width="110px"  />
+                            </div>
+                            <div class="columnanasayfa yazikaydirma">
+
+                                <p>Captain America Anahtarlık</p>
+                                <p>15 lira</p>
+                            </div>
+                        </div>
+                     </asp:Panel>
+
                     <!-- ------------------------urundetay---------------------------------------------------------- -->
 
                     <asp:Panel CssClass="gorunmez positionRelative" ID="urundetaypanel" runat="server">
