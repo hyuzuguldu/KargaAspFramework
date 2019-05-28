@@ -89,7 +89,7 @@
 
                     <div class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" />
+                            <asp:Button CssClass="butonum" ID="Uye_ol" runat="server" Text="Yeni üye ol" BackColor="#333333" OnClick="Uye_ol_click" />
                         </div>
                     </div>
 
@@ -336,7 +336,7 @@
                     </asp:Panel>
                     <!-- ------------------------yeniüyeol---------------------------------------------------------- -->
 
-                    <asp:Panel ID="yeniuyeol" runat="server">
+                    <asp:Panel ID="yeniuyeol"  cssClass="gorunmez"  runat="server">
 
                         <asp:TextBox ID="TextBox2" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
                         <asp:TextBox ID="TextBox3" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>

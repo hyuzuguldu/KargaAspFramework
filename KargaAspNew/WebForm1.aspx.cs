@@ -281,6 +281,8 @@ namespace KargaAspNew
         {
 
         }
+
+        //gorunmez yapılması gereken herşey bir listede tutulabilinir
         protected void Anahtarliklar_Click(object sender, EventArgs e)
         {
             gorunmezyap(anasayfaurunler);
@@ -292,6 +294,15 @@ namespace KargaAspNew
             gorunmezyap(anasayfaurunler);
             gorunmezyap(anahtarliklarpaneli);
             gorunurgorunmez(Abajurlarpaneli);
+        }
+
+        
+        protected void Uye_ol_click(object sender, EventArgs e)
+        {
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(anahtarliklarpaneli);
+            gorunmezyap(Abajurlarpaneli);
+            gorunuryap(yeniuyeol);
         }
     }
 }
