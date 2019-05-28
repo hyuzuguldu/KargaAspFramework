@@ -73,7 +73,6 @@ namespace KargaAspNew
             if (paneliminCssSınıfı.Contains("gorunur"))
             {
                 panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez");
-
             }
            
 
@@ -85,7 +84,6 @@ namespace KargaAspNew
             if (paneliminCssSınıfı.Contains("gorunmez"))
             {
                 panelim.CssClass = paneliminCssSınıfı.Replace("gorunmez", "gorunur");
-
             }
 
         }
@@ -103,7 +101,6 @@ namespace KargaAspNew
                 string aranacak = degisecek.Substring(Idninyeri, Tırnakyeri - Idninyeri + 3);
                 kalankisim = degisecek.Substring(Tırnakyeri);
                 degisecek.Replace(aranacak, aranacak + sayac.ToString());
-
             }
             return degisecek;
         }
@@ -116,16 +113,12 @@ namespace KargaAspNew
 
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
         {
-
             gorunurgorunmez(sidebarpanel);
-
         }
 
          
         protected void adamresmi_Click(object sender, ImageClickEventArgs e)
         {
-
-
             gorunurgorunmez(sidenavsag);
         }
         
@@ -150,26 +143,10 @@ namespace KargaAspNew
             gorunurgorunmez(anasayfaurunler);
         }
 
-        //int sepetsayac = 1;
-        //string eklenecek_kod = " <div>                            <img class=\"sepetimresim \" src=\"/resimler/deadpoolfigur.jpg\" >                             <div class=\"sepetimyazilar\" style=\"display:block; margin:10% 0% 10% 5%\" >                                <p style=\"display:block\">Pırasa</p>                                <p style=\"display:block\">Pırasa</p>                            </div>                           <img class=\"sepetimcarpi \" src=\"/resimler/111.PNG\">                              <form action=\"/WebForm1.aspx\">                              <input style=\"float:right; margin-right:30%; font-size:1.3em;  Width=30%\"  type=\"number\" name=\"quantity\" min=\"1\" max=\"9\">                                <input type=\"submit\">                              </form>                                                    </div>   ";
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
             //Response.Write("<script>alert('" + "msg" + "')</script>");  yorumları kaldırabilirsin çoğu çalışıyor
-
-
-            
-            /*string arttılmıs=Idarttırıcı(eklenecek_kod);*/
-
-            
-            //for (int i = 0; i < sepetsayac; i++)
-            //{
-            //    SepetimUrunler.Controls.Add(new LiteralControl(eklenecek_kod));
-            //}
-            //sepetsayac++;
-            
-            
 
         }
 
@@ -198,11 +175,11 @@ namespace KargaAspNew
         {
            // Client.giris(Mail.Text, password.Text);
         }
-                                        public int indbul(string resimurl)
+       public int indbul(string resimurl)
                                         {
-                                            for(int y= 0; y < UrunList.Count; y++)
+        for(int y= 0; y < UrunList.Count; y++)
                                             {
-                                                if (UrunList.ElementAt(y).imagesource == resimurl)
+          if (UrunList.ElementAt(y).imagesource == resimurl)
                                                 {
                                                     return y;
                                                 }               
