@@ -142,7 +142,7 @@
                    
 
 
-                   
+                    <asp:Button ID="satinal" runat="server" Text="Satın al " />
 
                 </asp:Panel>
 

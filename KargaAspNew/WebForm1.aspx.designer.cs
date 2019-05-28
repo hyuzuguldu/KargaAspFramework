@@ -355,6 +355,15 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton Carpi3;
         
         /// <summary>
+        /// satinal denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button satinal;
+        
+        /// <summary>
         /// Panel1 denetimi.
         /// </summary>
         /// <remarks>

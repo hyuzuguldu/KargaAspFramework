@@ -147,12 +147,14 @@ namespace KargaAspNew
         }
 
 
-        
+        int mevcutitemsayisi = 0;
              protected void SepeteEkle_Click(object sender, EventArgs e)
         {
-            //sepetimresim1.ImageUrl =;
+            
+           
+            
             gorunurgorunmez(Sepetim);
-
+            mevcutitemsayisi++;//ürün sayısına göre if döngüsü ekle değiştir sepetimfiyat2.text
         }
         protected void sepetbuton_click(object sender, EventArgs e)
         {
