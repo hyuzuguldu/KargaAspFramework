@@ -150,7 +150,7 @@ namespace KargaAspNew
         
              protected void SepeteEkle_Click(object sender, EventArgs e)
         {
-            
+            //sepetimresim1.ImageUrl =;
             gorunurgorunmez(Sepetim);
 
         }
