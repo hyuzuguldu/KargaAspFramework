@@ -15,7 +15,7 @@
         <form id="form1" runat="server">
 
             <asp:Panel ID="Panel3" runat="server">
-                <!-- --------------------------------sidenav-------------------------------------------------- -->
+                <!-- --------------------------------sidenav sol-------------------------------------------------- -->
 
                 <asp:Panel ID="sidebarpanel" runat="server" CssClass="sidenav dropdown-content gorunmez">
 
@@ -33,14 +33,14 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            Anahtarlıklar
+                            <asp:Button ID="Anahtarlıklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
                         </div>
                     </div>
                     <hr>
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            Abajurlar
+                            <asp:Button ID="Abajurlar" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
                         </div>
                     </div>
                     <hr>
@@ -220,7 +220,7 @@
 
                     </asp:Panel>
                     <!-- ------------------------Abajurlar---------------------------------------------------------- -->
-                <asp:Panel ID="Panel4" runat="server" CssClass="gorunur anasayfaurunler">
+                <asp:Panel ID="Abajurlarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
                 <div class="rowanasayfa">
                             <div class="columnanasayfa">
                                 <asp:ImageButton CssClass="center" OnClick="gotBttn_Click" href="/WebForm2.aspx" ID="gotBttn" runat="server" Height="110px" ImageUrl="~/resimler/gameofthronesab.jpg" Width="110px"  />
@@ -266,7 +266,7 @@
                         </div>
                     </asp:Panel>
                     <!-- ------------------------anahtarlıklar---------------------------------------------------------- -->
-                 <asp:Panel ID="Panel7" runat="server" CssClass="gorunur anasayfaurunler">
+                 <asp:Panel ID="anahtarliklarpaneli" runat="server" CssClass="gorunmez anasayfaurunler">
                 <div class="rowanasayfa">
                             <div class="columnanasayfa">
                                 <asp:ImageButton CssClass="center" OnClick="anbttn_Click"   href="/WebForm2.aspx" ID="anbttn" runat="server" Height="110px" ImageUrl="~/resimler/934an.jpg" Width="110px"  />

@@ -58,6 +58,24 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton solsidenav3cizgi;
         
         /// <summary>
+        /// Anahtarlıklar denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Anahtarlıklar;
+        
+        /// <summary>
+        /// Abajurlar denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Abajurlar;
+        
+        /// <summary>
         /// sidenavsag denetimi.
         /// </summary>
         /// <remarks>
@@ -436,13 +454,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton10;
         
         /// <summary>
-        /// Panel4 denetimi.
+        /// Abajurlarpaneli denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
+        protected global::System.Web.UI.WebControls.Panel Abajurlarpaneli;
         
         /// <summary>
         /// gotBttn denetimi.
@@ -481,13 +499,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton okulabbttn;
         
         /// <summary>
-        /// Panel7 denetimi.
+        /// anahtarliklarpaneli denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel7;
+        protected global::System.Web.UI.WebControls.Panel anahtarliklarpaneli;
         
         /// <summary>
         /// anbttn denetimi.

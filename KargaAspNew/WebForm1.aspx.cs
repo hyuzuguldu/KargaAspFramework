@@ -64,6 +64,33 @@ namespace KargaAspNew
             }
 
         }
+
+        
+        void gorunmezyap(Panel panelim)
+        {
+            string paneliminCssSınıfı = panelim.CssClass;
+
+            if (paneliminCssSınıfı.Contains("gorunur"))
+            {
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunur", "gorunmez");
+
+            }
+           
+
+        }
+        void gorunuryap(Panel panelim)
+        {
+            string paneliminCssSınıfı = panelim.CssClass;
+
+            if (paneliminCssSınıfı.Contains("gorunmez"))
+            {
+                panelim.CssClass = paneliminCssSınıfı.Replace("gorunmez", "gorunur");
+
+            }
+
+        }
+
+
         int sayac = 1;
         string Idarttırıcı (string degisecek)
         {
@@ -253,6 +280,18 @@ namespace KargaAspNew
         protected void anbttn_Click(object sender, ImageClickEventArgs e)
         {
 
+        }
+        protected void Anahtarliklar_Click(object sender, EventArgs e)
+        {
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(Abajurlarpaneli);
+            gorunurgorunmez(anahtarliklarpaneli);
+        }
+        protected void Abajurlar_Click(object sender, EventArgs e)
+        {
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(anahtarliklarpaneli);
+            gorunurgorunmez(Abajurlarpaneli);
         }
     }
 }
