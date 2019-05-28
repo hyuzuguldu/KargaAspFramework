@@ -168,24 +168,26 @@ namespace KargaAspNew
         {
            // Client.giris(Mail.Text, password.Text);
         }
-        public int indbul(string resimurl)
-        {
-            for(int y= 0; y < UrunList.Count; y++)
-            {
-                if (UrunList.ElementAt(y).imagesource == resimurl)
-                {
-                    return y;
-                }               
+                                        public int indbul(string resimurl)
+                                        {
+                                            for(int y= 0; y < UrunList.Count; y++)
+                                            {
+                                                if (UrunList.ElementAt(y).imagesource == resimurl)
+                                                {
+                                                    return y;
+                                                }               
                 
-            }
-            return 0;
-        }
+                                            }
+                                            return 0;
+                                        }
         protected void ImageButton7_Click(object sender, ImageClickEventArgs e)
         {
             int inx = indbul(ImageButton7.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            gorunurgorunmez(urundetaypanel);
+            gorunurgorunmez(anasayfaurunler);
         }
 
         protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
@@ -194,6 +196,8 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            gorunurgorunmez(urundetaypanel);
+            gorunurgorunmez(anasayfaurunler);
         }
 
         protected void gotBttn_Click(object sender, ImageClickEventArgs e)
@@ -207,6 +211,48 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            gorunurgorunmez(urundetaypanel);
+            gorunurgorunmez(anasayfaurunler);
+        }
+
+        protected void lotrabbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void gotBttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void swabbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void grootanbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void temelrbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void captainanbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void okulabbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void anbttn_Click(object sender, ImageClickEventArgs e)
+        {
+
         }
     }
 }
