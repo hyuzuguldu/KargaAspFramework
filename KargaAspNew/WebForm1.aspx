@@ -244,7 +244,7 @@
 
                 </asp:Panel>
                   <!-- --------------------------------arama-------------------------------------------------- -->
-                 <asp:Panel ID="arama_panel" runat="server" CssClass="arama">
+                 <asp:Panel ID="arama_panel" runat="server" CssClass="arama gorunur">
 
                     <div class="row center boxsizing" style=" border:solid 1px #dddddd; height:40px; width:95%; margin-top:2%; margin-bottom:2%;">
                         <div class="aramacolumn">
