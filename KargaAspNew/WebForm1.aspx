@@ -340,7 +340,7 @@
 
                     </asp:Panel>
 
-                    <!-- -------------------------------Odeme adress--------------------------------------------------- -->
+                    <!-- ------------------------------- adress--------------------------------------------------- -->
                 <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
                     <asp:Panel ID="Panel7" style="display:block; width:100%; " runat="server">
                         <asp:Panel ID="Panel8" cssclass="odemetepeic" runat="server">
@@ -357,12 +357,44 @@
                         <asp:TextBox ID="odeme_Adress" cssclass="yeniuyeol adres" placeholder="Adress" runat="server"></asp:TextBox>
 
                         
-                        <asp:TextBox ID="odeme_Telefonu" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_Telefonu" cssclass="yeniuyeol" placeholder="Cep Telefonu" TextMode="Number" runat="server"></asp:TextBox>
                         <asp:TextBox ID="odeme_il" cssclass="yeniuyeol" placeholder="il" runat="server"></asp:TextBox>
                          <asp:TextBox ID="odeme_ilce" cssclass="yeniuyeol" placeholder="ilçe" runat="server"></asp:TextBox>
                         
                     <asp:TextBox ID="odeme_TC" cssclass="yeniuyeol" placeholder="TC kimlik " runat="server"></asp:TextBox>
                         <asp:Button ID="odeme_buton_devam" cssclass="butonum" OnClick="odeme_buton_devam_Click" runat="server" Text="Devam et" />
+
+                    </asp:Panel>
+                <!-- ------------------------------- odeme--------------------------------------------------- -->
+                <asp:Panel ID="Panel10" cssClass="gorunur" runat="server">
+                    <asp:Panel ID="Panel11" style="display:block; width:100%; " runat="server">
+                        <asp:Panel ID="Panel12" cssclass="odemetepeic" runat="server">
+                            <asp:Label ID="Label6" CssClass="center" runat="server" Text="Adress"></asp:Label>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel13" cssclass="odemetepeic" runat="server">
+                            <asp:Label ID="Label7" CssClass="center" runat="server" Text="Ödeme"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+                        <asp:TextBox ID="kartisim" cssclass="yeniuyeol" placeholder="Kart üstündeki isim soyisim" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="kartnumara" cssclass="yeniuyeol" placeholder="Kart numarası" runat="server" ></asp:TextBox>
+                        
+                    <asp:Panel ID="odeme_kutular" style="width:100%" runat="server">
+                        <asp:DropDownList id="ColorList"
+                            AutoPostBack="True"
+                            
+                            runat="server">
+
+                          <asp:ListItem Selected="True" Value="White"> White </asp:ListItem>
+                          <asp:ListItem Value="Silver"> Silver </asp:ListItem>
+                          <asp:ListItem Value="DarkGray"> Dark Gray </asp:ListItem>
+                          <asp:ListItem Value="Khaki"> Khaki </asp:ListItem>
+                          <asp:ListItem Value="DarkKhaki"> Dark Khaki </asp:ListItem>
+
+                       </asp:DropDownList>
+
+
+                    </asp:Panel>
+                        <asp:Button ID="Button2" cssclass="butonum" OnClick="odeme_buton_devam_Click" runat="server" Text="Devam et" />
 
                     </asp:Panel>
 
