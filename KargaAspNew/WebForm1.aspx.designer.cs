@@ -652,13 +652,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton Carpi2;
         
         /// <summary>
-        /// sepetimresim3 denetimi.
+        /// SepetimTekUrun3 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel sepetimresim3;
+        protected global::System.Web.UI.WebControls.Panel SepetimTekUrun3;
         
         /// <summary>
         /// Image3 denetimi.

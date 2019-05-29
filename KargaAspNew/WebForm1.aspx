@@ -233,7 +233,7 @@
                             </asp:Panel>
                             <asp:ImageButton ID="Carpi2" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
                         </asp:Panel>
-                        <asp:Panel ID="sepetimresim3" CssClass="SepetimTekUrun gorunmez" runat="server">
+                        <asp:Panel ID="SepetimTekUrun3" CssClass="SepetimTekUrun gorunmez" runat="server">
                             <asp:Image ID="Image3" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
                             <asp:Panel ID="yazilar3" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat3" runat="server" Text="30 Lira "></asp:Label>

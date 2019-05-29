@@ -310,6 +310,7 @@ namespace KargaAspNew
                     urunadi.Text = Label1.Text;
                     adet.Text = TextBox1.Text.ToString();
                     mevcutitemsayisi++;
+                    gorunuryap(SepetimTekUrun);
                 }
                 else if (mevcutitemsayisi == 1)
                 {
@@ -318,8 +319,8 @@ namespace KargaAspNew
                     urunadi2.Text = Label1.Text;
                     adet2.Text = TextBox1.Text.ToString();
                     mevcutitemsayisi++;
-
-                }
+                    gorunuryap(SepetimTekUrun2);
+                 }
                 else if (mevcutitemsayisi == 2)
                 {
                     Image3.ImageUrl = Image1.ImageUrl;
@@ -327,8 +328,9 @@ namespace KargaAspNew
                     urunadi3.Text = Label1.Text;
                     adet3.Text = TextBox1.Text.ToString();
                     mevcutitemsayisi++;
+                gorunuryap(SepetimTekUrun3);
 
-                }
+            }
 
         }
         protected void sepetbuton_click(object sender, EventArgs e)
