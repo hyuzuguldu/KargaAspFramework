@@ -565,7 +565,17 @@ namespace KargaAspNew
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
             gorunmezyaphepsi();
             gorunuryap(urundetaypanel);
-
+            
         }
+
+        protected void guvenli_cikis_click(object sender, EventArgs e)
+        {
+            giris_durumu = 0;
+            gorunmezyap(sagmenu_girilmis);
+        }
+
+
+
+
     }
 }

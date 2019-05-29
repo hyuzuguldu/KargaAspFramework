@@ -508,13 +508,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel Panel10;
         
         /// <summary>
-        /// ImageButton6 denetimi.
+        /// guvenli_cikis denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
+        protected global::System.Web.UI.WebControls.ImageButton guvenli_cikis;
         
         /// <summary>
         /// Panel26 denetimi.

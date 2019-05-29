@@ -199,7 +199,7 @@
 
                     <asp:Panel ID="Panel4" style="width:100%" CssClass="sagmenu_girilmis_kutu" runat="server">
                         <asp:Panel ID="Panel10" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
-                            <asp:ImageButton ID="ImageButton6" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/8.PNG" Height="50" Width="50" />
+                            <asp:ImageButton ID="guvenli_cikis" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/8.PNG" Height="50" Width="50" OnClick="guvenli_cikis_click" />
                         </asp:Panel>
                         <asp:Panel ID="Panel26" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
                             <asp:Label ID="Label23" style="float:right" cssClass="sagmenu_girilmis_yazi" runat="server" Text="Güvenli Çıkış"></asp:Label>
