@@ -221,24 +221,26 @@ namespace KargaAspNew
             }
             return 0;
         }
-        protected void ImageButton7_Click(object sender, ImageClickEventArgs e)
+        protected void anasayfa_urun_imzashirt_Click(object sender, ImageClickEventArgs e)
         {
-            int inx = indbul(ImageButton7.ImageUrl);
+            int inx = indbul(anasayfa_urun_imzashirt.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
-            gorunurgorunmez(urundetaypanel);
-            gorunurgorunmez(anasayfaurunler);
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
+           
         }
 
-        protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
+        protected void anasayfa_urun_lamba_Click(object sender, ImageClickEventArgs e)
         {
-            int inx = indbul(ImageButton8.ImageUrl);
+            int inx = indbul(anasayfa_urun_lamba.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
-            gorunurgorunmez(urundetaypanel);
-            gorunurgorunmez(anasayfaurunler);
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
+            
         }
 
         protected void gotBttn_Click(object sender, ImageClickEventArgs e)
@@ -246,14 +248,15 @@ namespace KargaAspNew
 
         }
 
-        protected void ImageButton10_Click(object sender, ImageClickEventArgs e)
+        protected void anasayfa_urun_deadpool_Click(object sender, ImageClickEventArgs e)
         {
-            int inx = indbul(ImageButton10.ImageUrl);
+            int inx = indbul(anasayfa_urun_deadpool.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
-            gorunurgorunmez(urundetaypanel);
-            gorunurgorunmez(anasayfaurunler);
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
+           
         }
 
         protected void lotrabbttn_Click(object sender, ImageClickEventArgs e)

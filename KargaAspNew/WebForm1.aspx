@@ -187,7 +187,7 @@
 
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="ImageButton7_Click" ID="ImageButton7" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" OnClick="anasayfa_urun_imzashirt_Click" ID="anasayfa_urun_imzashirt" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> Atatürk İmza T-Shirt</p>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" OnClick="ImageButton8_Click" ID="ImageButton8" runat="server" Height="110px" ImageUrl="~/resimler/stargecelambasi.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" OnClick="anasayfa_urun_lamba_Click" ID="anasayfa_urun_lamba" runat="server" Height="110px" ImageUrl="~/resimler/stargecelambasi.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> Star Gece Lambası</p>
@@ -205,7 +205,7 @@
                         </div>
                         <div class="rowanasayfa">
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" ID="ImageButton10" OnClick="ImageButton10_Click" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
+                                <asp:ImageButton CssClass="center" ID="anasayfa_urun_deadpool" OnClick="anasayfa_urun_deadpool_Click" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
                                 <p> DeadPool Figürü</p>

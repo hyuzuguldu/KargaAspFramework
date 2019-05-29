@@ -427,31 +427,31 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton9;
         
         /// <summary>
-        /// ImageButton7 denetimi.
+        /// anasayfa_urun_imzashirt denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
+        protected global::System.Web.UI.WebControls.ImageButton anasayfa_urun_imzashirt;
         
         /// <summary>
-        /// ImageButton8 denetimi.
+        /// anasayfa_urun_lamba denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton8;
+        protected global::System.Web.UI.WebControls.ImageButton anasayfa_urun_lamba;
         
         /// <summary>
-        /// ImageButton10 denetimi.
+        /// anasayfa_urun_deadpool denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton10;
+        protected global::System.Web.UI.WebControls.ImageButton anasayfa_urun_deadpool;
         
         /// <summary>
         /// Abajurlarpaneli denetimi.
