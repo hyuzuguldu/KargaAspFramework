@@ -239,8 +239,7 @@ namespace KargaAspNew
             gorunmezyap(anahtarliklarpaneli);
             gorunmezyap(Abajurlarpaneli);
             gorunmezyap(yeniuyeol);
-            gorunmezyap(anasayfaurunler);
-            gorunmezyap(anasayfaurunler);
+            gorunmezyap(urundetaypanel);
             gorunmezyap(Adress_panel);
             gorunmezyap(Odeme_panel);
 
