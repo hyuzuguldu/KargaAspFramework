@@ -107,7 +107,7 @@
 
                     <asp:Panel ID="SepetimUrunler" CssClass="" runat="server">
 
-                        <asp:Panel ID="SepetimTekUrun" CssClass="SepetimTekUrun" runat="server">
+                        <asp:Panel ID="SepetimTekUrun" CssClass="SepetimTekUrun gorunmez" runat="server">
                             <asp:Image ID="sepetimresim1" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
 
                             <asp:Panel ID="yazilar" class="sepetimyazilar " style="display:block; " runat="server">
@@ -118,7 +118,7 @@
                             <asp:ImageButton ID="Carpi" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
 
                         </asp:Panel>
-                        <asp:Panel ID="SepetimTekUrun2" CssClass="SepetimTekUrun" runat="server">
+                        <asp:Panel ID="SepetimTekUrun2" CssClass="SepetimTekUrun gorunmez" runat="server">
                             <asp:Image ID="sepetimresim2" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
                             <asp:Panel ID="yazilar2" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat2" runat="server" Text="30 Lira "></asp:Label>
@@ -127,7 +127,7 @@
                             </asp:Panel>
                             <asp:ImageButton ID="Carpi2" class="sepetimcarpi " runat="server" ImageUrl="~/resimler/111.PNG" />
                         </asp:Panel>
-                        <asp:Panel ID="sepetimresim3" CssClass="SepetimTekUrun gorunur" runat="server">
+                        <asp:Panel ID="sepetimresim3" CssClass="SepetimTekUrun gorunmez" runat="server">
                             <asp:Image ID="Image3" CssClass="sepetimresim" runat="server" ImageUrl="~/resimler/deadpoolfigur.jpg" />
                             <asp:Panel ID="yazilar3" class="sepetimyazilar " style="display:block; " runat="server">
                                 <asp:Label style="display:block" ID="fiyat3" runat="server" Text="30 Lira "></asp:Label>
