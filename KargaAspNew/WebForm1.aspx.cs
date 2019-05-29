@@ -27,6 +27,8 @@ namespace KargaAspNew
              GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
         }
 
+        // Service1Client Client = new Service1Client();
+
         public class Kullanici
         {
             public int KullaniciID { get; set; }
@@ -280,7 +282,7 @@ namespace KargaAspNew
             gorunurgorunmez(anasayfaurunler);
         }
 
-        protected void Yeni_uyeol_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
         {
             //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
            // if (guval.Text == GÜvenlik_kodu.Text)
@@ -346,6 +348,18 @@ namespace KargaAspNew
             for (int y = 0; y < UrunList.Count; y++)
             {
                 if (UrunList.ElementAt(y).imagesource == resimurl)
+                {
+                    return y;
+                }
+
+            }
+            return 0;
+        }
+        public int indbul2(string ad)
+        {
+            for (int y = 0; y < UrunList.Count; y++)
+            {
+                if (UrunList.ElementAt(y).ad == ad)
                 {
                     return y;
                 }
@@ -539,7 +553,13 @@ namespace KargaAspNew
         protected void arama_tepe_resimtus_click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
-            gorunuryap(iletisim_panel); 
+            int inx = indbul2(arama_textbox.Text);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
+
         }
     }
 }
