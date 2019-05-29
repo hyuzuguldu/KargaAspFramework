@@ -95,6 +95,19 @@ namespace KargaAspNew
 
             return "E-mail veya şifre yanlış";
         }
+        public void bilgigetir(string dısardanemail,string email, ref string ad, ref string soyad, ref long tel)
+        {
+            using (var ctx = new KargaASP())
+            {
+                //Get student name of string type
+
+                ad = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
+                email = dısardanemail;
+                soyad = ctx.Database.SqlQuery<string>("Select soyad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
+                tel= Convert.ToInt64(ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault());
+
+            }
+        }
         public void iletisimformual(string adsoyad, string email, long tel, string konu, string mesaj)
         {
             IletisimF iletisimF = new IletisimF();
@@ -344,8 +357,10 @@ namespace KargaAspNew
             gorunurgorunmez(Sepetim);
 
         }
+        string suankikullanicimail;
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
+            suankikullanicimail = Mail.Text;
             giris(Mail.Text, password.Text);
             Response.Write("<script>alert('" + giris(Mail.Text, password.Text) + "')</script>");
         }
@@ -536,8 +551,11 @@ namespace KargaAspNew
         }
         
         protected void satinal_click(object sender, EventArgs e)
-        {
+        {//ALTTAN DEVAM ET GİRİŞ YAPILMIŞ İSE O ADRES EKRANINA BİLGİLERİ GETİR AMA BİLGİGETİRDE BAZI YERLER REF KEYWORDUYLE OLACAK HABERİN OLSUN 
             gorunmezyaphepsi();
+            if(giris_durumu==1){
+               // bilgigetir(suankikullanicimail, odeme_Mail.Text, odeme_Adiniz.Text, odeme_Soyadiniz, odeme_Telefonu);
+            }
             gorunuryap(Adress_panel);
         }
 
