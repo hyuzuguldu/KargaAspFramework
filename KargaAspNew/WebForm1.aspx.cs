@@ -497,7 +497,7 @@ namespace KargaAspNew
         protected void AnasayfaFooter_click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
-            gorunmezyap(urundetaypanel);
+            
             gorunuryap(anasayfaurunler);
         }
         
