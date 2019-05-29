@@ -14,9 +14,11 @@
     <body>
         <form id="form1" runat="server">
             <div>
-
-              
-
+                <asp:Panel ID="Panel1" runat="server">
+                     <asp:Label ID="Label1"   style="display:block" runat="server" Text="merhaba"></asp:Label>
+                     <asp:Button ID="Button1" style="display:block" runat="server" Text="Button" OnClick="Button1_Click" />
+                </asp:Panel>
+               
              
 
             </div>

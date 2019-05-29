@@ -7,15 +7,27 @@ using System.Web.UI.WebControls;
 using KargaAspNew.ServiceReference1;
 namespace KargaAspNew
 {
-    
+
     public partial class WebForm1 : System.Web.UI.Page
     {
+        //hacı herseyi statik yapmak en iyisi 
+        static int mevcutitemsayisi = 0;
 
-        static int mevcutitemsayisi= 0;
+        //static Panel[] gorunmezarray = new Panel[1];
+
+        static List<Panel> gorunmezlistesi = new List<Panel>();
         protected void Page_Load(object sender, EventArgs e) 
         {
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
             {
+
+                //gorunmezarray[0] = anasayfaurunler;
+
+                gorunmezlistesi.Add(anasayfaurunler);
+                //gorunmezlistesi.Add(Abajurlarpaneli);
+                //gorunmezlistesi.Add(anahtarliklarpaneli);
+                //gorunmezlistesi.Add(anasayfaurunler);
+                //gorunmezlistesi.Add(yeniuyeol);
             }
             // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
         }
@@ -30,7 +42,7 @@ namespace KargaAspNew
             public string urunaciklamasi;
 
         }
-        public List<Urunler> UrunList = new List<Urunler>() {
+   static public List<Urunler> UrunList = new List<Urunler>() {
    new Urunler() {
      ad = "Marvel Tshirt", fiyat = 30, imagesource = "~/resimler/marveltshirt.jpg"
     },
@@ -102,7 +114,7 @@ namespace KargaAspNew
         }
 
 
-        void gorunmezyap(Panel panelim)
+        void gorunmezyap(ref Panel panelim)
         {
             string paneliminCssSınıfı = panelim.CssClass;
 
@@ -318,31 +330,40 @@ namespace KargaAspNew
         //gorunmez yapılması gereken herşey bir listede tutulabilinir
         protected void Anahtarliklar_Click(object sender, EventArgs e)
         {
-            gorunmezyap(anasayfaurunler);
-            gorunmezyap(Abajurlarpaneli);
-            gorunurgorunmez(anahtarliklarpaneli);
+            //gorunmezyap(anasayfaurunler);
+            //gorunmezyap(Abajurlarpaneli);
+            //gorunurgorunmez(anahtarliklarpaneli);
         }
         protected void Abajurlar_Click(object sender, EventArgs e)
         {
-            gorunmezyap(anasayfaurunler);
-            gorunmezyap(anahtarliklarpaneli);
-            gorunurgorunmez(Abajurlarpaneli);
+            //gorunmezyap(anasayfaurunler);
+            //gorunmezyap(anahtarliklarpaneli);
+            //gorunurgorunmez(Abajurlarpaneli);
         }
 
 
         protected void Uye_ol_click(object sender, EventArgs e)
         {
-            gorunmezyap(anasayfaurunler);
-            gorunmezyap(anahtarliklarpaneli);
-            gorunmezyap(Abajurlarpaneli);
-            gorunuryap(yeniuyeol);
+            //gorunmezyap(anasayfaurunler);
+            //gorunmezyap(anahtarliklarpaneli);
+            //gorunmezyap(Abajurlarpaneli);
+            //gorunuryap(yeniuyeol);
         }
         
         protected void AnasayfaFooter_click(object sender, EventArgs e)
         {
-            gorunmezyap(Abajurlarpaneli);
-            gorunmezyap(anahtarliklarpaneli);
-            gorunuryap(anasayfaurunler);
+            //foreach (  Panel  panelim in gorunmezlistesi)
+            //{
+            //    gorunmezyap( panelim);
+            //}
+
+            Panel deneme = gorunmezlistesi[0];
+            gorunmezyap(ref deneme);
+            anasayfaurunler = deneme;
+            //gorunmezyap(gorunmezarray[0]);
+
+            //gorunmezyap(anasayfaurunler);            
+            //gorunuryap(anasayfaurunler);
         }
 
 
