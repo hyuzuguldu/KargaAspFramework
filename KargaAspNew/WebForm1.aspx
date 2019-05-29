@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -114,6 +114,8 @@
                             <asp:Label ID="Label8" style="float:right" cssClass="sagmenu_girilmis_yazi" runat="server" Text="Üyelik Bilgilerim"></asp:Label>
                         </asp:Panel>
                     </asp:Panel>
+                    
+
 
                     <asp:Panel ID="Panel14" style="width:100%" CssClass="sagmenu_girilmis_kutu" runat="server">
                         <asp:Panel ID="Panel15" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
@@ -192,6 +194,15 @@
 
                         </asp:Panel>
 
+                    </asp:Panel>
+                    
+                    <asp:Panel ID="Panel4" style="width:100%" CssClass="sagmenu_girilmis_kutu" runat="server">
+                        <asp:Panel ID="Panel10" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                            <asp:ImageButton ID="ImageButton6" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/8.PNG" Height="50" Width="50" />
+                        </asp:Panel>
+                        <asp:Panel ID="Panel26" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                            <asp:Label ID="Label23" style="float:right" cssClass="sagmenu_girilmis_yazi" runat="server" Text="Güvenli Çıkış"></asp:Label>
+                        </asp:Panel>
                     </asp:Panel>
 
                 </asp:Panel>
