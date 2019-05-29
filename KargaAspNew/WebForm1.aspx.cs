@@ -287,7 +287,7 @@ namespace KargaAspNew
 
         protected void Yeni_uyeol_Click(object sender, EventArgs e)
         {
-            kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            //kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
             if (guval.Text == GÜvenlik_kodu.Text)
             {
                 //--------guval.text güvenlikkodu.text e eşit olsa dahi 2. else giriyor
