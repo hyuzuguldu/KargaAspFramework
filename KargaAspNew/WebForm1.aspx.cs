@@ -27,8 +27,6 @@ namespace KargaAspNew
              GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
         }
 
-        // Service1Client Client = new Service1Client();
-
         public class Kullanici
         {
             public int KullaniciID { get; set; }
@@ -282,7 +280,7 @@ namespace KargaAspNew
             gorunurgorunmez(anasayfaurunler);
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Yeni_uyeol_Click(object sender, EventArgs e)
         {
             //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
            // if (guval.Text == GÜvenlik_kodu.Text)
