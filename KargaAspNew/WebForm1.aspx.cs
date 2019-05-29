@@ -10,29 +10,21 @@ namespace KargaAspNew
 
     public partial class WebForm1 : System.Web.UI.Page
     {
-        //hacı herseyi statik yapmak en iyisi 
+        //statil olmayan herşey her tuşa baışta tekrar oluşuyor 
         static int mevcutitemsayisi = 0;
-
-        //static Panel[] gorunmezarray = new Panel[1];
-
-        static List<Panel> gorunmezlistesi = new List<Panel>();
+        
         protected void Page_Load(object sender, EventArgs e) 
         {
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
             {
-
-                //gorunmezarray[0] = anasayfaurunler;
-
-                gorunmezlistesi.Add(anasayfaurunler);
-                //gorunmezlistesi.Add(Abajurlarpaneli);
-                //gorunmezlistesi.Add(anahtarliklarpaneli);
-                //gorunmezlistesi.Add(anasayfaurunler);
-                //gorunmezlistesi.Add(yeniuyeol);
+                
             }
             // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
         }
 
         // Service1Client Client = new Service1Client();
+       
+        
         public class Urunler
         {
             public string ad;
@@ -42,59 +34,44 @@ namespace KargaAspNew
             public string urunaciklamasi;
 
         }
-   static public List<Urunler> UrunList = new List<Urunler>() {
-   new Urunler() {
-     ad = "Marvel Tshirt", fiyat = 30, imagesource = "~/resimler/marveltshirt.jpg"
-    },
-    new Urunler() {
-     ad = "Atatürk İmza Tshirt", fiyat = 30, imagesource = "~/resimler/imzatshirt.jpg"
-    },
-    new Urunler() {
-     ad = "Star Gece Lambası", fiyat = 35, imagesource = "~/resimler/stargecelambasi.jpg"
-    },
-    new Urunler() {
-     ad = "Deadpool Figur", fiyat = 75, imagesource = "~/resimler/deadpoolfigur.jpg"
-    },
-    new Urunler() {
-     ad = "Game of Thrones Abajur", fiyat = 70, imagesource = "~/resimler/gameofthronesab.jpg"
-    },
-    new Urunler() {
-     ad = "LOTR Abajur", fiyat = 70, imagesource = "~/resimler/lotrab.jpg"
-    },
-    new Urunler() {
-     ad = "StarWars Abajur", fiyat = 70, imagesource = "~/resimler/starwarsab.jpg"
-    },
-    new Urunler() {
-     ad = "Okul Abajur", fiyat = 70, imagesource = "~/resimler/okulab.jpg"
-    },
-    new Urunler() {
-     ad = "934 Anahtarlık", fiyat = 15, imagesource = "~/resimler/934an.jpg"
-    },
-    new Urunler() {
-     ad = "Baby Groot Anahtarlık", fiyat = 15, imagesource = "~/resimler/babygrootan.jpg"
-    },
-    new Urunler() {
-     ad = "Temel Reis Anahtarlık", fiyat = 15, imagesource = "~/resimler/temelreisan.jpg"
-    },
-    new Urunler() {
-     ad = "Captain America Anahtarlık", fiyat = 15, imagesource = "~/resimler/captainamericaan.jpg"
-    }
-  };
-
-        void SolMenuAcKapa()
-        {
-            if (sidebarpanel.CssClass == "sidenav dropdown-content")
-            {
-                sidebarpanel.CssClass = "sidenav";
-
+        static public List<Urunler> UrunList = new List<Urunler>() {
+            new Urunler() {
+             ad = "Marvel Tshirt", fiyat = 30, imagesource = "~/resimler/marveltshirt.jpg"
+            },
+            new Urunler() {
+             ad = "Atatürk İmza Tshirt", fiyat = 30, imagesource = "~/resimler/imzatshirt.jpg"
+            },
+            new Urunler() {
+             ad = "Star Gece Lambası", fiyat = 35, imagesource = "~/resimler/stargecelambasi.jpg"
+            },
+            new Urunler() {
+             ad = "Deadpool Figur", fiyat = 75, imagesource = "~/resimler/deadpoolfigur.jpg"
+            },
+            new Urunler() {
+             ad = "Game of Thrones Abajur", fiyat = 70, imagesource = "~/resimler/gameofthronesab.jpg"
+            },
+            new Urunler() {
+             ad = "LOTR Abajur", fiyat = 70, imagesource = "~/resimler/lotrab.jpg"
+            },
+            new Urunler() {
+             ad = "StarWars Abajur", fiyat = 70, imagesource = "~/resimler/starwarsab.jpg"
+            },
+            new Urunler() {
+             ad = "Okul Abajur", fiyat = 70, imagesource = "~/resimler/okulab.jpg"
+            },
+            new Urunler() {
+             ad = "934 Anahtarlık", fiyat = 15, imagesource = "~/resimler/934an.jpg"
+            },
+            new Urunler() {
+             ad = "Baby Groot Anahtarlık", fiyat = 15, imagesource = "~/resimler/babygrootan.jpg"
+            },
+            new Urunler() {
+             ad = "Temel Reis Anahtarlık", fiyat = 15, imagesource = "~/resimler/temelreisan.jpg"
+            },
+            new Urunler() {
+             ad = "Captain America Anahtarlık", fiyat = 15, imagesource = "~/resimler/captainamericaan.jpg"
             }
-            else if (sidebarpanel.CssClass == "sidenav")
-            {
-                sidebarpanel.CssClass = "sidenav dropdown-content";
-
-            }
-        }
-
+        };
 
         void gorunurgorunmez(Panel panelim)
         {
@@ -114,7 +91,7 @@ namespace KargaAspNew
         }
 
 
-        void gorunmezyap(ref Panel panelim)
+        void gorunmezyap(Panel panelim)
         {
             string paneliminCssSınıfı = panelim.CssClass;
 
@@ -135,27 +112,17 @@ namespace KargaAspNew
             }
 
         }
-
-
-        //int sayac = 1;
-        //string Idarttırıcı(string degisecek)
-        //{
-        //    int start1 = 0;
-        //    string kalankisim = degisecek;
-        //    while (kalankisim.Contains("ID="))
-        //    {
-        //        int Idninyeri = degisecek.IndexOf("ID=", start1);
-        //        int Tırnakyeri = degisecek.IndexOf("\"", Idninyeri);
-        //        start1 = Tırnakyeri;
-        //        string aranacak = degisecek.Substring(Idninyeri, Tırnakyeri - Idninyeri + 3);
-        //        kalankisim = degisecek.Substring(Tırnakyeri);
-        //        degisecek.Replace(aranacak, aranacak + sayac.ToString());
-        //    }
-        //    return degisecek;
-        //}
-
-        
-
+        void gorunmezyaphepsi()
+        {
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(anahtarliklarpaneli);
+            gorunmezyap(Abajurlarpaneli);
+            gorunmezyap(yeniuyeol);
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(anasayfaurunler);
+            
+            
+        }
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
         {
             gorunurgorunmez(sidebarpanel);
@@ -199,7 +166,6 @@ namespace KargaAspNew
         
         protected void SepeteEkle_Click(object sender, EventArgs e)
         {
-               // gorunurgorunmez(Sepetim);
                 if (mevcutitemsayisi == 0)
                 {
                     sepetimresim1.ImageUrl = Image1.ImageUrl;
@@ -326,44 +292,29 @@ namespace KargaAspNew
         {
 
         }
-
-        //gorunmez yapılması gereken herşey bir listede tutulabilinir
+        
         protected void Anahtarliklar_Click(object sender, EventArgs e)
         {
-            //gorunmezyap(anasayfaurunler);
-            //gorunmezyap(Abajurlarpaneli);
-            //gorunurgorunmez(anahtarliklarpaneli);
+            gorunmezyaphepsi();
+            gorunuryap(anahtarliklarpaneli);
         }
         protected void Abajurlar_Click(object sender, EventArgs e)
         {
-            //gorunmezyap(anasayfaurunler);
-            //gorunmezyap(anahtarliklarpaneli);
-            //gorunurgorunmez(Abajurlarpaneli);
+            gorunmezyaphepsi();
+            gorunuryap(Abajurlarpaneli);
         }
 
 
         protected void Uye_ol_click(object sender, EventArgs e)
         {
-            //gorunmezyap(anasayfaurunler);
-            //gorunmezyap(anahtarliklarpaneli);
-            //gorunmezyap(Abajurlarpaneli);
-            //gorunuryap(yeniuyeol);
+            gorunmezyaphepsi();
+            gorunuryap(yeniuyeol);
         }
         
         protected void AnasayfaFooter_click(object sender, EventArgs e)
         {
-            //foreach (  Panel  panelim in gorunmezlistesi)
-            //{
-            //    gorunmezyap( panelim);
-            //}
-
-            Panel deneme = gorunmezlistesi[0];
-            gorunmezyap(ref deneme);
-            anasayfaurunler = deneme;
-            //gorunmezyap(gorunmezarray[0]);
-
-            //gorunmezyap(anasayfaurunler);            
-            //gorunuryap(anasayfaurunler);
+            gorunmezyaphepsi();
+            gorunuryap(anasayfaurunler);
         }
 
 
