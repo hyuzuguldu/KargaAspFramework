@@ -443,13 +443,13 @@
                     </asp:Panel>
                 <!-- --------------------------------iletisim-------------------------------------------------- -->
                 <asp:Panel ID="iletisim" runat="server">
-                    <asp:Panel ID="iletisim_satir" CssClass="" runat="server">
-                       
-                            <asp:Label ID="Label11"  cssClass="iletisim_sol" runat="server" Text="Label"></asp:Label>
-                      
-                      
+                    <asp:Panel ID="iletisim_satir" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label11"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Label"></asp:Label>
                             <asp:Label ID="Label12" cssClass="iletisim_sag"  runat="server" Text="Label"></asp:Label>
-                     
+                    </asp:Panel>
+                     <asp:Panel ID="Panel20" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label13"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="Label14" cssClass="iletisim_sag"  runat="server" Text="Label"></asp:Label>
                     </asp:Panel>
 
 
