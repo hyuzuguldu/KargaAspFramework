@@ -440,6 +440,21 @@
                     <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" />
 
                 </asp:Panel>
+                <!-- ------------------------iletisim formu---------------------------------------------------------- -->
+
+                <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
+
+                    <asp:TextBox ID="TextBox7" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox9" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox10" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox11" cssclass="yeniuyeol" placeholder="Şifre" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox12" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox13" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
+                    <asp:Label ID="Label23" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
+                    <asp:TextBox ID="TextBox14" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
+                    <asp:Button ID="Button3" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" />
+
+                </asp:Panel>
 
                 <!-- ------------------------------- adress--------------------------------------------------- -->
                 <asp:Panel ID="Adress_panel" cssClass="gorunmez" runat="server">
