@@ -1111,6 +1111,51 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Yeni_uyeol;
         
         /// <summary>
+        /// sifremiunnututm denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel sifremiunnututm;
+        
+        /// <summary>
+        /// sifremiunuttum_mail denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox sifremiunuttum_mail;
+        
+        /// <summary>
+        /// sifremiunuttum_guvenlik_label denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label sifremiunuttum_guvenlik_label;
+        
+        /// <summary>
+        /// sifremiunuttum_guvenlik_textbox denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox sifremiunuttum_guvenlik_textbox;
+        
+        /// <summary>
+        /// sifremiunuttum_button denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button sifremiunuttum_button;
+        
+        /// <summary>
         /// iletisim_formu denetimi.
         /// </summary>
         /// <remarks>

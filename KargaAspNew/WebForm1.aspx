@@ -466,6 +466,20 @@
                     <asp:Button ID="Yeni_uyeol" cssclass="butonum" OnClick="Yeni_uyeol_Click" runat="server" Text="Üye ol" />
 
                 </asp:Panel>
+                <!-- ------------------------sifremi unuttum---------------------------------------------------------- -->
+
+                <asp:Panel ID="sifremiunnututm" cssClass="gorunur" runat="server">
+
+                    
+           
+                    <asp:TextBox ID="sifremiunuttum_mail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                    
+                    
+                    <asp:Label ID="sifremiunuttum_guvenlik_label" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
+                    <asp:TextBox ID="sifremiunuttum_guvenlik_textbox" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
+                    <asp:Button ID="sifremiunuttum_button" cssclass="butonum" OnClick="sifremiunuttum_button_click" runat="server" Text="Üye ol" />
+
+                </asp:Panel>
                 <!-- ------------------------iletisim formu---------------------------------------------------------- -->
 
                 <asp:Panel ID="iletisim_formu" cssClass="gorunur" runat="server">

@@ -571,9 +571,12 @@ namespace KargaAspNew
         protected void guvenli_cikis_click(object sender, EventArgs e)
         {
             giris_durumu = 0;
-            gorunmezyap(sagmenu_girilmis);
+            gorunmezyap(sagmenu_girilmis); 
         }
-
+        protected void sifremiunuttum_button_click(object sender, EventArgs e)
+        {
+            
+        }
 
 
 
