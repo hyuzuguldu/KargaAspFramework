@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -533,7 +533,7 @@
                         </asp:Panel>
                     </asp:Panel>
                         <asp:TextBox ID="odeme_Mail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="odeme_Adınız" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_Adinız" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
                         <asp:TextBox ID="odeme_Soyadınız" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
                         
                         <asp:TextBox ID="odeme_Adress" cssclass="yeniuyeol adres" placeholder="Adress" runat="server"></asp:TextBox>
