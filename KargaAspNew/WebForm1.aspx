@@ -46,6 +46,7 @@
                     <hr>
 
                 </asp:Panel>
+		    
 
                 <!-- --------------------------------sidenav sağ-------------------------------------------------- -->
 
@@ -196,14 +197,7 @@
 
                     </asp:Panel>
                     
-                    <asp:Panel ID="Panel4" style="width:100%" CssClass="sagmenu_girilmis_kutu" runat="server">
-                        <asp:Panel ID="Panel10" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
-                            <asp:ImageButton ID="ImageButton6" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/8.PNG" Height="50" Width="50" />
-                        </asp:Panel>
-                        <asp:Panel ID="Panel26" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
-                            <asp:Label ID="Label23" style="float:right" cssClass="sagmenu_girilmis_yazi" runat="server" Text="Güvenli Çıkış"></asp:Label>
-                        </asp:Panel>
-                    </asp:Panel>
+                    
 
                 </asp:Panel>
                 <!-- ------------------------------------sepetim---------------------------------------------- -->
@@ -299,7 +293,7 @@
                         </div>
                         <div class="columnanasayfa yazikaydirma">
 
-                            <p>Marvel T-Shirt</p>
+                            <p>Marvel Tshirt</p>
                             <p>30 lira</p>
                         </div>
                     </div>
@@ -309,8 +303,8 @@
                             <asp:ImageButton CssClass="center" OnClick="anasayfa_urun_imzashirt_Click" ID="anasayfa_urun_imzashirt" runat="server" Height="110px" ImageUrl="~/resimler/imzatshirt.jpg" Width="110px" />
                         </div>
                         <div class="columnanasayfa yazikaydirma">
-                            <p> Atatürk İmza T-Shirt</p>
-                            <p> 45 lira</p>
+                            <p> Atatürk İmza Tshirt</p>
+                            <p> 30 lira</p>
                         </div>
                     </div>
                     <div class="rowanasayfa">
@@ -319,7 +313,7 @@
                         </div>
                         <div class="columnanasayfa yazikaydirma">
                             <p> Star Gece Lambası</p>
-                            <p> 80 lira</p>
+                            <p> 35 lira</p>
                         </div>
                     </div>
                     <div class="rowanasayfa">
@@ -327,8 +321,8 @@
                             <asp:ImageButton CssClass="center" ID="anasayfa_urun_deadpool" OnClick="anasayfa_urun_deadpool_Click" runat="server" Height="110px" ImageUrl="~/resimler/deadpoolfigur.jpg" Width="110px" />
                         </div>
                         <div class="columnanasayfa yazikaydirma">
-                            <p> DeadPool Figürü</p>
-                            <p> 50 lira</p>
+                            <p> Deadpool Figur</p>
+                            <p> 75 lira</p>
                         </div>
                     </div>
 
