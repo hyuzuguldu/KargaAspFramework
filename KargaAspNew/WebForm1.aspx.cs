@@ -319,6 +319,11 @@ namespace KargaAspNew
             gorunmezyaphepsi();
             gorunuryap(anasayfaurunler);
         }
+        
+        protected void odeme_buton_devam_Click(object sender, EventArgs e)
+        {
+            
+        }
 
 
     }

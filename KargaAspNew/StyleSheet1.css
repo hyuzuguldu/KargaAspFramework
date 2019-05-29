@@ -181,6 +181,7 @@ display:block;
 
 .center {
     display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -341,6 +342,10 @@ float:left;
     font-weight: 300;
     height: 44px;
 }
+.adres {
+    
+    height: 90px;
+}
 .mytextbox {
     margin-top: 6%;
     margin-bottom: 6%;
@@ -350,4 +355,14 @@ float:left;
 .block{
 
     display:block;
+}
+.odemetepeic {
+    background-color: rgb(86, 193, 213);
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: left;
+}
+.odemetepeyazi{
+    
 }

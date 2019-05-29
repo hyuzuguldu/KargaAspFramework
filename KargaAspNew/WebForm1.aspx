@@ -340,17 +340,35 @@
                         <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
                         <asp:TextBox ID="TextBox8" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
                         <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
-
-                        <script>
-                            function myFunction() {
-                                alert("I am an alert box!");
-                            }
-                        </script>
                         <asp:Button ID="Button1" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" />
 
                     </asp:Panel>
 
-                    <!-- ---------------------------------------------------------------------------------- -->
+                    <!-- -------------------------------Odeme adress--------------------------------------------------- -->
+                <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
+                    <asp:Panel ID="Panel7" style="display:block; width:100%; " runat="server">
+                        <asp:Panel ID="Panel8" cssclass="odemetepeic" runat="server">
+                            <asp:Label ID="Label3" CssClass="center" runat="server" Text="Adress"></asp:Label>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel9" cssclass="odemetepeic" runat="server">
+                            <asp:Label ID="Label5" CssClass="center" runat="server" Text="Ödeme"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+                        <asp:TextBox ID="odeme_Mail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_Adınız" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_Soyadınız" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
+                        
+                        <asp:TextBox ID="odeme_Adress" cssclass="yeniuyeol adres" placeholder="Adress" runat="server"></asp:TextBox>
+
+                        
+                        <asp:TextBox ID="odeme_Telefonu" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_il" cssclass="yeniuyeol" placeholder="il" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="odeme_ilce" cssclass="yeniuyeol" placeholder="ilçe" runat="server"></asp:TextBox>
+                        
+                    <asp:TextBox ID="odeme_TC" cssclass="yeniuyeol" placeholder="TC kimlik " runat="server"></asp:TextBox>
+                        <asp:Button ID="odeme_buton_devam" cssclass="butonum" OnClick="odeme_buton_devam_Click" runat="server" Text="Devam et" />
+
+                    </asp:Panel>
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                     <br />
