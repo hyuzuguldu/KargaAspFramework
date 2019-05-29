@@ -97,7 +97,7 @@
                 </asp:Panel>
                 <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
 
-                <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunmez">
                     <div class="rowside sideitems mavirenk">
                         <div class="columnside " style="display:inline;">
                             <asp:ImageButton ID="sagmenu_girilmis_3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgigirilmis_Click" ImageAlign="NotSet" />

@@ -17,7 +17,8 @@ namespace KargaAspNew
     {
         //statil olmayan herşey her tuşa baışta tekrar oluşuyor 
         static int mevcutitemsayisi = 0;
-        
+        static int giris_durumu = 0;
+
         protected void Page_Load(object sender, EventArgs e) 
         {
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
@@ -87,6 +88,8 @@ namespace KargaAspNew
                 if (studentName == null) { return "mailiniz sistemde yok"; }
                 string mailsifreuygun = ctx.Database.SqlQuery<string>("select ad from Kullanicis where email=@mail and sifre=@sifre ", new SqlParameter("@mail", email), new SqlParameter("@sifre", sifre)).FirstOrDefault();
                 if (mailsifreuygun == null) { return "sifre hatali"; }
+                giris_durumu = 1;
+                gorunmezyap(sidenavsag);
                 return "Giriş işlemi başarılı";
             }
 
@@ -255,7 +258,9 @@ namespace KargaAspNew
 
         protected void adamresmi_Click(object sender, ImageClickEventArgs e)
         {
-            gorunurgorunmez(sidenavsag);
+            if (giris_durumu==1) { gorunurgorunmez(sagmenu_girilmis); }
+            else { gorunurgorunmez(sidenavsag); }
+            
         }
 
 
