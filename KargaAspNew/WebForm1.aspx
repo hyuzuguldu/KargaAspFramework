@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -243,6 +243,18 @@
                     <asp:Button ID="satinal" runat="server" Text="Satın al " onclick="satinal_click" />
 
                 </asp:Panel>
+                  <!-- --------------------------------arama-------------------------------------------------- -->
+                 <asp:Panel ID="arama_panel" runat="server" CssClass="arama">
+
+                    <div class="row center boxsizing" style=" border:solid 1px #dddddd; height:40px; width:95%; margin-top:2%; margin-bottom:2%;">
+                        <div class="aramacolumn">
+                            <asp:ImageButton ID="ImageButton7" runat="server" Height="35px" Width="35px" ImageUrl="~/resimler/butonlar/1.PNG"  ImageAlign="Left" OnClick="navbar3cizgi_click" /> &nbsp;
+                        </div>
+                        <asp:TextBox ID="arama_textbox" style="border:0; width:88%; height:90%;" runat="server"></asp:TextBox>
+                    </div>
+
+                </asp:Panel>
+               
 
                 <!-- --------------------------------navbar-------------------------------------------------- -->
 
@@ -265,8 +277,7 @@
                 </asp:Panel>
                 <br />
 
-                <!-- ---------------------------------------------------------------------------------- -->
-
+              
 
                 <!-- ---------------------------urunler------------------------------------------------------- -->
                 <asp:Panel ID="anasayfaurunler" runat="server" CssClass="gorunur anasayfaurunler">

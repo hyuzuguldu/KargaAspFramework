@@ -724,6 +724,33 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button satinal;
         
         /// <summary>
+        /// arama_panel denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel arama_panel;
+        
+        /// <summary>
+        /// ImageButton7 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
+        
+        /// <summary>
+        /// arama_textbox denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox arama_textbox;
+        
+        /// <summary>
         /// Panel1 denetimi.
         /// </summary>
         /// <remarks>
@@ -1048,85 +1075,76 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel Panel4;
         
         /// <summary>
-        /// TextBox7 denetimi.
+        /// ifadsoyad denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox ifadsoyad;
         
         /// <summary>
-        /// TextBox9 denetimi.
+        /// ifemail denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox ifemail;
         
         /// <summary>
-        /// TextBox10 denetimi.
+        /// iftel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.TextBox iftel;
         
         /// <summary>
-        /// TextBox11 denetimi.
+        /// ifkonu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.TextBox ifkonu;
         
         /// <summary>
-        /// TextBox12 denetimi.
+        /// ifmesaj denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.TextBox ifmesaj;
         
         /// <summary>
-        /// TextBox13 denetimi.
+        /// ifguvenlikkod denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox13;
+        protected global::System.Web.UI.WebControls.Label ifguvenlikkod;
         
         /// <summary>
-        /// Label23 denetimi.
+        /// ifguval denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label23;
+        protected global::System.Web.UI.WebControls.TextBox ifguval;
         
         /// <summary>
-        /// TextBox14 denetimi.
+        /// ifgonder denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox14;
-        
-        /// <summary>
-        /// Button3 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button ifgonder;
         
         /// <summary>
         /// Adress_panel denetimi.

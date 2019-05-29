@@ -81,6 +81,12 @@ h4 {
     padding: 0;
     display: inline;
 }
+.aramacolumn {
+    float: left;
+    
+    display: inline;
+}
+
 .positionRelative{
     position : relative;
 }
@@ -195,6 +201,15 @@ display:block;
     padding: 0;
     overflow: hidden;
     background-color: rgb(86, 193, 213);
+}
+.arama {
+    color: #999999;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
 }
 
 
