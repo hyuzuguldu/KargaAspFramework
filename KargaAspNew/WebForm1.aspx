@@ -248,7 +248,7 @@
 
                     <div class="row center boxsizing" style=" border:solid 1px #dddddd; height:40px; width:95%; margin-top:2%; margin-bottom:2%;">
                         <div class="aramacolumn">
-                            <asp:ImageButton ID="ImageButton7" runat="server" Height="35px" Width="35px" ImageUrl="~/resimler/butonlar/1.PNG"  ImageAlign="Left" OnClick="navbar3cizgi_click" /> &nbsp;
+                            <asp:ImageButton ID="arama_tepe_resimtus" runat="server" Height="35px" Width="35px" ImageUrl="~/resimler/butonlar/1.PNG"  ImageAlign="Left" OnClick="arama_tepe_resimtus_click" /> &nbsp;
                         </div>
                         <asp:TextBox ID="arama_textbox" style="border:0; width:88%; height:90%;" runat="server"></asp:TextBox>
                     </div>
@@ -454,7 +454,7 @@
                 </asp:Panel>
                 <!-- ------------------------iletisim formu---------------------------------------------------------- -->
 
-                <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
+                <asp:Panel ID="iletisim_formu" cssClass="gorunur" runat="server">
 
                     <asp:TextBox ID="ifadsoyad" cssclass="yeniuyeol" placeholder="Adı Soyadı" runat="server"></asp:TextBox>
                     <asp:TextBox ID="ifemail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
@@ -520,7 +520,7 @@
 
                 </asp:Panel>
                 <!-- --------------------------------iletisim-------------------------------------------------- -->
-                <asp:Panel ID="iletisim" runat="server">
+                <asp:Panel ID="iletisim_panel" runat="server" CssClass="gorunmez">
                     <asp:Panel ID="iletisim_satir" CssClass="iletisim_satir" runat="server">
                         <asp:Label ID="Label11" cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Firma Resmi Adı"></asp:Label>
                         <asp:Label ID="Label12" cssClass="iletisim_sag" runat="server" Text="Karga Müzik Yap.Teks.Tur.Ltd.Şti"></asp:Label>
@@ -581,7 +581,7 @@
                         </div>
 
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton6" runat="server" Height="60px" ImageUrl="~/resimler/iletişim.bmp" Width="70px" /> &nbsp;
+                            <asp:ImageButton ID="iletisim_footer" runat="server" Height="60px" ImageUrl="~/resimler/iletişim.bmp" Width="70px" OnClick="iletisim_footer_click" /> &nbsp;
                         </div>
 
                     </div>

@@ -241,7 +241,11 @@ namespace KargaAspNew
             gorunmezyap(yeniuyeol);
             gorunmezyap(urundetaypanel);
             gorunmezyap(Adress_panel);
+            gorunmezyap(Odeme_panel); 
+            gorunmezyap(iletisim_panel);
             gorunmezyap(Odeme_panel);
+            gorunmezyap(iletisim_formu);
+
 
 
         }
@@ -527,7 +531,17 @@ namespace KargaAspNew
         
         protected void arama_footer_click(object sender, EventArgs e)
         {
-            gorunurgorunmez(arama_panel);
+            gorunurgorunmez(arama_panel); 
+        }
+        protected void iletisim_footer_click(object sender, EventArgs e)
+        {
+            gorunmezyaphepsi();
+            gorunuryap(iletisim_panel); 
+        }
+        protected void arama_tepe_resimtus_click(object sender, EventArgs e)
+        {
+            gorunmezyaphepsi();
+            gorunuryap(iletisim_panel); 
         }
     }
 }

@@ -733,13 +733,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Panel arama_panel;
         
         /// <summary>
-        /// ImageButton7 denetimi.
+        /// arama_tepe_resimtus denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
+        protected global::System.Web.UI.WebControls.ImageButton arama_tepe_resimtus;
         
         /// <summary>
         /// arama_textbox denetimi.
@@ -1066,13 +1066,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Panel4 denetimi.
+        /// iletisim_formu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
+        protected global::System.Web.UI.WebControls.Panel iletisim_formu;
         
         /// <summary>
         /// ifadsoyad denetimi.
@@ -1381,13 +1381,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-        /// iletisim denetimi.
+        /// iletisim_panel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel iletisim;
+        protected global::System.Web.UI.WebControls.Panel iletisim_panel;
         
         /// <summary>
         /// iletisim_satir denetimi.
@@ -1615,12 +1615,12 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton sepetbuton;
         
         /// <summary>
-        /// ImageButton6 denetimi.
+        /// iletisim_footer denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
+        protected global::System.Web.UI.WebControls.ImageButton iletisim_footer;
     }
 }
