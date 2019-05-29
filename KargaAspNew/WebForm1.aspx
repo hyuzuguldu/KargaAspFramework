@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -445,15 +445,14 @@
 
                 <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
 
-                    <asp:TextBox ID="TextBox7" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox9" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox10" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox11" cssclass="yeniuyeol" placeholder="Şifre" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox12" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="TextBox13" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
-                    <asp:Label ID="Label23" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
-                    <asp:TextBox ID="TextBox14" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
-                    <asp:Button ID="Button3" cssclass="butonum" OnClick="Button1_Click" runat="server" Text="Üye ol" />
+                    <asp:TextBox ID="ifadsoyad" cssclass="yeniuyeol" placeholder="Adı Soyadı" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="ifemail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="iftel" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="ifkonu" cssclass="yeniuyeol" placeholder="Konu" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="ifmesaj" cssclass="yeniuyeol" placeholder="Mesaj" runat="server"></asp:TextBox>
+                    <asp:Label ID="ifguvenlikkod" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
+                    <asp:TextBox ID="ifguval" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
+                    <asp:Button ID="ifgonder" cssclass="butonum" OnClick="ifgonder_Click" runat="server" Text="Gönder" />
 
                 </asp:Panel>
 
