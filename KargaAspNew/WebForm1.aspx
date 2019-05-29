@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -582,13 +582,45 @@
                 <!-- --------------------------------iletisim-------------------------------------------------- -->
                 <asp:Panel ID="iletisim" runat="server">
                     <asp:Panel ID="iletisim_satir" CssClass="iletisim_satir" runat="server">
-                            <asp:Label ID="Label11"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Label"></asp:Label>
-                            <asp:Label ID="Label12" cssClass="iletisim_sag"  runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="Label11"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Firma Resmi Adı"></asp:Label>
+                            <asp:Label ID="Label12" cssClass="iletisim_sag"  runat="server" Text="Karga Müzik Yap.Teks.Tur.Ltd.Şti"></asp:Label>
                     </asp:Panel>
                      <asp:Panel ID="Panel20" CssClass="iletisim_satir" runat="server">
-                            <asp:Label ID="Label13"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Label"></asp:Label>
-                            <asp:Label ID="Label14" cssClass="iletisim_sag"  runat="server" Text="Label"></asp:Label>
+                            <asp:Label ID="Label13"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Firma Adı"></asp:Label>
+                            <asp:Label ID="Label14" cssClass="iletisim_sag"  runat="server" Text="Karga"></asp:Label>
                     </asp:Panel>
+                    <asp:Panel ID="Panel21" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label15"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Adres"></asp:Label>
+                            <asp:Label ID="Label16" cssClass="iletisim_sag"  runat="server" Text="Merkez:
+Ilhamurdere Cad.41/B Beşiktaş,İSTANBUL/TURKEY
+..
+..
+ 
+Doktorlar Cad.Tepebaşı ESKİŞEHİR TURKEY
+..
+..
+..
+Dereboyu Cad.51/B LefkoŞa KKTC"></asp:Label>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel22" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label17"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Vergi No"></asp:Label>
+                            <asp:Label ID="Label18" cssClass="iletisim_sag"  runat="server" Text="5240084592"></asp:Label>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel23" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label19"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Vergi Dairesi"></asp:Label>
+                            <asp:Label ID="Label20" cssClass="iletisim_sag"  runat="server" Text="Beşiktaş"></asp:Label>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel24" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label21"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Garanti Bankası:"></asp:Label>
+                            <asp:Label ID="Label22" cssClass="iletisim_sag"  runat="server" Text="Şube Kodu :068"></asp:Label>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel25" CssClass="iletisim_satir" runat="server">
+                            <asp:Label ID="Label23"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Garanti Bankası:"></asp:Label>
+                            <asp:Label ID="Label24" cssClass="iletisim_sag"  runat="server" Text="
+								Hesap Kodu : TR59 0006 2000 0680 0006 6852 38 
+								"></asp:Label>
+                    </asp:Panel>
+                    <asp:Button ID="iletisimform" cssclass="butonum"  runat="server" Text="İletişim formu gönder" />
 
 
                 </asp:Panel>
