@@ -118,8 +118,8 @@ namespace KargaAspNew
             gorunmezyap(anahtarliklarpaneli);
             gorunmezyap(Abajurlarpaneli);
             gorunmezyap(yeniuyeol);
-            gorunmezyap(anasayfaurunler);
-            gorunmezyap(anasayfaurunler);
+            gorunmezyap(urundetaypanel);
+            
             
             
         }
