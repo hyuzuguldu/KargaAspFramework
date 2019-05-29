@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -33,7 +33,7 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Anahtarlıklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
+                            <asp:Button ID="Anahtarliklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
                         </div>
                     </div>
                     <hr>

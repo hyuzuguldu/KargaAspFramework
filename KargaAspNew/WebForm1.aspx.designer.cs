@@ -58,13 +58,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.ImageButton solsidenav3cizgi;
         
         /// <summary>
-        /// Anahtarlıklar denetimi.
+        /// Anahtarliklar denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Anahtarlıklar;
+        protected global::System.Web.UI.WebControls.Button Anahtarliklar;
         
         /// <summary>
         /// Abajurlar denetimi.
@@ -677,6 +677,15 @@ namespace KargaAspNew {
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label GÜvenlik_kodu;
+        
+        /// <summary>
+        /// guval denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox guval;
         
         /// <summary>
         /// Button1 denetimi.
