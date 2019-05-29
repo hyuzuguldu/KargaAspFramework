@@ -529,7 +529,7 @@
                         <asp:Label ID="Label13" cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Firma Adı"></asp:Label>
                         <asp:Label ID="Label14" cssClass="iletisim_sag" runat="server" Text="Karga"></asp:Label>
                     </asp:Panel>
-                    <asp:Panel ID="Panel21" CssClass="iletisim_satir" runat="server">
+                    <asp:Panel ID="Panel21" CssClass="iletisim_satir" style="height:100px" runat="server">
                         <asp:Label ID="Label15" cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Adres"></asp:Label>
                         <asp:Label ID="Label16" cssClass="iletisim_sag" runat="server" Text="Merkez: Ilhamurdere Cad.41/B Beşiktaş,İSTANBUL/TURKEY .. .. Doktorlar Cad.Tepebaşı ESKİŞEHİR TURKEY .. .. .. Dereboyu Cad.51/B LefkoŞa KKTC"></asp:Label>
                     </asp:Panel>
