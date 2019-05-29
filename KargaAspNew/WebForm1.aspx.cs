@@ -506,6 +506,10 @@ namespace KargaAspNew
             
         }
         
-        
+            protected void sidenavsag3cizgigirilmis_Click(object sender, EventArgs e)
+        {
+            gorunurgorunmez(sagmenu_girilmis);
+        }
+
     }
 }

@@ -99,7 +99,7 @@
                 <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunur">
                     <div class="rowside sideitems mavirenk">
                         <div class="columnside " style="display:inline;">
-                            <asp:ImageButton ID="sagmenu_girilmis_3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
+                            <asp:ImageButton ID="sagmenu_girilmis_3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgigirilmis_Click" ImageAlign="NotSet" />
                         </div>
                         <asp:Panel ID="sagmenu_girilmis_Tepeyazi" CssClass="columnside beyaz " style="display:inline;" runat="server">
                             <h3 style=""> Hesabım   </h3>
@@ -441,6 +441,20 @@
                         <asp:Button ID="Button2" cssclass="butonum" OnClick="odeme_buton_devam_Click" runat="server" Text="Devam et" />
 
                     </asp:Panel>
+                <!-- --------------------------------iletisim-------------------------------------------------- -->
+                <asp:Panel ID="iletisim" runat="server">
+                    <asp:Panel ID="iletisim_satir" CssClass="" runat="server">
+                       
+                            <asp:Label ID="Label11"  cssClass="iletisim_sol" runat="server" Text="Label"></asp:Label>
+                      
+                      
+                            <asp:Label ID="Label12" cssClass="iletisim_sag"  runat="server" Text="Label"></asp:Label>
+                     
+                    </asp:Panel>
+
+
+                </asp:Panel>
+
 
                     <!-- --------------------------------foooter-------------------------------------------------- -->
                     <br />

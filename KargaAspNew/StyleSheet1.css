@@ -382,3 +382,38 @@ float:left;
     margin-top:10%;
     color:white;
 }
+.iletisim_satir {
+    width: 100%;
+    height: 9%;
+}
+.iletisim_sol {
+    display: block;
+    padding: 6px 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: solid 1px #dddddd;
+    font-size: 14px;
+    
+    height: 44px;
+
+    font-weight: 700;
+    float: left;
+    width: 40%;
+}
+
+.iletisim_sag {
+    display: block;
+    padding: 6px 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #dddddd;
+    font-size: 14px;
+    height: 44px;
+    float: left;
+    width: 60%;
+}
