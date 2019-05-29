@@ -244,7 +244,7 @@
 
                 </asp:Panel>
                   <!-- --------------------------------arama-------------------------------------------------- -->
-                 <asp:Panel ID="arama_panel" runat="server" CssClass="arama gorunur">
+                 <asp:Panel ID="arama_panel" runat="server" CssClass="arama gorunmez">
 
                     <div class="row center boxsizing" style=" border:solid 1px #dddddd; height:40px; width:95%; margin-top:2%; margin-bottom:2%;">
                         <div class="aramacolumn">
@@ -573,7 +573,7 @@
                         </div>
 
                         <div class="column">
-                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/arama.bmp" Width="70px" /> &nbsp;
+                            <asp:ImageButton ID="ImageButton4" runat="server" Height="60px" ImageUrl="~/resimler/arama.bmp" Width="70px" onclick="arama_footer_click" /> &nbsp;
                         </div>
 
                         <div class="column">

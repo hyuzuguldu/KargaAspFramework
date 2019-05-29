@@ -524,5 +524,10 @@ namespace KargaAspNew
             iletisimformual(ifadsoyad.Text,ifemail.Text,Convert.ToInt64(iftel.Text),ifkonu.Text,ifmesaj.Text);
             Response.Write("<script>alert('" + "Mesajınız gönderilmiştir" + "')</script>");
         }
+        
+        protected void arama_footer_click(object sender, EventArgs e)
+        {
+            gorunurgorunmez(arama_panel);
+        }
     }
 }
