@@ -145,9 +145,9 @@ namespace KargaAspNew
             gorunurgorunmez(sidebarpanel);
         }
 
-        protected void ImageButton9_Click(object sender, ImageClickEventArgs e)
+        protected void anasyfa_urun_marvelshirt_Click(object sender, ImageClickEventArgs e)
         {
-            int inx = indbul(ImageButton9.ImageUrl);
+            int inx = indbul(anasyfa_urun_marvelshirt.ImageUrl);
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";

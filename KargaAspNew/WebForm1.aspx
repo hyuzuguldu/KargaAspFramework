@@ -176,7 +176,7 @@
                         <div class="rowanasayfa">
 
                             <div class="columnanasayfa">
-                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="ImageButton9" runat="server" Height="110px" ImageUrl="~/resimler/marveltshirt.jpg" Width="110px" OnClick="ImageButton9_Click" />
+                                <asp:ImageButton CssClass="center" href="/WebForm2.aspx" ID="anasyfa_urun_marvelshirt" runat="server" Height="110px" ImageUrl="~/resimler/marveltshirt.jpg" Width="110px" OnClick="anasyfa_urun_marvelshirt_Click" />
                             </div>
                             <div class="columnanasayfa yazikaydirma">
 
