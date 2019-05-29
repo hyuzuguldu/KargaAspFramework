@@ -272,6 +272,7 @@ float:left;
 }
 
 .boxsizing {
+    
     box-sizing: border-box;
 }
 
@@ -363,9 +364,15 @@ float:left;
     padding-bottom: 5%;
     float: left;
 }
+.sagmenu_girilmis_kutu {
+    width: 100%;
+    height: 9%;
+    box-sizing: border-box;
+}
+
 .sagmenu_girilmis_kutu1_sol {
-    width:60%;
-    float:right;
+    width: 60%;
+    float: right;
 }
 .sagmenu_girilmis_kutu1_sag {
     width: 40%;

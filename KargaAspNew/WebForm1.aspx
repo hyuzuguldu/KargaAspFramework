@@ -108,14 +108,32 @@
 
 
 
-                    <asp:Panel ID="sagmenu_girilmis_kutu1" style="width:100%" runat="server">
+                    <asp:Panel ID="sagmenu_girilmis_kutu1" style="width:100%" CssClass="sagmenu_girilmis_kutu" runat="server">
                         <asp:Panel ID="sagmenu_girilmis_kutu1_sag" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
                             <asp:ImageButton ID="ImageButton2" style="float:right" runat="server" ImageUrl="~/resimler/3cizgi.bmp"  Height="50" Width="50" />
                         </asp:Panel>
                         <asp:Panel ID="sagmenu_girilmis_kutu1_sol" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
                             <asp:Label ID="Label8" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Label"></asp:Label>
                         </asp:Panel>
-                        
+                    </asp:Panel>
+
+                    <asp:Panel ID="Panel14" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
+                        <asp:Panel ID="Panel15" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                            <asp:ImageButton ID="ImageButton3" style="float:right" runat="server" ImageUrl="~/resimler/3cizgi.bmp"  Height="50" Width="50" />
+                        </asp:Panel>
+                        <asp:Panel ID="Panel16" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                            <asp:Label ID="Label9" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Label"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+
+
+                    <asp:Panel ID="Panel17" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
+                        <asp:Panel ID="Panel18" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                            <asp:ImageButton ID="ImageButton5" style="float:right" runat="server" ImageUrl="~/resimler/3cizgi.bmp"  Height="50" Width="50" />
+                        </asp:Panel>
+                        <asp:Panel ID="Panel19" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                            <asp:Label ID="Label10" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Label"></asp:Label>
+                        </asp:Panel>
                     </asp:Panel>
 
                 </asp:Panel>
