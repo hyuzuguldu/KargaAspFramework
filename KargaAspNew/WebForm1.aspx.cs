@@ -24,7 +24,7 @@ namespace KargaAspNew
             {
                 
             }
-            // GÜvenlik_kodu.Text = Client.guvenlikkodugndr().ToString();
+             GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
         }
 
         // Service1Client Client = new Service1Client();
@@ -272,15 +272,22 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anasayfa Ürünleri";
             gorunurgorunmez(urundetaypanel);
             gorunurgorunmez(anasayfaurunler);
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-          //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
-            Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");  
-
+            //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+           // if (guval.Text == GÜvenlik_kodu.Text)
+            //{                 -------- guval.text güvenlikkodu.text e eşit olsa dahi 2. else giriyor 
+                Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");
+           // }
+          //  else
+           // {
+               // Response.Write("<script>alert('" + "Güvenlik kodunu yanlış girdiniz" + "')</script>");
+            //}
         }
 
 
@@ -349,6 +356,7 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anasayfa Ürünleri";
             gorunmezyaphepsi();
             gorunuryap(urundetaypanel);
            
@@ -360,6 +368,7 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anasayfa Ürünleri";
             gorunmezyaphepsi();
             gorunuryap(urundetaypanel);
             
@@ -367,7 +376,13 @@ namespace KargaAspNew
 
         protected void gotBttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(gotBttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Abajurlar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void anasayfa_urun_deadpool_Click(object sender, ImageClickEventArgs e)
@@ -376,6 +391,7 @@ namespace KargaAspNew
             Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
             Label1.Text = UrunList.ElementAt(inx).ad;
             Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anasayfa Ürünleri";
             gorunmezyaphepsi();
             gorunuryap(urundetaypanel);
            
@@ -383,39 +399,81 @@ namespace KargaAspNew
 
         protected void lotrabbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(lotrabbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Abajurlar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
 
 
         protected void swabbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(swabbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Abajurlar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void grootanbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(grootanbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anahtarlıklar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void temelrbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(temelrbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anahtarlıklar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void captainanbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(captainanbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anahtarlıklar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void okulabbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(okulabbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Abajurlar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
 
         protected void anbttn_Click(object sender, ImageClickEventArgs e)
         {
-
+            int inx = indbul(anbttn.ImageUrl);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            Label4.Text = "Anahtarlıklar";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
         }
         
         protected void Anahtarliklar_Click(object sender, EventArgs e)
@@ -439,6 +497,7 @@ namespace KargaAspNew
         protected void AnasayfaFooter_click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
+            gorunmezyap(urundetaypanel);
             gorunuryap(anasayfaurunler);
         }
         
