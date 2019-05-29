@@ -1219,13 +1219,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.TextBox odeme_Adiniz;
         
         /// <summary>
-        /// odeme_Soyadınız denetimi.
+        /// odeme_Soyadiniz denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox odeme_Soyadınız;
+        protected global::System.Web.UI.WebControls.TextBox odeme_Soyadiniz;
         
         /// <summary>
         /// odeme_Adress denetimi.
