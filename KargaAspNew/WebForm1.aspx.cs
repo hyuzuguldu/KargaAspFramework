@@ -5,6 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using KargaAspNew.ServiceReference1;
+using System.Data.Entity;
+using System.Data.SqlClient;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
 namespace KargaAspNew
 {
 
@@ -23,8 +28,28 @@ namespace KargaAspNew
         }
 
         // Service1Client Client = new Service1Client();
-       
-        
+
+        public class Kullanici
+        {
+            public int KullaniciID { get; set; }
+            public string ad { get; set; }
+            public string soyad { get; set; }
+            public string email { get; set; }
+            public long tel { get; set; }
+            public string sifre { get; set; }
+            public string sifretekrar { get; set; }
+
+        }
+        public class IletisimF
+        {
+            [Key]
+            public int IletisimID { get; set; }
+            public string adsoyad { get; set; }
+            public string email { get; set; }
+            public long tel { get; set; }
+            public string konu { get; set; }
+            public string mesaj { get; set; }
+        }
         public class Urunler
         {
             public string ad;
@@ -34,6 +59,102 @@ namespace KargaAspNew
             public string urunaciklamasi;
 
         }
+        public class KargaASP : DbContext
+        {
+            public KargaASP() : base()
+            {
+
+            }
+            public DbSet<Kullanici> Kullanicilar { get; set; }
+
+            public DbSet<IletisimF> Iletisim { get; set; }
+
+
+        }
+        KargaASP kargadb = new KargaASP();
+        public Random rastgele = new Random();
+        public int guvenlikkodugndr()
+        {
+            int x = rastgele.Next(1000, 9999);
+
+            return x;
+        }
+        public string giris(string email, string sifre)
+        {
+            using (var ctx = new KargaASP())
+            {
+                //Get student name of string type
+
+                string studentName = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
+                if (studentName == null) { return "mailiniz sistemde yok"; }
+                string mailsifreuygun = ctx.Database.SqlQuery<string>("select ad from Kullanicis where email=@mail and sifre=@sifre ", new SqlParameter("@mail", email), new SqlParameter("@sifre", sifre)).FirstOrDefault();
+                if (mailsifreuygun == null) { return "sifre hatali"; }
+                return "Giriş işlemi başarılı";
+            }
+
+            return "E-mail veya şifre yanlış";
+        }
+        public void iletisimformual(string adsoyad, string email, long tel, string konu, string mesaj)
+        {
+            IletisimF iletisimF = new IletisimF();
+            iletisimF.adsoyad = adsoyad;
+            iletisimF.email = email;
+            iletisimF.tel = tel;
+            iletisimF.konu = konu;
+            iletisimF.mesaj = mesaj;
+
+            using (kargadb)
+            {
+                kargadb.Iletisim.Add(iletisimF);
+                kargadb.SaveChanges();
+            }
+
+        }
+        public string kayitol(string ad, string soyad, string sifre, string sifretekrar, long tel, string email)
+        {
+            Kullanici kullanici = new Kullanici();
+            kullanici.ad = ad;
+            kullanici.soyad = soyad;
+            kullanici.sifre = sifre;
+            kullanici.sifretekrar = sifretekrar;
+            kullanici.email = email;
+            kullanici.tel = tel;
+            string telctrl = tel.ToString();
+
+
+            if (sifretekrar != sifre)
+            {
+                return "Şifreler eşleşmiyor şifrenizi tekrar giriniz";
+            }
+
+            else if (telctrl.Length != 11)
+            {
+                return "Telefon Numarası 11 haneli olmalıdır";
+            }
+
+            else
+            {
+
+                using (kargadb)
+                {
+                    kargadb.Kullanicilar.Add(kullanici);
+                    kargadb.SaveChanges();
+                }
+                return "Uye oldunuz";
+            }
+
+        }
+        public string tcnoctrl(string tcno)
+        {
+            int sh = tcno[tcno.Length - 1] - '0';
+            if (tcno.Length != 11)
+            {
+                return "TC kimlik numarası 11 haneli olmalıdır";
+            }
+            else { return "1"; }
+        }
+
+
         static public List<Urunler> UrunList = new List<Urunler>() {
             new Urunler() {
              ad = "Marvel Tshirt", fiyat = 30, imagesource = "~/resimler/marveltshirt.jpg"
@@ -118,8 +239,8 @@ namespace KargaAspNew
             gorunmezyap(anahtarliklarpaneli);
             gorunmezyap(Abajurlarpaneli);
             gorunmezyap(yeniuyeol);
-            gorunmezyap(urundetaypanel);
-            
+            gorunmezyap(anasayfaurunler);
+            gorunmezyap(anasayfaurunler);
             
             
         }
@@ -157,8 +278,8 @@ namespace KargaAspNew
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            // Client.kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
-            //Response.Write("<script>alert('" + "msg" + "')</script>");  yorumları kaldırabilirsin çoğu çalışıyor
+          //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");  
 
         }
 
@@ -207,7 +328,8 @@ namespace KargaAspNew
         }
         protected void Giris_yap_Click(object sender, EventArgs e)
         {
-            // Client.giris(Mail.Text, password.Text);
+            giris(Mail.Text, password.Text);
+            Response.Write("<script>alert('" + giris(Mail.Text, password.Text) + "')</script>");
         }
         public int indbul(string resimurl)
         {
