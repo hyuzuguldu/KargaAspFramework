@@ -363,6 +363,14 @@ float:left;
     padding-bottom: 5%;
     float: left;
 }
-.odemetepeyazi{
-    
+.sagmenu_girilmis_kutu1_sol {
+    width:60%;
+    float:right;
+}
+.sagmenu_girilmis_kutu1_sag {
+    width: 40%;
+    float: right;
+}
+.sagmenu_girilmis_yazi{
+    margin-top:10%;
 }

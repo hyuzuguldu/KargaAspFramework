@@ -94,8 +94,33 @@
                     </div>
 
                 </asp:Panel>
+                <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
+
+                <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                    <div class="rowside sideitems mavirenk">
+                        <div class="columnside " style="display:inline;">
+                            <asp:ImageButton ID="sagmenu_girilmis_3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sidenavsag3cizgi_Click" ImageAlign="NotSet" />
+                        </div>
+                        <asp:Panel ID="sagmenu_girilmis_Tepeyazi" CssClass="columnside beyaz " style="display:inline;" runat="server">
+                            <h3 style=""> Hesabım   </h3>
+                        </asp:Panel>
+                    </div>
+
+
+
+                    <asp:Panel ID="sagmenu_girilmis_kutu1" style="width:100%" runat="server">
+                        <asp:Panel ID="sagmenu_girilmis_kutu1_sag" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                            <asp:ImageButton ID="ImageButton2" style="float:right" runat="server" ImageUrl="~/resimler/3cizgi.bmp"  Height="50" Width="50" />
+                        </asp:Panel>
+                        <asp:Panel ID="sagmenu_girilmis_kutu1_sol" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                            <asp:Label ID="Label8" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Label"></asp:Label>
+                        </asp:Panel>
+                        
+                    </asp:Panel>
+
+                </asp:Panel>
                 <!-- ------------------------------------sepetim---------------------------------------------- -->
-                <asp:Panel ID="Sepetim" runat="server" CssClass="sidenavright dropdown-content gorunur">
+                <asp:Panel ID="Sepetim" runat="server" CssClass="sidenavright dropdown-content gorunmez">
                     <div class="rowside sideitems mavirenk">
                         <div class="columnside " style="display:inline;">
                             <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="sepetim3cizgi" ImageAlign="NotSet" />
