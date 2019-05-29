@@ -137,141 +137,71 @@
                     </asp:Panel>
                     
                     <asp:Panel ID="Panel123" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
-
-
- 
                         <asp:Panel ID="Panel241" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
-
-
- 
                             <asp:ImageButton ID="ImageButton8" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/4.PNG"  Height="50" Width="50" />
 
-
- 
-                        </asp:Panel>
-
-
- 
-                        <asp:Panel ID="Panel251" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
-
-
+                        </asp:Panel> <asp:Panel ID="Panel251" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
  
                             <asp:Label ID="Label531" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Kargo Takibi"></asp:Label>
 
-
- 
                         </asp:Panel>
 
-
- 
                     </asp:Panel>
-
-
- 
-
-
 
  
                     <asp:Panel ID="Panel261" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
 
-
- 
                         <asp:Panel ID="Panel271" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
-
 
  
                             <asp:ImageButton ID="ImageButton9" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/5.PNG"  Height="50" Width="50" />
 
 
- 
                         </asp:Panel>
-
-
  
                         <asp:Panel ID="Panel281" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
 
-
- 
                             <asp:Label ID="Label161" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Havale Bildirim Formu"></asp:Label>
 
-
- 
                         </asp:Panel>
-
 
  
                     </asp:Panel>
 
 
- 
-
-
-
- 
                     <asp:Panel ID="Panel29" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
 
 
- 
                         <asp:Panel ID="Panel30" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
-
 
  
                             <asp:ImageButton ID="ImageButton10" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/6.PNG"  Height="50" Width="50" />
 
-
- 
                         </asp:Panel>
 
-
- 
                         <asp:Panel ID="Panel31" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
 
-
- 
                             <asp:Label ID="Label117" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödemelerim"></asp:Label>
 
-
- 
                         </asp:Panel>
 
-
- 
                     </asp:Panel>
-
-
- 
-
-
 
  
                     <asp:Panel ID="Panel32" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
 
-
- 
                         <asp:Panel ID="Panel33" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
 
-
- 
                             <asp:ImageButton ID="ImageButton11" style="float:right" runat="server" ImageUrl="~/resimler/butonlar/7.PNG"  Height="50" Width="50" />
 
-
- 
                         </asp:Panel>
 
-
- 
                         <asp:Panel ID="Panel34" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
 
-
- 
                             <asp:Label ID="Label181" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödeme Sistemi"></asp:Label>
 
-
- 
                         </asp:Panel>
 
-
- 
                     </asp:Panel>
 
                 </asp:Panel>
