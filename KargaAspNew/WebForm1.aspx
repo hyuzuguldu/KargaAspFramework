@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -136,11 +136,11 @@
                         </asp:Panel>
                     </asp:Panel>
                     
-                    <asp:Panel ID="Panel23" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
+                    <asp:Panel ID="Panel123" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
 
 
  
-                        <asp:Panel ID="Panel24" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                        <asp:Panel ID="Panel241" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
 
 
  
@@ -152,11 +152,11 @@
 
 
  
-                        <asp:Panel ID="Panel25" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                        <asp:Panel ID="Panel251" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
 
 
  
-                            <asp:Label ID="Label15" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Kargo Takibi"></asp:Label>
+                            <asp:Label ID="Label531" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Kargo Takibi"></asp:Label>
 
 
  
@@ -172,11 +172,11 @@
 
 
  
-                    <asp:Panel ID="Panel26" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
+                    <asp:Panel ID="Panel261" style="width:100%"  CssClass="sagmenu_girilmis_kutu" runat="server">
 
 
  
-                        <asp:Panel ID="Panel27" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
+                        <asp:Panel ID="Panel271" cssClass="sagmenu_girilmis_kutu1_sag" runat="server">
 
 
  
@@ -188,11 +188,11 @@
 
 
  
-                        <asp:Panel ID="Panel28" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
+                        <asp:Panel ID="Panel281" CssClass="sagmenu_girilmis_kutu1_sol" runat="server">
 
 
  
-                            <asp:Label ID="Label16" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Havale Bildirim Formu"></asp:Label>
+                            <asp:Label ID="Label161" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Havale Bildirim Formu"></asp:Label>
 
 
  
@@ -228,7 +228,7 @@
 
 
  
-                            <asp:Label ID="Label17" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödemelerim"></asp:Label>
+                            <asp:Label ID="Label117" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödemelerim"></asp:Label>
 
 
  
@@ -264,7 +264,7 @@
 
 
  
-                            <asp:Label ID="Label18" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödeme Sistemi"></asp:Label>
+                            <asp:Label ID="Label181" style="float:right"  cssClass="sagmenu_girilmis_yazi"  runat="server" Text="Ödeme Sistemi"></asp:Label>
 
 
  
@@ -533,7 +533,7 @@
                         </asp:Panel>
                     </asp:Panel>
                         <asp:TextBox ID="odeme_Mail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="odeme_Adinız" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="odeme_Adiniz" cssclass="yeniuyeol" placeholder="Adınız" runat="server"></asp:TextBox>
                         <asp:TextBox ID="odeme_Soyadınız" cssclass="yeniuyeol" placeholder="Soyadınız" runat="server"></asp:TextBox>
                         
                         <asp:TextBox ID="odeme_Adress" cssclass="yeniuyeol adres" placeholder="Adress" runat="server"></asp:TextBox>
@@ -615,8 +615,8 @@ Dereboyu Cad.51/B LefkoŞa KKTC"></asp:Label>
                             <asp:Label ID="Label22" cssClass="iletisim_sag"  runat="server" Text="Şube Kodu :068"></asp:Label>
                     </asp:Panel>
                     <asp:Panel ID="Panel25" CssClass="iletisim_satir" runat="server">
-                            <asp:Label ID="Label23"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Garanti Bankası:"></asp:Label>
-                            <asp:Label ID="Label24" cssClass="iletisim_sag"  runat="server" Text="
+                            <asp:Label ID="Label213"  cssClass="iletisim_sol dikeyortala_oto" runat="server" Text="Garanti Bankası:"></asp:Label>
+                            <asp:Label ID="Label241" cssClass="iletisim_sag"  runat="server" Text="
 								Hesap Kodu : TR59 0006 2000 0680 0006 6852 38 
 								"></asp:Label>
                     </asp:Panel>
