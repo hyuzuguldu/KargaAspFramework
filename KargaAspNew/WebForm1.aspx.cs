@@ -518,5 +518,11 @@ namespace KargaAspNew
             gorunmezyaphepsi();
             gorunuryap(Adress_panel);
         }
+
+        protected void ifgonder_Click(object sender, EventArgs e)
+        {
+            iletisimformual(ifadsoyad.Text,ifemail.Text,Convert.ToInt64(iftel.Text),ifkonu.Text,ifmesaj.Text);
+            Response.Write("<script>alert('" + "Mesajınız gönderilmiştir" + "')</script>");
+        }
     }
 }
