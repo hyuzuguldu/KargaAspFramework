@@ -353,6 +353,18 @@ namespace KargaAspNew
             }
             return 0;
         }
+        public int indbul2(string ad)
+        {
+            for (int y = 0; y < UrunList.Count; y++)
+            {
+                if (UrunList.ElementAt(y).ad == ad)
+                {
+                    return y;
+                }
+
+            }
+            return 0;
+        }
         protected void anasayfa_urun_imzashirt_Click(object sender, ImageClickEventArgs e)
         {
             int inx = indbul(anasayfa_urun_imzashirt.ImageUrl);
@@ -539,7 +551,13 @@ namespace KargaAspNew
         protected void arama_tepe_resimtus_click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
-            gorunuryap(iletisim_panel); 
+            int inx = indbul2(arama_textbox.Text);
+            Image1.ImageUrl = UrunList.ElementAt(inx).imagesource;
+            Label1.Text = UrunList.ElementAt(inx).ad;
+            Label2.Text = UrunList.ElementAt(inx).fiyat.ToString() + " " + "Lira";
+            gorunmezyaphepsi();
+            gorunuryap(urundetaypanel);
+
         }
     }
 }
