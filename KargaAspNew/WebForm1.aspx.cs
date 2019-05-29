@@ -241,8 +241,10 @@ namespace KargaAspNew
             gorunmezyap(yeniuyeol);
             gorunmezyap(anasayfaurunler);
             gorunmezyap(anasayfaurunler);
-            
-            
+            gorunmezyap(Adress_panel);
+            gorunmezyap(Odeme_panel);
+
+
         }
         protected void navbar3cizgi_click(object sender, ImageClickEventArgs e)
         {
@@ -503,13 +505,19 @@ namespace KargaAspNew
         
         protected void odeme_buton_devam_Click(object sender, EventArgs e)
         {
-            
+            gorunmezyaphepsi();
+            gorunuryap(Odeme_panel);
         }
         
-            protected void sidenavsag3cizgigirilmis_Click(object sender, EventArgs e)
+        protected void sidenavsag3cizgigirilmis_Click(object sender, EventArgs e)
         {
-            gorunurgorunmez(sagmenu_girilmis);
+        gorunurgorunmez(sagmenu_girilmis);
         }
-
+        
+        protected void satinal_click(object sender, EventArgs e)
+        {
+            gorunmezyaphepsi();
+            gorunuryap(Adress_panel);
+        }
     }
 }

@@ -859,13 +859,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Panel4 denetimi.
+        /// Adress_panel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
+        protected global::System.Web.UI.WebControls.Panel Adress_panel;
         
         /// <summary>
         /// Panel7 denetimi.
@@ -994,13 +994,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button odeme_buton_devam;
         
         /// <summary>
-        /// Panel10 denetimi.
+        /// Odeme_panel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel10;
+        protected global::System.Web.UI.WebControls.Panel Odeme_panel;
         
         /// <summary>
         /// Panel11 denetimi.

@@ -182,7 +182,7 @@
 
                     </asp:Panel>
 
-                    <asp:Button ID="satinal" runat="server" Text="Satın al " />
+                    <asp:Button ID="satinal" runat="server" Text="Satın al " onclick="satinal_click" />
 
                 </asp:Panel>
 
@@ -385,7 +385,7 @@
                     </asp:Panel>
 
                     <!-- ------------------------------- adress--------------------------------------------------- -->
-                <asp:Panel ID="Panel4" cssClass="gorunur" runat="server">
+                <asp:Panel ID="Adress_panel" cssClass="gorunmez" runat="server">
                     <asp:Panel ID="Panel7" style="display:block; width:100%; " runat="server">
                         <asp:Panel ID="Panel8" cssclass="odemetepeic" runat="server">
                             <asp:Label ID="Label3" CssClass="center" runat="server" Text="Adress"></asp:Label>
@@ -410,7 +410,7 @@
 
                     </asp:Panel>
                 <!-- ------------------------------- odeme--------------------------------------------------- -->
-                <asp:Panel ID="Panel10" cssClass="gorunur" runat="server">
+                <asp:Panel ID="Odeme_panel" cssClass="gorunmez" runat="server">
                     <asp:Panel ID="Panel11" style="display:block; width:100%; " runat="server">
                         <asp:Panel ID="Panel12" cssclass="odemetepeic" runat="server">
                             <asp:Label ID="Label6" CssClass="center" runat="server" Text="Adress"></asp:Label>
