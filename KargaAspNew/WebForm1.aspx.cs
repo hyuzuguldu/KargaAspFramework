@@ -22,9 +22,9 @@ namespace KargaAspNew
         {
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
             {
-                
+                GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
             }
-             GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
+            
         }
 
         public class Kullanici
@@ -282,15 +282,16 @@ namespace KargaAspNew
 
         protected void Yeni_uyeol_Click(object sender, EventArgs e)
         {
-            //  kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
-           // if (guval.Text == GÜvenlik_kodu.Text)
-            //{                 -------- guval.text güvenlikkodu.text e eşit olsa dahi 2. else giriyor 
+            kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            if (guval.Text == GÜvenlik_kodu.Text)
+            {
+                //--------guval.text güvenlikkodu.text e eşit olsa dahi 2. else giriyor
                 Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");
-           // }
-          //  else
-           // {
-               // Response.Write("<script>alert('" + "Güvenlik kodunu yanlış girdiniz" + "')</script>");
-            //}
+            }
+            else
+            {
+                Response.Write("<script>alert('" + "Güvenlik kodunu yanlış girdiniz" + "')</script>");
+            }
         }
 
 
