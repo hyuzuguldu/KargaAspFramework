@@ -122,7 +122,7 @@ namespace KargaAspNew
 
                 string ad = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault();
                 string soyad = ctx.Database.SqlQuery<string>("Select soyad from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault();
-                long tel = 5052104848;//ctx.Database.SqlQuery<string>("Select tel from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault();
+                long tel = 0123456789; //Convert.ToInt64(ctx.Database.SqlQuery<string>("Select tel from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault());
                 return Tuple.Create(ad, soyad,tel);
             }
         }
@@ -277,6 +277,7 @@ namespace KargaAspNew
             gorunmezyap(iletisim_panel);
             gorunmezyap(Odeme_panel);
             gorunmezyap(iletisim_formu);
+            gorunmezyap(sifremiunnututm);
 
 
 
@@ -627,13 +628,17 @@ namespace KargaAspNew
             }
            
         }
-        protected void yanmenu_sifremi_unuttum_click(object sender, EventArgs e)
+
+        protected void iletisimform_Click(object sender, EventArgs e)
+        {
+            gorunmezyaphepsi();
+            gorunuryap(iletisim_formu);
+        }
+
+        protected void Sifremi_unuttum_Click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
             gorunuryap(sifremiunnututm_panel);
         }
-
-
-
     }
 }
