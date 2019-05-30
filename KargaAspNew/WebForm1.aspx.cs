@@ -142,9 +142,9 @@ namespace KargaAspNew
                 return "Şifreler eşleşmiyor şifrenizi tekrar giriniz";
             }
 
-            else if (telctrl.Length != 11)
+            else if (telctrl.Length != 10)
             {
-                return "Telefon Numarası 11 haneli olmalıdır";
+                return "Telefon Numarası 10 haneli olmalıdır";
             }
 
             else
@@ -301,10 +301,10 @@ namespace KargaAspNew
 
         protected void Yeni_uyeol_Click(object sender, EventArgs e)
         {
-            //kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text);
+            
             if (guval.Text == GÜvenlik_kodu.Text)
             {
-                //--------guval.text güvenlikkodu.text e eşit olsa dahi 2. else giriyor
+                
                 Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");
             }
             else
