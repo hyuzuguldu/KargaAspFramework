@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -24,23 +24,23 @@
                         <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala   " style=" margin-left:2%" runat="server"> Ürün Grupları </asp:Panel>
 
                         <div class="columnside " style="">
-                            <asp:ImageButton ID="solsidenav3cizgi"  runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
+                            <asp:ImageButton ID="solsidenav3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
                         </div>
 
                     </div>
 
                     <hr>
 
-                    <div style=" margin-left:2% ; width=90%; " class="rowside sideitems">
+                    <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Anahtarliklar" CssClass="solbuton" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
+                            <asp:Button ID="Anahtarliklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
                         </div>
                     </div>
                     <hr>
 
-                    <div style=" margin-left:2%"; width=90%; class="rowside sideitems">
+                    <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Abajurlar"  CssClass="solbuton" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
+                            <asp:Button ID="Abajurlar" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
                         </div>
                     </div>
                     <hr>
@@ -70,7 +70,7 @@
                     </div>
                     <hr>
 
-                    <div class="rowside  sideitemsright ">
+                     <div class="rowside sideitems sideitemsright center">
                         <div class="columnside beyaz  ">
                             <asp:TextBox ID="password" CssClass="mytextbox " runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
@@ -84,7 +84,7 @@
 
                     <div style="width:100%; " class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button CssClass="butonum" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" OnClick="yanmenu_sifremi_unuttum_click" />
+                            <asp:Button CssClass="butonum" OnClick="Sifremi_unuttum_Click" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
                         </div>
                     </div>
 
@@ -95,7 +95,7 @@
                     </div>
 
                 </asp:Panel>
-               <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
+                <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
 
                 <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunmez">
                     <div class="rowside sideitems mavirenk">
@@ -262,7 +262,7 @@
 
                     <div class="row center boxsizing" style=" border:solid 1px #dddddd; height:40px; width:95%; margin-top:2%; margin-bottom:2%;">
                         <div class="aramacolumn">
-                            <asp:ImageButton ID="arama_tepe_resimtus" runat="server" Height="35px" Width="35px" ImageUrl="~/resimler/butonlar/9.PNG"  ImageAlign="Left" OnClick="arama_tepe_resimtus_click" /> &nbsp;
+                            <asp:ImageButton ID="arama_tepe_resimtus" runat="server" Height="35px" Width="35px" ImageUrl="~/resimler/butonlar/1.PNG"  ImageAlign="Left" OnClick="arama_tepe_resimtus_click" /> &nbsp;
                         </div>
                         <asp:TextBox ID="arama_textbox" style="border:0; width:88%; height:90%;" runat="server"></asp:TextBox>
                     </div>
@@ -468,7 +468,7 @@
                 </asp:Panel>
                 <!-- ------------------------sifremi unuttum---------------------------------------------------------- -->
 
-                <asp:Panel ID="sifremiunnututm_panel" cssClass="gorunmez" runat="server">
+                <asp:Panel ID="sifremiunnututm" cssClass="gorunmez " runat="server">
 
                     
            
@@ -477,12 +477,12 @@
                     
                     <asp:Label ID="sifremiunuttum_guvenlik_label" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
                     <asp:TextBox ID="sifremiunuttum_guvenlik_textbox" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
-                    <asp:Button ID="sifremiunuttum_button" cssclass="butonum" OnClick="sifremiunuttum_button_click" runat="server" Text="Üye ol" />
+                    <asp:Button ID="sifremiunuttum_button" cssclass="butonum" OnClick="sifremiunuttum_button_click" runat="server" Text="Gönder" />
 
                 </asp:Panel>
                 <!-- ------------------------iletisim formu---------------------------------------------------------- -->
 
-                <asp:Panel ID="iletisim_formu" cssClass="gorunur" runat="server">
+                <asp:Panel ID="iletisim_formu" cssClass="gorunmez " runat="server">
 
                     <asp:TextBox ID="ifadsoyad" cssclass="yeniuyeol" placeholder="Adı Soyadı" runat="server"></asp:TextBox>
                     <asp:TextBox ID="ifemail" cssclass="yeniuyeol" placeholder="E-Mail" runat="server"></asp:TextBox>
@@ -579,7 +579,7 @@
 								Hesap Kodu : TR59 0006 2000 0680 0006 6852 38 
 								"></asp:Label>
                     </asp:Panel>
-                    <asp:Button ID="iletisimform" cssclass="butonum" runat="server" Text="İletişim formu gönder" />
+                    <asp:Button ID="iletisimform" OnClick="iletisimform_Click" cssclass="butonum" runat="server" Text="İletişim formu gönder" />
 
                 </asp:Panel>
 
