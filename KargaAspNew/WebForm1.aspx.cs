@@ -25,6 +25,7 @@ namespace KargaAspNew
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
             {
                 GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
+                sifremiunuttum_guvenlik_label.Text = guvenlikkodugndr().ToString();
             }
             
         }
@@ -614,7 +615,17 @@ namespace KargaAspNew
         }
         protected void sifremiunuttum_button_click(object sender, EventArgs e)
         {
-            Response.Write("<script>alert('" +"Şifreniz: "+ sifremiUnuttum(sifremiunuttum_mail.Text) + "')</script>");
+
+            if (sifremiunuttum_guvenlik_textbox.Text == sifremiunuttum_guvenlik_label.Text)
+            {
+
+                Response.Write("<script>alert('" + "Şifreniz: " + sifremiUnuttum(sifremiunuttum_mail.Text) + "')</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('" + "Güvenlik kodunu yanlış girdiniz" + "')</script>");
+            }
+           
         }
         protected void yanmenu_sifremi_unuttum_click(object sender, EventArgs e)
         {
