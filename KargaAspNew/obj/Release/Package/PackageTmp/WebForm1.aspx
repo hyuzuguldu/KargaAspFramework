@@ -70,7 +70,7 @@
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems sideitemsright center">
+                     <div class="rowside sideitems sideitemsright center">
                         <div class="columnside beyaz  ">
                             <asp:TextBox ID="password" CssClass="mytextbox " runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
@@ -84,7 +84,7 @@
 
                     <div style="width:100%; " class="rowside sideitems sideitemsright">
                         <div style="width:100%; " class="columnside beyaz ">
-                            <asp:Button CssClass="butonum" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" />
+                            <asp:Button CssClass="butonum" ID="Sifremi_unuttum" runat="server" Text="Şifremi unuttum" OnClick="yanmenu_sifremi_unuttum_click" />
                         </div>
                     </div>
 
@@ -468,7 +468,7 @@
                 </asp:Panel>
                 <!-- ------------------------sifremi unuttum---------------------------------------------------------- -->
 
-                <asp:Panel ID="sifremiunnututm" cssClass="gorunur" runat="server">
+                <asp:Panel ID="sifremiunnututm_panel" cssClass="gorunmez" runat="server">
 
                     
            
