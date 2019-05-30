@@ -95,7 +95,7 @@
                     </div>
 
                 </asp:Panel>
-                <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
+               <!-- --------------------------------sidenav sağ girilmis-------------------------------------------------- -->
 
                 <asp:Panel ID="sagmenu_girilmis" runat="server" CssClass="sidenavright dropdown-content gorunmez">
                     <div class="rowside sideitems mavirenk">
