@@ -97,6 +97,22 @@ namespace KargaAspNew
 
             return "E-mail veya şifre yanlış";
         }
+        public string sifremiUnuttum(string email)
+        {
+            using (var ctx = new KargaASP())
+            {
+                string studentName = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
+                if (studentName == null)
+                {
+                    return "Kayıtlı değilsiniz";
+
+                }
+                else
+                {
+                    return studentName;
+                }
+            }
+        }
         public Tuple<string, string,long> bilgigetir(string dısardanemail)
         {
             using (var ctx = new KargaASP())
@@ -598,7 +614,7 @@ namespace KargaAspNew
         }
         protected void sifremiunuttum_button_click(object sender, EventArgs e)
         {
-            
+            Response.Write("<script>alert('" +"Şifreniz: "+ sifremiUnuttum(sifremiunuttum_mail.Text) + "')</script>");
         }
         protected void yanmenu_sifremi_unuttum_click(object sender, EventArgs e)
         {
