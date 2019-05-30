@@ -40,11 +40,16 @@ h2 {
 .sepetimresim {
     float: left;
     width: 35%;
+    margin-bottom: 10%;
+}
+.SepetimTekUrun{
+    float:left;
 
 }
 .sepetimyazilar {
     float: left;
     width: 50%;
+    margin: 2% 0% 10% 5%
 }
 .sepetimcarpi {
     float: left;
@@ -76,6 +81,12 @@ h4 {
     padding: 0;
     display: inline;
 }
+.aramacolumn {
+    float: left;
+    
+    display: inline;
+}
+
 .positionRelative{
     position : relative;
 }
@@ -176,6 +187,7 @@ display:block;
 
 .center {
     display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -189,6 +201,15 @@ display:block;
     padding: 0;
     overflow: hidden;
     background-color: rgb(86, 193, 213);
+}
+.arama {
+    color: #999999;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
 }
 
 
@@ -266,6 +287,7 @@ float:left;
 }
 
 .boxsizing {
+    
     box-sizing: border-box;
 }
 
@@ -308,6 +330,11 @@ float:left;
     padding-top: 10%;
    
 }
+.dikeyortala_oto{
+    height:50%;
+    margin-top: auto;
+    margin-bottom:auto
+}
 
 .bibucukfont {
     font-size: 1.1em;
@@ -336,6 +363,10 @@ float:left;
     font-weight: 300;
     height: 44px;
 }
+.adres {
+    
+    height: 90px;
+}
 .mytextbox {
     margin-top: 6%;
     margin-bottom: 6%;
@@ -345,4 +376,59 @@ float:left;
 .block{
 
     display:block;
+}
+.odemetepeic {
+    background-color: rgb(86, 193, 213);
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: left;
+}
+.sagmenu_girilmis_kutu {
+    width: 100%;
+    height: 9%;
+    box-sizing: border-box;
+}
+
+.sagmenu_girilmis_kutu1_sol {
+    width: 60%;
+    float: right;
+}
+.sagmenu_girilmis_kutu1_sag {
+    width: 40%;
+    float: right;
+}
+.sagmenu_girilmis_yazi{
+    margin-top:10%;
+    color:white;
+}
+.iletisim_satir {
+    width: 98%;
+    height: 30px;
+    border: solid 1px #dddddd;
+    box-sizing: border-box;
+}
+.iletisim_sol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 700;
+    float: left;
+    width: 38%;
+    margin-top:5px;
+}
+
+.iletisim_sag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 14px;
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    margin-top: 5px;
 }

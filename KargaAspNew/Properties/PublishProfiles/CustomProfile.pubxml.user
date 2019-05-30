@@ -10,11 +10,17 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
     <_PublishTargetUrl>C:\inetpub\wwwroot\halan</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
     <File Include="bin/KargaAspNew.dll">
-      <publishTime>05/28/2019 16:55:17</publishTime>
+      <publishTime>05/30/2019 14:22:29</publishTime>
     </File>
     <File Include="bin/KargaAspNew.pdb">
-      <publishTime>05/28/2019 16:55:17</publishTime>
+      <publishTime>05/30/2019 14:22:29</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -256,6 +262,30 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
     <File Include="resimler/batmansa.jpg">
       <publishTime>05/18/2019 22:25:21</publishTime>
     </File>
+    <File Include="resimler/butonlar/1.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/2.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/3.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/4.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/5.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/6.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/7.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
+    <File Include="resimler/butonlar/8.PNG">
+      <publishTime>05/29/2019 19:30:54</publishTime>
+    </File>
     <File Include="resimler/buyutecgri.bmp">
       <publishTime>05/18/2019 22:25:21</publishTime>
     </File>
@@ -371,19 +401,19 @@ bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilg
       <publishTime>05/18/2019 22:25:21</publishTime>
     </File>
     <File Include="StyleSheet1.css">
-      <publishTime>05/28/2019 15:20:45</publishTime>
+      <publishTime>05/29/2019 21:18:51</publishTime>
     </File>
     <File Include="StyleSheet2.css">
-      <publishTime>05/19/2019 01:30:35</publishTime>
+      <publishTime>05/29/2019 02:37:18</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/28/2019 16:55:18</publishTime>
+      <publishTime>05/30/2019 14:20:53</publishTime>
     </File>
     <File Include="WebForm1.aspx">
-      <publishTime>05/28/2019 15:14:42</publishTime>
+      <publishTime>05/30/2019 01:51:59</publishTime>
     </File>
     <File Include="WebForm2.aspx">
-      <publishTime>05/19/2019 17:55:08</publishTime>
+      <publishTime>05/29/2019 02:30:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

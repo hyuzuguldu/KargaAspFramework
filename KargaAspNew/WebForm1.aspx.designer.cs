@@ -1111,13 +1111,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Yeni_uyeol;
         
         /// <summary>
-        /// sifremiunnututm denetimi.
+        /// sifremiunnututm_panel denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel sifremiunnututm;
+        protected global::System.Web.UI.WebControls.Panel sifremiunnututm_panel;
         
         /// <summary>
         /// sifremiunuttum_mail denetimi.
