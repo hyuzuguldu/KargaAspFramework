@@ -18,6 +18,7 @@ namespace KargaAspNew
         //statil olmayan herşey her tuşa baışta tekrar oluşuyor 
         static int mevcutitemsayisi = 0;
         static int giris_durumu = 0;
+        static string mevut_kullanıcı_mail = "";
 
         protected void Page_Load(object sender, EventArgs e) 
         {
@@ -90,22 +91,22 @@ namespace KargaAspNew
                 if (mailsifreuygun == null) { return "sifre hatali"; }
                 giris_durumu = 1;
                 gorunmezyap(sidenavsag);
+                mevut_kullanıcı_mail = mailsifreuygun;
                 return "Giriş işlemi başarılı";
             }
 
             return "E-mail veya şifre yanlış";
         }
-        public void bilgigetir(string dısardanemail,string email, ref string ad, ref string soyad, ref long tel)
+        public Tuple<string, string,long> bilgigetir(string dısardanemail)
         {
             using (var ctx = new KargaASP())
             {
                 //Get student name of string type
 
-                ad = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
-                email = dısardanemail;
-                soyad = ctx.Database.SqlQuery<string>("Select soyad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault();
-                tel= Convert.ToInt64(ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", email)).FirstOrDefault());
-
+                string ad = ctx.Database.SqlQuery<string>("Select ad from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault();
+                string soyad = ctx.Database.SqlQuery<string>("Select soyad from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault();
+                long tel = 0123456789; //Convert.ToInt64(ctx.Database.SqlQuery<string>("Select tel from Kullanicis where email=@id", new SqlParameter("@id", dısardanemail)).FirstOrDefault());
+                return Tuple.Create(ad, soyad,tel);
             }
         }
         public void iletisimformual(string adsoyad, string email, long tel, string konu, string mesaj)
@@ -554,7 +555,11 @@ namespace KargaAspNew
         {//ALTTAN DEVAM ET GİRİŞ YAPILMIŞ İSE O ADRES EKRANINA BİLGİLERİ GETİR AMA BİLGİGETİRDE BAZI YERLER REF KEYWORDUYLE OLACAK HABERİN OLSUN 
             gorunmezyaphepsi();
             if(giris_durumu==1){
-               // bilgigetir(suankikullanicimail, odeme_Mail.Text, odeme_Adiniz.Text, odeme_Soyadiniz, odeme_Telefonu);
+                // bilgigetir(suankikullanicimail, odeme_Mail.Text, odeme_Adiniz.Text, odeme_Soyadiniz, odeme_Telefonu);
+                odeme_Mail.Text= bilgigetir(mevut_kullanıcı_mail).Item1;
+                odeme_Adiniz.Text = bilgigetir(mevut_kullanıcı_mail).Item2;
+                odeme_Telefonu.Text = bilgigetir(mevut_kullanıcı_mail).Item3.ToString();
+
             }
             gorunuryap(Adress_panel);
         }
