@@ -24,23 +24,23 @@
                         <asp:Panel ID="Panel2" CssClass="columnside beyaz dikeyortala   " style=" margin-left:2%" runat="server"> Ürün Grupları </asp:Panel>
 
                         <div class="columnside " style="">
-                            <asp:ImageButton ID="solsidenav3cizgi" runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
+                            <asp:ImageButton ID="solsidenav3cizgi"  runat="server" Height="60px" Width="60" ImageUrl="~/resimler/3cizgi.bmp" OnClick="solsidenav3cizgi_Click" ImageAlign="Right" />
                         </div>
 
                     </div>
 
                     <hr>
 
-                    <div style=" margin-left:2%" class="rowside sideitems">
+                    <div style=" margin-left:2% ; width=90%; " class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Anahtarliklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
+                            <asp:Button ID="Anahtarliklar" CssClass="solbuton" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
                         </div>
                     </div>
                     <hr>
 
-                    <div style=" margin-left:2%" class="rowside sideitems">
+                    <div style=" margin-left:2%"; width=90%; class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Abajurlar" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
+                            <asp:Button ID="Abajurlar"  CssClass="solbuton" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
                         </div>
                     </div>
                     <hr>
@@ -70,7 +70,7 @@
                     </div>
                     <hr>
 
-                    <div class="rowside sideitems sideitemsright center">
+                    <div class="rowside  sideitemsright ">
                         <div class="columnside beyaz  ">
                             <asp:TextBox ID="password" CssClass="mytextbox " runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
